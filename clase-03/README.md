@@ -4,6 +4,8 @@
 
 #### HTML5 + CSS3 + p5.js
 
+- - - - - - - - 
+
 Para sacar más provecho a la programación, convien tener completa claridad sobre el tipos de datos con el que se puede operar.
 
 Si compartiera el número 18261884, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
