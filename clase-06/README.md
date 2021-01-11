@@ -2,9 +2,9 @@
 
 ### Clase 06 → 21/04/2021
 
-- - - - - - - - 
+### HTML5 + CSS3 + otras bibliotecas de JavaScript
 
-#### HTML5 + CSS3 + otras bibliotecas de JavaScript
+- - - - - - - - 
 
 Pendiente
 
