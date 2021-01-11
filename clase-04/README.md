@@ -83,17 +83,15 @@ Pasemos a la variable `f`. Digamos que necesitamos escribir en la Consola de Jav
 
 Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópienla y péguenla en la consola. Si necesitan, por ejemplo, obtener a `Maggie Simpson`, tendría que escribir `g.children[2]`, porque se encuentra en la tarcera posición de ese arreglo que tiene el par de nombre `children`.
 
-Ahora bien podrían intentar obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
+Ahora podrían intentar obtener `Poonam` de la variable `h` con algo como `h[2].children[0]`. ¿Pero qué pasa si necesito todo los `children` en `h`? Tendríamos que progamar una consulta con un par de ciclos, y para entender la lógica de tal programación, conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
 
-¿Pero qué pasa si necesito todo los `children` en `h`, da lo mismo quien sea su `mom` o `dad`? Tendríamos que progamar una consulta, y para entender la lógica de tal programación, conviene hacer un ejercicio más con p5.js.
-
-Y pasando a una pregunta aun más ambiciosa: ¿Nosotros siempre vamos a tener que meter, a mano, los datos de una variable o podríamos programarlo? Para programar el "llenado" de una variable, podríamos ser necesario aprender algo de API, JSON y CSV.
+Y pasando a una pregunta aun más ambiciosa: ¿Nosotros siempre vamos a tener que llenar, a mano, los datos de una variable o podríamos programarlo? Para programar el "llenado" de una variable conviene aprender algo de [API](https://es.wikipedia.org/wiki/Web_API), [JSON](https://www.json.org/json-es.html) y [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
 
 - - - - - - -
 
 #### Ejercicio
 
-Realizaremos un ejercicio enfocado en el uso de los tipos de datos más arriba.
+Realizaremos un ejercicio enfocado en el uso de los tipos de datos mencionados más arriba, respondiendo a las dos preguntas recién presentadas.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* clase-04.
 
