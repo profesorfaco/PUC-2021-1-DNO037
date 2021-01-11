@@ -2,9 +2,9 @@
 
 ### Clase 16 → 30/06/2020
 
-- - - -  - - 
+### Diseño y desarrollo
 
-#### Diseño y desarrollo
+- - - -  - - 
 
 Pendiente
 
