@@ -2,9 +2,9 @@
 
 ### Clase 15 → 23/06/2021
 
-- - - -  - - 
+### Diseño y desarrollo
 
-#### Diseño y desarrollo
+- - - -  - - 
 
 Pendiente
 
