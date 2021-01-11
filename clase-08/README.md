@@ -2,11 +2,11 @@
 
 ### Clase 08 → 05/05/2021
 
+### HTML5 + CSS3 + otras bibliotecas de JavaScript
+
 - - - - - - - - 
 
-#### Evaluación Nº2
-
-Pendiente
+Evaluación Nº2
 
 - - - - - - - - - - - - -
 
