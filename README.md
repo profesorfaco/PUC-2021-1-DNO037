@@ -19,13 +19,13 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 Cada estudiante en este OPR debería contar con:
 
-- Una cuenta personal en [GitHub](https://github.com/join)
+- una cuenta personal en [GitHub](https://github.com/join);
 
-- Un computador con conexión a Internet
+- un computador con conexión a Internet;
 
-- Uno de los siguientes editores de código: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/)
+- uno de los siguientes editores de código: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/); y
 
-- Uno de los siguientes navegadores web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar el trabajo que se hace, principalmente, en inglés. También es necesario que conozca las vías para "Ver el código fuente de la página" y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
+- uno de los siguientes navegadores web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página" y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
 
 
 #### Nota final 
