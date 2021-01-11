@@ -73,9 +73,9 @@ La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemen
 
 La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de nombre:valor. 
 
-Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par de nombre `children` cuyo valor es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos `[{…},{…},{…}]`.
+Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par de nombres `children` cuyo valor es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos `[{…},{…},{…}]`.
 
-Si necesitamas el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+Si necesitamas el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas directamente. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
 Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solicitarla debo decir `e[0]`, porque está en la primera posición de tal arreglo. Si escribo `e[1]`, lo que obtendría sería `Homer Simpson` que no es lo que necesitaba en principio. Entonces **debes recordar que la primera posición es cero, no uno**.
 
