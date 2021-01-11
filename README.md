@@ -2,7 +2,7 @@
 
 ### Pontificia Universidad Católica de Chile
 
-Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización en Diseño, a cargo de [Felipe Cortez](https://faco.cl/).
+Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del profesor [Felipe Cortez](https://faco.cl/).
 
 #### Descripción
 
