@@ -2,9 +2,9 @@
 
 ### Clase 05 → 14/04/2021
 
-- - - - - - - - - - 
+### HTML5 + CSS3 + otras bibliotecas de JavaScript
 
-#### HTML5 + CSS3 + otras bibliotecas de JavaScript
+- - - - - - - - - - 
 
 Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries). Hemos estado introduciéndonos a este lenguaje de programación por la vía de [p5.js](https://p5js.org/es/). 
 
