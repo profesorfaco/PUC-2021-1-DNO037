@@ -2,11 +2,86 @@
 
 ### Clase 04 → 07/04/2021
 
-### HTML5 + CSS3 + p5.js
+### HTML5 + CSS3 + otras bibliotecas de JS
 
-- - - - - - -
+- - - - - - - - 
 
-Evaluación Nº1
+Antes de continuar, y para sacar más provecho a la programación, nos conviene tener completa claridad sobre el tipos de datos con los que JavaScript, y sus respectivas bibliotecas, pueden operar.
+
+Si nos compartieran el número 18261884, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
+
+| País      |  Población       | Superficie     |
+|:----------|:-----------------|:---------------|
+| Chile     | 18261884         | 756102         |
+
+Entendiendo cómo funciona una tabla, contamos con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
+
+Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
+
+Los números 18261884 y 24,15267252 tienen una diferencia que corresponde apuntar:
+
+- **18261884** es un número entero, un `int` (del inglés *integer*).
+
+- **24,15267252** es un número de coma flotante, un `float` (del inglés *floating point number*; y no se olviden de esta diferencia, lo que para nosotros es coma, *for them* es punto, y el *coding* se hace en *english*).
+
+A estos dos tipos de datos numéricos, podemos agregar: 
+
+- **true** o **false** como las dos opciones posibles de un [tipo de dato lógico](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico) (bool: *boolean*)
+
+- **"A"** como un carácter (char: *character*)
+
+Podrás notar que en el tipo de dato numérico y booleano no utilicé comillas, pero en el caso del caracter sí las usé. 
+
+Menciono `int`, `bool`, `char` y `float` porque son palabras reservadas en lenguajes de programación clásicos para **declarar que una variable que almacenará cierto tipo de dato**. 
+
+**En JavaScript podemos crear variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
+
+Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable (como sí se hace en el lenguaje Java, que es la base de Processing). O sea, en JavaScript y en sus bibliotecas hacemos esto:
+
+```
+var a = 18261884;
+
+var b = 24,15267252;
+
+var c = false;
+
+var d = "Marge in Chains";
+
+var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
+
+var f = {mom:"Luann Van Houten", dad:"Kirk Van Houten", children:"Milhouse Van Houten"};
+
+var g = {mom:"Marge Simpson", dad:"Homer Simpson", children:["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]};
+
+var h = [
+  {mom:"Luann", dad:"Kirk", children:["Milhouse"]}, 
+  {mom:"Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"]},
+  {mom: "Manjula", dad: "Apu", children:["Poonam","Sashi","Pria","Uma","Anoop","Sandeep","Nabendu","Gheet"]}
+];
+
+```
+
+**Lo que cambia viene después del signo igual `=`, que en este caso está asignando valor a cada variable.** 
+
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
+
+La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas (si fuesen números o booleanos no las usarían). 
+
+La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de nombre:valor. 
+
+Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par de nombre `children` cuyo valor es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos `[{…},{…},{…}]`.
+
+Si necesito el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente; o sea, ustedes dicen `a` y ya tienen 18261884. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+
+Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solicitarla debo decir `e[0]`, porque está en la primera posición de tal arreglo. Si escribo `e[1]`, lo que obtendría sería `Homer Simpson` que no es lo que necesitaba en principio. Entonces **debes recordar que la primera posición es cero, no uno**.
+
+Pasemos a la variable `f`. Digamos que necesitamos escribir en la Consola de JavaScript de su navegador que `Kirk Van Houten dibujó la dignidad`. Tendría que escribir `f.dad + " dibujó la dignidad"`. Si quieren hacer la prueba, antes de escribir la instrucción, copien y peguen la variable `f`. 
+
+Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópienla y péguenla en la consola. Si necesitan, por ejemplo, obtener a `Maggie Simpson`, tendría que escribir `g.children[2]`, porque se encuentra en la tarcera posición de ese arreglo que tiene el par de nombre `children`.
+
+Ahora bien podrían intentar obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
+
+¿Pero qué pasa si necesito todo los `children` en `h`, da lo mismo quien sea su `mom` o `dad`? Ahí tenemos que programar una consulta, y para entender la lógica de tal programación, conviene hacer un ejercicio más con p5.js.
 
 - - - - - - -
 
