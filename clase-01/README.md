@@ -27,7 +27,9 @@ El ejercicio se completa cuando cada estudiante publica, con GitHub Pages, su ve
 Cada ejercicio es evaluado:
 
 **0 punto** para el ejercicio no logrado;
+
 **1 punto** para el ejercicio logrado;
+
 **2 puntos** para el ejercicio destacado, que aporta.
 
 - - - - - - - 
