@@ -14,6 +14,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 - exige la constante ejercitación y publicación de resultados en GitHub.
 
+- - - - - - - - - -
 
 #### Materiales de trabajo
 
@@ -27,6 +28,7 @@ Cada estudiante en este OPR debería contar con:
 
 - uno de los siguientes navegadores web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página" y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
 
+- - - - - - - - -
 
 #### Nota final 
 
@@ -38,8 +40,9 @@ Cada estudiante en este OPR debería contar con:
 
 **25%** → puntos acumulados entre clases 14 y 16 + puntaje obtenido en evaluación Nº4 (clases 17 y 18)
 
-
 **Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web**.
+
+- - - - - - - 
 
 #### Clase a clase
 
@@ -89,7 +92,9 @@ Esta organización atiende al calendario oficial de actividades académicas y e
 
 - El viernes 9 de julio finalizan las clases del primer período académico.
 
-#### Bibliografía
+- - - - - - - -
+
+#### Referencias bibliográficas
 
 [O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket References". En el desarrollo del Optativo, podrían consultar: 
 
