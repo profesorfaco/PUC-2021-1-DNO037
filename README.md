@@ -97,7 +97,7 @@ Cada estudiante en este OPR debería contar con:
 #### Referencias en línea
 
 - [Aprende sobre desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn)
+- [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [reference | p5.js](https://p5js.org/es/reference/)
-- [The Coding Train - YouTube](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 
 Se agregarán más referencias en el `README.md` de cada clase.
