@@ -6,9 +6,13 @@
 
 - - - - - - - - 
 
-Antes de continuar, y para sacar más provecho a la programación, nos conviene tener completa claridad sobre el tipos de datos con los que JavaScript, y sus respectivas bibliotecas, pueden operar.
+Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además [p5.js](https://p5js.org/es/). 
 
-Si nos compartieran el número 18261884, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
+Pero antes de explorar alguna de ellas, nos conviene tener completa claridad sobre los tipos de datos con los que JavaScript, y sus respectivas bibliotecas, pueden operar.
+
+Para comenzar a clarificar las cosas, partamos con un número: 18261884. 
+
+Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
 
 | País      |  Población       | Superficie     |
 |:----------|:-----------------|:---------------|
@@ -49,7 +53,7 @@ var d = "Marge in Chains";
 
 var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
 
-var f = {mom:"Luann Van Houten", dad:"Kirk Van Houten", children:"Milhouse Van Houten"};
+var f = {mom:"Luann Van Houten", dad:"Kirk Van Houten", child:"Milhouse Van Houten"};
 
 var g = {mom:"Marge Simpson", dad:"Homer Simpson", children:["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]};
 
@@ -81,7 +85,27 @@ Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópie
 
 Ahora bien podrían intentar obtener `Pria` de la variable `h`. Sería algo como `h[?].children[?]`, reemplanzando el `?` por el número que corresponda.
 
-¿Pero qué pasa si necesito todo los `children` en `h`, da lo mismo quien sea su `mom` o `dad`? Ahí tenemos que programar una consulta, y para entender la lógica de tal programación, conviene hacer un ejercicio más con p5.js.
+¿Pero qué pasa si necesito todo los `children` en `h`, da lo mismo quien sea su `mom` o `dad`? Tendríamos que progamar una consulta, y para entender la lógica de tal programación, conviene hacer un ejercicio más con p5.js.
+
+Y pasando a una pregunta aun más ambiciosa: ¿Nosotros siempre vamos a tener que meter, a mano, los datos de una variable o podríamos programarlo? Para programar el "llenado" de una variable, podríamos ser necesario aprender algo de API, JSON y CSV.
+
+- - - - - - -
+
+#### Ejercicio
+
+Realizaremos un ejercicio enfocado en el uso de los tipos de datos más arriba.
+
+El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* clase-04.
+
+El ejercicio completo puede ser evaluado con:
+
+- **0 punto** → no logrado.
+
+- **1 punto** → logrado.
+
+- **2 puntos** → logrado, con aporte descatado.
+
+El ejercicio incompleto es evaluado con 0 punto.
 
 - - - - - - -
 
