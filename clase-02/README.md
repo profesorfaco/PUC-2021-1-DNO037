@@ -6,9 +6,7 @@
 
 - - - - - - - - - - - - - - 
 
-Ya pudimos reconocer la diferencia entre los lengujes de descripción y el lenguaje de programación que utilizaremos durante el semestre. 
-
-Para profundizar en la biblioteca de programación, aprovechemos un [copy/paste](https://p5js.org/es/):
+Ya pudimos reconocer la diferencia entre los lengujes de descripción y el lenguaje de programación. Para comenzar a profundizar en un lenguaje de programación, aprovecharemos una biblioteca:
 
 > p5.js es una biblioteca de JavaScript para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! p5.js es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
 
