@@ -10,7 +10,7 @@ Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of
 
 Pero antes de explorar alguna de ellas, nos conviene tener completa claridad sobre los tipos de datos con los que JavaScript, y sus respectivas bibliotecas, pueden operar.
 
-Para comenzar a clarificar las cosas, partamos con un número 18261884. 
+Para comenzar a clarificar las cosas, partamos con el número 18261884. 
 
 Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
 
