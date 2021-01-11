@@ -6,15 +6,19 @@
 
 - - - - - - - - - - 
 
-Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries). Hemos estado introduciéndonos a este lenguaje de programación por la vía de [p5.js](https://p5js.org/es/). 
+Además de [p5.js](https://p5js.org/es/), existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries).
 
-Lo que haremos en esta clase será explorar la posibilidad de mezclar [p5.js](https://p5js.org/es/) con otro par de bibliotecas de JavaScript:
+Lo que haremos en esta clase y las que siguen será explorar
+
+- [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
 
 - [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
 
 - [jQuery](https://jquery.com/) - *A fast, small, and feature-rich JavaScript library*.
 
 - [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
+
+- [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
 - - - - - - - - - - - -
 
