@@ -22,7 +22,13 @@ El editor de código fuente nos dará indicaciones para poder escribir código f
 
 Realizaremos un ejercicio enfocado en el reconocimiento de los lenguajes mencionados más arriba.
 
-Para completarlo, cada estudiante debe publicar, con GitHub Pages, su versión para el sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* Clase-01.
+El ejercicio se completa cuando cada estudiante publica, con GitHub Pages, su versión para el sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* Clase-01.
+
+Cada ejercicio es evaluado:
+
+**0 punto** para el ejercicio no logrado;
+**1 punto** para el ejercicio logrado;
+**2 puntos** para el ejercicio destacado, que aporta.
 
 - - - - - - - 
 
