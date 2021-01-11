@@ -10,7 +10,7 @@ Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of
 
 Pero antes de explorar alguna de ellas, nos conviene tener completa claridad sobre los tipos de datos con los que JavaScript, y sus respectivas bibliotecas, pueden operar.
 
-Para comenzar a clarificar las cosas, partamos con un número: 18261884. 
+Para comenzar a clarificar las cosas, partamos con un número 18261884. 
 
 Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero sería distinto de la siguiente manera: 
 
@@ -20,7 +20,7 @@ Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero ser�
 
 Entendiendo cómo funciona una tabla, contamos con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
 
-Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
+Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato numérico por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
 
 Los números 18261884 y 24,15267252 tienen una diferencia que corresponde apuntar:
 
@@ -28,19 +28,19 @@ Los números 18261884 y 24,15267252 tienen una diferencia que corresponde apunta
 
 - **24,15267252** es un número de coma flotante, un `float` (del inglés *floating point number*; y no se olviden de esta diferencia, lo que para nosotros es coma, *for them* es punto, y el *coding* se hace en *english*).
 
-A estos dos tipos de datos numéricos, podemos agregar: 
+A estos dos tipos de datos, podemos agregar: 
 
 - **true** o **false** como las dos opciones posibles de un [tipo de dato lógico](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico) (bool: *boolean*)
 
 - **"A"** como un carácter (char: *character*)
 
-Podrás notar que en el tipo de dato numérico y booleano no utilicé comillas, pero en el caso del caracter sí las usé. 
+Podrás notar que en el tipo de dato numérico y booleano no utilizamos comillas, pero en el caso del caracter sí las usamos. 
 
-Menciono `int`, `bool`, `char` y `float` porque son palabras reservadas en lenguajes de programación clásicos para **declarar que una variable que almacenará cierto tipo de dato**. 
+Mencionamos `int`, `bool`, `char` y `float` porque son palabras que en lenguajes de programación clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato**. 
 
 **En JavaScript podemos crear variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
 
-Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable (como sí se hace en el lenguaje Java, que es la base de Processing). O sea, en JavaScript y en sus bibliotecas hacemos esto:
+**Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable** (como sí se hace en el lenguaje Java, que es la base de Processing). O sea, en JavaScript y en sus bibliotecas hacemos esto:
 
 ```
 var a = 18261884;
@@ -75,17 +75,17 @@ La variable `f` que contiene un objeto, usa paréntesis de llave que en su inter
 
 Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par de nombre `children` cuyo valor es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos `[{…},{…},{…}]`.
 
-Si necesito el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente; o sea, ustedes dicen `a` y ya tienen 18261884. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+Si necesitamas el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas dirtamente. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
 Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solicitarla debo decir `e[0]`, porque está en la primera posición de tal arreglo. Si escribo `e[1]`, lo que obtendría sería `Homer Simpson` que no es lo que necesitaba en principio. Entonces **debes recordar que la primera posición es cero, no uno**.
 
-Pasemos a la variable `f`. Digamos que necesitamos escribir en la Consola de JavaScript de su navegador que `Kirk Van Houten dibujó la dignidad`. Tendría que escribir `f.dad + " dibujó la dignidad"`. Si quieren hacer la prueba, antes de escribir la instrucción, copien y peguen la variable `f`. 
+Pasemos a la variable `f`. Si necesitamos la frase `Kirk Van Houten dibujó la dignidad`, tendríamos que que escribir `f.dad + " dibujó la dignidad"`.
 
-Vamos por la variable `g` y la recomendación para la prueba es la misma: Cópienla y péguenla en la consola. Si necesitan, por ejemplo, obtener a `Maggie Simpson`, tendría que escribir `g.children[2]`, porque se encuentra en la tarcera posición de ese arreglo que tiene el par de nombre `children`.
+Vamos por la variable `g`. Si necesitamos la frase `el chupete de Maggie Simpson`, tendríamos que escribir `"el chupete de " + g.childen[2]`.
 
-Ahora podrían intentar obtener `Poonam` de la variable `h` con algo como `h[2].children[0]`. ¿Pero qué pasa si necesito todo los `children` en `h`? Tendríamos que progamar una consulta con un par de ciclos, y para entender la lógica de tal programación, conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
+Llegando a la variable `h` podríamos necesitar una frase que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. Para hacerlo, además de apuntar a posición y nombre determinados, tendríamos que crear un ciclo que recupere cada elemento. Para entender la lógica de esta consulta, nos conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
 
-Y pasando a una pregunta aun más ambiciosa: ¿Nosotros siempre vamos a tener que llenar, a mano, los datos de una variable o podríamos programarlo? Para programar el "llenado" de una variable conviene aprender algo de [API](https://es.wikipedia.org/wiki/Web_API), [JSON](https://www.json.org/json-es.html) y [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
+Y de aquí podríamos pasar a una pregunta aun más ambiciosa: ¿Siempre vamos a tener que meter los datos de una variable? No siempre. Podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [API](https://es.wikipedia.org/wiki/Web_API), el [JSON](https://www.json.org/json-es.html) y el [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
 
 - - - - - - -
 
