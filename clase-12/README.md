@@ -2,9 +2,9 @@
 
 ### Clase 12 → 02/06/2021
 
-- - - - - - -
+### Bootstrap v5
 
-#### Bootstrap v5
+- - - - - - -
 
 Pendiente
 
