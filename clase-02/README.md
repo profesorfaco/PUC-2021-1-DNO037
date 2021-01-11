@@ -2,9 +2,9 @@
 
 ### Clase 02 → 24/03/2021
 
-- - - - - - - - - - - - - - 
-
 #### HTML5 + CSS3 + p5.js
+
+- - - - - - - - - - - - - - 
 
 Ya pudimos reconocer la diferencia entre los lengujes de descripción y el lenguaje de programación que utilizaremos durante el semestre. 
 
