@@ -4,7 +4,7 @@
 
 Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del profesor [Felipe Cortez](https://faco.cl/).
 
-#### Descripción
+#### Descripción abreviada
 
 - este OPR forma parte del [Certificado Académico Interdisciplinario en Desarrollo de Productos y Servicios Digitales](http://formaciongeneral.uc.cl/certificados-academicos/interdisciplinarios/725-desarrollo-de-productos-y-servicios-digitales);
 
@@ -23,16 +23,16 @@ Cada estudiante en este OPR debería contar con:
 
 - un computador con conexión a Internet;
 
-- uno de los siguientes editores de código: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/); y
+- uno de los siguientes editores de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/); y
 
 - uno de los siguientes navegadores web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página" y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
 
 
 #### Nota final 
 
-**25%** → puntos acumulados entre clases 1 y 3 + puntaje obtenido en evaluación Nº1 (clase 4)
+**25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
 
-**25%** → puntos acumulados entre clases 5 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
+**25%** → puntos acumulados entre clases 4 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
 
 **25%** → puntos acumulados entre clases 10 y 12 + puntaje obtenido en evaluación Nº3 (clase 13)
 
@@ -47,15 +47,15 @@ Cada estudiante en este OPR debería contar con:
 
 [Clase 02 → 24/03/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-02) → HTML5 + CSS3 + p5.js
 
-[Clase 03 → 31/03/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-03) → HTML5 + CSS3 + p5.js
+[Clase 03 → 31/03/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-03) → Evaluación Nº1
 
-[Clase 04 → 07/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-04) → Evaluación Nº1
+[Clase 04 → 07/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-04) → HTML5 + CSS3 + otras bibliotecas de JS
 
-[Clase 05 → 14/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JavaScript
+[Clase 05 → 14/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS
 
-[Clase 06 → 21/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-06) → HTML5 + CSS3 + otras bibliotecas de JavaScript
+[Clase 06 → 21/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-06) → HTML5 + CSS3 + otras bibliotecas de JS
 
-[Clase 07 → 28/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-07) → HTML5 + CSS3 + otras bibliotecas de JavaScript
+[Clase 07 → 28/04/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-07) → HTML5 + CSS3 + otras bibliotecas de JS
 
 [Clase 08 → 05/05/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-08) → Evaluación Nº2
 
@@ -79,6 +79,15 @@ Cada estudiante en este OPR debería contar con:
 
 [Clase 18 → 14/07/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-18) → Entrega de evaluación Nº4
 
+Esta organización atiende al calendario oficial de actividades académicas y estudiantiles 2021, donde se indica que:
+
+- El lunes 15 de marzo se inician las clases de primer semestre para estudiante nuevos y antiguos.
+
+- Entre lunes 5 y miércoles 7 de abril no se realizarán evaluaciones académicas y controles a los Estudiantes, por ser los primeros tres días posteriores a Semana Santa.
+
+- Entre lunes 10 y sábado 15 de mayo hay una semana de receso para los estudiantes.
+
+- El viernes 9 de julio finalizan las clases del primer período académico.
 
 #### Bibliografía
 
