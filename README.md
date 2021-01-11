@@ -98,6 +98,7 @@ Cada estudiante en este OPR debería contar con:
 
 - [Aprende sobre desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn)
 - [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-- [reference | p5.js](https://p5js.org/es/reference/)
+- [JavaScript Para Gatos](https://jsparagatos.com/)
+- [W3Schools Online Web Tutorials](https://www.w3schools.com/)
 
 Se agregarán más referencias en el `README.md` de cada clase.
