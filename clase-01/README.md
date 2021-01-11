@@ -24,13 +24,13 @@ Realizaremos un ejercicio enfocado en el reconocimiento de los lenguajes mencion
 
 El ejercicio se completa cuando cada estudiante publica, con GitHub Pages, su versión para el sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* Clase-01.
 
-Cada ejercicio es evaluado:
+El ejercicio de cada clase será evaluado, con:
 
-**0 punto** para el ejercicio no logrado;
+- **0 punto** → no logrado.
 
-**1 punto** para el ejercicio logrado;
+- **1 punto** → logrado.
 
-**2 puntos** para el ejercicio destacado, que aporta.
+- **2 puntos** → destaca y aporta.
 
 - - - - - - - 
 
