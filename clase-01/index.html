@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>DNO037 &#128567;</title>
+        <!--
+        Esto es un comentario de HTML. No es necesario que lo borres.
+        Si arriba, dentro de <title></title>, quieres otro emoji, búscarlo en 
+        - https://www.w3schools.com/charsets/ref_emoji.asp
+        - https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+        Usa la columna "Dec" y reemplaza solo el número, manteniendo el "&#" que le antecede.
+        -->
+        <link href="style.css" rel="stylesheet" >
+        <style>
+            footer p{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+    	<!-- Lee https://developer.mozilla.org/es/docs/Web/HTML/Elemento/header - Después de la lectura, borra este comentario -->
+        <header>
+            <h1>Nombre</h1>
+        </header>
+        <!-- Lee https://developer.mozilla.org/es/docs/Web/HTML/Elemento/main - Después de la lectura, borra este comentario -->
+        <main>
+        	<h2>Carrera(s)</h2>
+            <p>Preséntate y comparte la razón por la que tomas este optativo de profundización. Sé breve. Este párrafo tiene 100 palabras, tú puedes usar 50. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id tristique orci. Vivamus quis ultricies odio. Duis pulvinar augue odio, mattis sodales arcu congue vel. Nullam urna leo, egestas eu viverra non, interdum ut quam. Sed velit sem, congue vel sem ac, vestibulum ornare sapien. Mauris non elementum odio, id aliquet diam. Nullam et varius nisi, et pretium nunc. Phasellus congue massa at turpis dictum, sit amet tincidunt justo lacinia. Integer porta iaculis ante, quis vehicula.</p>
+        </main>
+        <!-- Lee https://developer.mozilla.org/es/docs/Web/HTML/Elemento/footer - Después de la lectura, borrar este comentario -->
+        <footer>
+        	<p  id="aqui"></p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+        <script>
+        // Esto es un comentario de JAVASCRIPT
+        var palabras = ["siguiente","repüyen","seguente","suivant","next","Nächster","次の","다음의"]
+        var n = (palabras.length);
+        function setup(){
+            var r = floor(random(0,n));
+            console.log(r);
+            createA('page.html',palabras[r]+' &#9758').parent('aqui');
+            noCanvas();
+        }
+        /* 
+        Esto también es un comentario de JAVASCRIPT
+        En caso quieras otro símbolo a la derecha de la palabra, 
+        búscalo en https://www.toptal.com/designers/htmlarrows/symbols/
+        Prefiere usar el HTML CODE y remplaza sólo el número,  manteniendo el espacio y "&#" que le antecede
+        */ 
+        </script>
+    </body>
+</html>
