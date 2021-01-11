@@ -1,12 +1,12 @@
 # Diseño y Nuevos Medios v14 
 
-#### Clase 17 → 14/07/2021
+### Clase 17 → 14/07/2021
+
+### Diseño y desarrollo
 
 - - - - - - - - - - - -
 
-#### Pre-entrega de evaluación Nº4
-
-Pendiente
+Pre-entrega de evaluación Nº4
 
 - - - - - - - 
 
