@@ -2,9 +2,9 @@
 
 ### Clase 01 → 17/03/2021
 
-- - - - - - - - - - - - - - 
-
 #### HTML5 + CSS3 + p5.js
+
+- - - - - - - - - - - - - - 
 
 Cuando trabajamos con código fuente podemos describir o programar. Para comenzar a conocer estos lenguajes de descripción y programación, vamos a comenzar trabajando con un editor de código fuente. El editor de código fuente nos ayuda a reconocer lenguajes de programación, para luego darnos indicaciones para la redacción más rápida de:
 
