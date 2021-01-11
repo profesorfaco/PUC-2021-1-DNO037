@@ -25,7 +25,7 @@ Cada estudiante en este OPR debería contar con:
 
 - Uno de los siguientes editores de código: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/)
 
-- Uno de los siguientes navegadores web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). Es muy necesario que se desactiven los traductores automáticos; la traducción automática (y forzada) al español puede perjudicarte. También es necesario conocer las vías para "Ver el código fuente de la página" y [abrir consola del navegador](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
+- Uno de los siguientes navegadores web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar el trabajo que se hace, principalmente, en inglés. También es necesario que conozco las vías para "Ver el código fuente de la página" y [abrir consola del navegador](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
 
 
 #### La nota final de esta versión del OPR considera:  
