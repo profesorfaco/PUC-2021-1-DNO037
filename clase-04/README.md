@@ -34,18 +34,18 @@ A estos dos tipos de datos, podemos agregar:
 
 - **"A"** como un carácter (char: *character*)
 
-Podrás notar que en el tipo de dato numérico y booleano no utilizamos comillas, pero en el caso del caracter sí las usamos. 
+Podemos notar que en el tipo de dato numérico y booleano no se usan comillas, pero en el caso del caracter sí. 
 
-Mencionamos `int`, `bool`, `char` y `float` porque son palabras que en lenguajes de programación clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato**. 
+Mencionamos `int`, `float`, `bool` y `char` porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato**. 
 
 **En JavaScript podemos crear variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
 
-**Lo importante es que en JavaScript no se debe cambiar la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable** (como sí se hace en el lenguaje Java, que es la base de Processing). O sea, en JavaScript y en sus bibliotecas hacemos esto:
+**Lo importante es que en JavaScript no cambiamos la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable** (como lo tendríamos que hacer en Java, que es la base de [Processing](https://processing.org/)). O sea, en JavaScript y en sus bibliotecas hacemos esto:
 
 ```
 var a = 18261884;
 
-var b = 24,15267252;
+var b = 24.15267252;
 
 var c = false;
 
@@ -75,9 +75,9 @@ La variable `f` que contiene un objeto, usa paréntesis de llave que en su inter
 
 Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par de nombres `children` cuyo valor es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos `[{…},{…},{…}]`.
 
-Si necesitamas el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas directamente. Pero el caso es distinto si necesito un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+Si necesitamas el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
-Partamos con la variable `e`. Digamos que necesito a `Marge Simpson`. Para solicitarla debo decir `e[0]`, porque está en la primera posición de tal arreglo. Si escribo `e[1]`, lo que obtendría sería `Homer Simpson` que no es lo que necesitaba en principio. Entonces **debes recordar que la primera posición es cero, no uno**.
+Partamos con la variable `e`. Digamos que necesitamos a `Marge Simpson`. Para solicitarla denemos decir `e[0]`, porque está en la primera posición de tal arreglo. Si escribimos `e[1]`, lo que obtendríamos sería `Homer Simpson` que no es lo que se necesitaba en principio. Entonces **debemos recordar que la primera posición es cero, no uno**.
 
 Pasemos a la variable `f`. Si necesitamos la frase `Kirk Van Houten dibujó la dignidad`, tendríamos que que escribir `f.dad + " dibujó la dignidad"`.
 
@@ -85,13 +85,13 @@ Vamos por la variable `g`. Si necesitamos la frase `el chupete de Maggie Simpson
 
 Llegando a la variable `h` podríamos necesitar una frase que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. Para hacerlo, además de apuntar a posición y nombre determinados, tendríamos que crear un ciclo que recupere cada elemento. Para entender la lógica de esta consulta, nos conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
 
-Y de aquí podríamos pasar a una pregunta aun más ambiciosa: ¿Siempre vamos a tener que meter los datos de una variable? No siempre. Podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [API](https://es.wikipedia.org/wiki/Web_API), el [JSON](https://www.json.org/json-es.html) y el [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
+Y de aquí podríamos pasar a preguntarnos: ¿Siempre vamos a tener que meter a mano los datos de una variable? No siempre. Podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [API](https://es.wikipedia.org/wiki/Web_API), el [JSON](https://www.json.org/json-es.html) y el [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
 
 - - - - - - -
 
 #### Ejercicio
 
-Realizaremos un ejercicio enfocado en el uso de los tipos de datos mencionados más arriba, respondiendo a las dos preguntas recién presentadas.
+Realizaremos un ejercicio enfocado en el uso de los tipos de datos mencionados más arriba.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* clase-04.
 
