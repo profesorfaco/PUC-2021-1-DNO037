@@ -44,23 +44,35 @@ Mencionamos `int`, `float`, `bool` y `char` porque son palabras que en lenguajes
 
 ```
 var a = 18261884;
-
 var b = 24.15267252;
-
-var c = false;
-
-var d = "Marge in Chains";
-
+var c = true;
+var d = "Lisa the Vegetarian";
 var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
-
-var f = {mom:"Luann Van Houten", dad:"Kirk Van Houten", child:"Milhouse Van Houten"};
-
-var g = {mom:"Marge Simpson", dad:"Homer Simpson", children:["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]};
-
-var h = [
-  {mom:"Luann", dad:"Kirk", children:["Milhouse"]}, 
-  {mom:"Marge", dad:"Homer", children:["Bart", "Lisa", "Maggie"]},
-  {mom: "Manjula", dad: "Apu", children:["Poonam","Sashi","Pria","Uma","Anoop","Sandeep","Nabendu","Gheet"]}
+var f = {
+    mom: "Luann Van Houten",
+    dad: "Kirk Van Houten",
+    child: "Milhouse Van Houten"
+};
+var g = {
+    mom: "Marge Simpson",
+    dad: "Homer Simpson",
+    children: ["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]
+};
+var h = [{
+        mom: "Luann",
+        dad: "Kirk",
+        children: ["Milhouse"]
+    },
+    {
+        mom: "Marge",
+        dad: "Homer",
+        children: ["Bart", "Lisa", "Maggie"]
+    },
+    {
+        mom: "Manjula",
+        dad: "Apu",
+        children: ["Poonam", "Sashi", "Pria", "Uma", "Anoop", "Sandeep", "Nabendu", "Gheet"]
+    }
 ];
 
 ```
@@ -71,21 +83,23 @@ Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contien
 
 La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas (si fuesen números o booleanos no las usarían). 
 
-La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de nombre:valor. 
+La variable `f` que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de `nombre:valor`. 
 
-Las variables `g` y `h` son mezclas de las anteriores; la variable `g` ofrece un par de nombres `children` cuyo valor es un arreglo. Mientras que la variable `h` es un arreglo de tres objetos `[{…},{…},{…}]`.
+Las variables `g` y `h` son mezclas de las anteriores.
 
-Si necesitamas el valor de las variables `a`, `b`, `c` o `d`, basta pedirlas directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
+Si necesitamas el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
-Partamos con la variable `e`. Digamos que necesitamos a `Marge Simpson`. Para solicitarla denemos decir `e[0]`, porque está en la primera posición de tal arreglo. Si escribimos `e[1]`, lo que obtendríamos sería `Homer Simpson` que no es lo que se necesitaba en principio. Entonces **debemos recordar que la primera posición es cero, no uno**.
+Partamos con la variable `e`. Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]`, lo que obtendríamos sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
 
-Pasemos a la variable `f`. Si necesitamos la frase `Kirk Van Houten dibujó la dignidad`, tendríamos que que escribir `f.dad + " dibujó la dignidad"`.
+Pasemos a la variable `f`. Si necesitamos escribir la frase `Fue Kirk Van Houten quien intentó dibujar la dignidad`, tendríamos que que escribir `'Fue ' + f.dad + ' quien intentó dibujar la dignidad'`.
 
-Vamos por la variable `g`. Si necesitamos la frase `el chupete de Maggie Simpson`, tendríamos que escribir `"el chupete de " + g.childen[2]`.
+Vamos por la variable `g`. Si necesitamos escribir la frase `el chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
-Llegando a la variable `h` podríamos necesitar una frase que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. Para hacerlo, además de apuntar a posición y nombre determinados, tendríamos que crear un ciclo que recupere cada elemento. Para entender la lógica de esta consulta, nos conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
+Llegando a la variable `h` podríamos necesitar un listado ordenado que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. Para hacerlo, tendríamos que crear un ciclo que vaya a buscar un elemento cada vez. Para entender la lógica de esta consulta, nos conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
 
-Y de aquí podríamos pasar a preguntarnos: ¿Siempre vamos a tener que meter a mano los datos de una variable? No siempre. Podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [API](https://es.wikipedia.org/wiki/Web_API), el [JSON](https://www.json.org/json-es.html) y el [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
+Y ya podríamos preguntarnos: ¿Siempre vamos a tener que meter a mano los datos de una variable?
+
+La respuesta: No siempre. También podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [API](https://es.wikipedia.org/wiki/Web_API) y el [JSON](https://www.json.org/json-es.html). La próxima clase aprenderemos algo del [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
 
 - - - - - - -
 
