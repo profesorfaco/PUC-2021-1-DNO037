@@ -97,9 +97,17 @@ Vamos por la variable `g`. Si necesitamos escribir la frase `El chupete de Maggi
 
 Llegando a la variable `h` podríamos necesitar un listado ordenado que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. Para hacerlo, tendríamos que crear un ciclo que vaya a buscar un elemento cada vez. Para entender la lógica de esta consulta, nos conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
 
-Y cuando estemos resolviendo tal ejercicio podríamos preguntarnos: ¿Siempre vamos a tener que asignar a mano los datos de una variable?
+Cuando estemos resolviendo el ejercicio, podríamos preguntarnos: ¿Siempre vamos a tener que asignar a mano los datos de una variable? La respuesta: No siempre. También podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [APIs](https://es.wikipedia.org/wiki/Web_API) y el [JSON](https://www.json.org/json-es.html). La próxima clase aprenderemos algo del [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
 
-La respuesta: No siempre. También podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [API](https://es.wikipedia.org/wiki/Web_API) y el [JSON](https://www.json.org/json-es.html). La próxima clase aprenderemos algo del [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
+Para resolver el ejercicio, conviene: 
+
+- tener a mano las [referencias de p5.js](https://p5js.org/es/reference/);
+
+- revisar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
+
+- revisar el [método `toLocaleString()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Number/toLocaleString); y
+
+- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
 - - - - - - -
 
