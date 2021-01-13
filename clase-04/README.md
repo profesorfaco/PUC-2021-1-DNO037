@@ -58,7 +58,8 @@ var g = {
     dad: "Homer Simpson",
     children: ["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]
 };
-var h = [{
+var h = [
+    {
         mom: "Luann",
         dad: "Kirk",
         children: ["Milhouse"]
