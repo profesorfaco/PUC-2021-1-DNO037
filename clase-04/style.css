@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text:ital@1&display=swap');
 
 :root {
-    --fondo: rgb(205, 205, 205);
+    --fondo: rgb(175, 205, 205);
     --figura: rgb(55, 55, 55);
     --destacado:black;
     --activo:blue;
@@ -31,8 +31,12 @@ header, main, footer{
     }    
 }
 
+header h1{
+    padding-top: 2vw;    
+}
+
 header nav{
-    padding-bottom: 3vw;
+    padding-bottom: 2vw;
 }
 
 header nav select{
@@ -40,13 +44,8 @@ header nav select{
     border-radius: 0.4rem;
 }
 
-main p:nth-child(1), main p:nth-child(2){
-    color:gray;
-}
-
-main img {
-    width:100%;
-    height:auto;
+main p:nth-child(1){
+    color:rgba(0,0,0,0.6);
 }
 
 main blockquote{
@@ -67,15 +66,16 @@ main blockquote cite{
     margin-left:0.5rem;
 }
 
+main img {
+    width:100%;
+    height:auto;
+}
+
 footer{
     padding-top:5vh;
-    padding-bottom: 2.5vh;
+    padding-bottom: 2vh;
 }
 
 footer p{
     font-size:0.8rem;
-}
-
-#p5_loading{
-    display:none;
 }

@@ -49,8 +49,7 @@ var principal = document.getElementsByTagName('main')[0];
 
 function setup() {
     noCanvas();
-    createP("El número de habitantes en Chile es de " + a).parent(principal);
-    createP("La densidad poblacional en Chile es de " + b + " hab/km²").parent(principal);
+    createP("Chile tiene " + a + " habitantes. Su densidad poblacional es de " + b + " hab/km²").parent(principal);
     if (c == true) {
         createP('Sí me gustó el capítulo «' + d + '»').parent(principal);
     } else {
@@ -63,5 +62,5 @@ function setup() {
     createElement("ol").parent(principal).id("listado");
     octillizos.forEach(function (nombre) {
         createElement('li', nombre).parent('listado');
-    });   
+    });
 }
