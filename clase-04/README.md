@@ -116,7 +116,7 @@ Para resolver el ejercicio, conviene:
 
 Realizaremos un ejercicio enfocado en el uso de los tipos de datos mencionados más arriba.
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* clase-04.
+El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-04/), sitio que puede descargar como *realease* clase-04.
 
 El ejercicio completo puede ser evaluado con:
 
