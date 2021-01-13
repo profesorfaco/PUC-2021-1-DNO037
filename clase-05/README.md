@@ -24,7 +24,7 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 Hoy realizaremos un ejercicio que nos permitirá explorar [Papa Parse](https://www.papaparse.com/) y [jQuery](https://jquery.com/)
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* clase-04.
+El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* clase-05.
 
 El ejercicio completo puede ser evaluado con:
 
