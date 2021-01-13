@@ -25,7 +25,7 @@ if (5 < time && time < 12){
 // acá está lo que se cargará una vez
 function setup(){
   createCanvas(windowWidth, windowHeight).position(0,0).style('z-index',-1);
-  createElement('h1',saludo).parent(header);
+  createElement('h1','Hola. ' + saludo +'.').parent(header);
   createP('MENÚ').id('menu').parent(footer);
   createA('index.html','0').addClass("cero").parent('menu');
   createA('page.html?nro=1','1').addClass("uno").parent('menu');
@@ -51,28 +51,28 @@ function draw(){
 }
 // esta función se ejecuta si la variable i contiene el valor 0
 function portada(){
-  createP("Esta página es index.html").parent(main);
+  createP("Esta página se llama index.html").parent(main);
   select("a.cero").style("font-weight","bold");
 }
 // esta función se ejecuta si la variable i contiene el valor 1
 function uno(){
   select("body").style("background","rgb(205,175,175)");
-  createP("Esta página es page.html —hiciste clic en el 1").parent(main);
+  createP("Esta página se llama page.html —hiciste clic en el 1").parent(main);
   select("a.uno").style("font-weight","bold");
 }
 // esta función se ejecuta si la variable i contiene el valor 2
 function dos(){
   select('body').style("background","rgb(175,205,175)");
-  createP("Esta página es page.html —hiciste clic en el 2").parent(main);
+  createP("Esta página se llama page.html —hiciste clic en el 2").parent(main);
   select("a.dos").style("font-weight","bold");
 }
 // esta función se ejecuta si la variable i contiene el valor 3
 function tres(){
   select('body').style("background","rgb(175,175,205)");
-  createP("Esta página es page.html —hiciste clic en el 3").parent(main);
+  createP("Esta página se llama page.html —hiciste clic en el 3").parent(main);
   select("a.tres").style("font-weight","bold");
 }
 // esta función se ejecuta si la variable i contiene el valor 4
 function error(){
-  createP("Esta página es page.html —pero algo salió mal").parent(main);
+  createP("Esta página se llama page.html —pero hay algo salió mal").parent(main);
 }
