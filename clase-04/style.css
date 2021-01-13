@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text:ital@1&display=swap');
+
+:root {
+    --fondo: rgb(205, 205, 205);
+    --figura: rgb(55, 55, 55);
+    --destacado:black;
+    --activo:blue;
+}
+
+body {
+    color: var(--figura);
+    background: var(--fondo);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:100%;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header, main, footer{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px){
+    header, main, footer{
+        width:80%;
+    }    
+}
+
+header nav{
+    padding-bottom: 3vw;
+}
+
+header nav select{
+    padding:0.3rem;
+    border-radius: 0.4rem;
+}
+
+main p:nth-child(1), main p:nth-child(2){
+    color:gray;
+}
+
+main img {
+    width:100%;
+    height:auto;
+}
+
+main blockquote{
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size:1.6rem;
+    margin-left:0;
+    margin-right:0;
+}
+
+main blockquote cite{
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-size:1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-left:0.5rem;
+}
+
+footer{
+    padding-top:5vh;
+    padding-bottom: 2.5vh;
+}
+
+footer p{
+    font-size:0.8rem;
+}
+
+#p5_loading{
+    display:none;
+}
