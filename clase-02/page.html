@@ -3,52 +3,14 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>DNO037 &#128567;</title>
-        <link href="style.css" rel="stylesheet" >
-        <style>
-            body{
-                cursor:pointer;
-            }
-            footer {
-                width:90vw;
-                padding-left:5vw;
-                padding-right:5vw;
-            }
-            
-            @media screen and (orientation: landscape) {
-                footer {
-                    width:50vw;
-                    padding-left:25vw;
-                    padding-right:25vw;
-                }
-            }            
-        </style>
+        <title>DNO037 &#128018;</title>
+        <link href="style.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <h1>Nombre</h1>
-        </header>
+        <header></header>
         <main></main>
-        <footer>
-        	<p>
-                <a href="index.html" style="float:left;">&#9756; index.html</a> 
-                <a href="#" id="este" style="float:right;">&#9888; descargar</a>
-            </p>
-        </footer>
+        <footer></footer>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
-        <script>
-         function setup(){
-            var d = select('#este');
-            d.mousePressed(artemania);
-         	createCanvas(windowWidth, windowHeight).position(0,0).style('z-index', '-1');
-         	background(205);
-         }
-         function draw(){
-            line(pmouseX, pmouseY, mouseX,mouseY);
-         }
-         function artemania(){
-            saveCanvas('mi_atacazo_artistico', 'jpg');
-         }
-        </script>
+        <script src="script.js"></script>
     </body>
 </html>

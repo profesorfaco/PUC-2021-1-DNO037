@@ -1,21 +1,10 @@
 @charset "UTF-8";
 
-/* 
-Este es un comentario de CSS. 
-Se ve igual al comentario de varias líneas de Javascript.
-La diferencias es que en CSS este comentario aplica a cualquier cantidad de líneas (una o muchas)
-*/
-
 :root {
-    --fondo: rgb(205, 205, 205);
-    --figura: rgb(55, 55, 55);
-    --destacado:black;
-    --activo:blue;
-}
-
-* {
-    margin: 0;
-    padding: 0;
+    --fondo: rgba(205, 205, 205, 1);
+    --figura: rgba(25, 25, 25, 0.75);
+    --destacado:rgba(5, 5, 5, 0.75);
+    --activo:rgba(0, 0, 0, 1);
 }
 
 body {
@@ -24,64 +13,39 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size:100%;
     line-height: 1.6;
+    text-align: left;
+    min-height:100%;
 }
 
-/* ESTRUCTURAL */
-
-header, footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header, main, footer{
+  padding-left:10vw;
+  padding-right:10vw;
 }
 
 header{
-    min-height: 20vh;
+  position: absolute;
+  top:0;
+  left:0;
+  height:10vh;
 }
 
-main {
-    min-height: 70vh;
-    width:90vw;
-    padding-left:5vw;
-    padding-right:5vw;
-}
-
-@media screen and (orientation: landscape) {
-    main {
-        width:50vw;
-        padding-left:25vw;
-        padding-right:25vw;
-    }
+main{
+  padding-top:20vh
 }
 
 footer{
-    min-height: 10vh;
+  position: absolute;
+  bottom:0;
+  left:0;
+  height:10vh;
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
 }
-
-/* TIPOGRÁFICO */
-
-h1 {
-    vertical-align: center;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    padding-bottom: 5vw;
-}
-
-p{
-    text-align: justify;
-    width:100%;
-}
-
-/* LINKS */
 
 a {
     text-decoration: none;
-    padding-left:1vw;
-    padding-right:1vw;
     color: var(--destacado);
-    background: var(--fondo);
+    margin-left:2vw;
 }
 
 a:hover {
