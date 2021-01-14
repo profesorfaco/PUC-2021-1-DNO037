@@ -12,7 +12,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
         console.log(respuesta);
         var datos = respuesta.data;
         // en caso resulte una última fila con "basurita", usar datos.pop();
-        var url = window.location.pathname
+        var url = window.location.pathname;
         if (url.includes("index") || url.length == 0 || url == '/') {
             datos.forEach(function (dato, i) {
                 document.getElementsByTagName("tbody")[0].innerHTML += "<tr><td><a href='page.html?id=" + i + "'>" + dato.pais + "</td><td>" + dato.diez + "</td><td>" + dato.once + "</td><td>" + dato.doce + "</td><td>" + dato.trece + "</td><td>" + dato.catorce + "</td><td>" + dato.quince + "</td><td>" + dato.dieciseis + "</td></tr>";
