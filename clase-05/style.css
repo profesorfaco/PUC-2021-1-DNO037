@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+:root {
+    --fondo: rgba(242, 239, 237, 1);
+    --figura: rgba(50, 50, 50, 1);
+    --destacado: rgba(25, 25, 25, 0.75);
+    --activo: rgba(0, 0, 0, 1);
+    --cobre:rgba(184, 115, 51, 1);
+}
+
+body {
+    color: var(--figura);
+    background: var(--fondo);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    text-align: left;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--destacado);
+}
+
+a:hover {
+    color: var(--activo);
+    text-decoration: none;
+}
+
+:hover{
+    transition: color ease 0.25s;
+}
+
+header,
+main,
+footer {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+@media screen and (orientation:portrait){
+    header,
+    main,
+    footer {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }    
+}
+
+h1{
+    padding-top:2vh;
+    padding-bottom:2vh;
+    color: var(--destacado);
+}
+
+main table {
+    width: 100%;
+    text-align: right;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 0.8rem;
+    vertical-align: bottom;
+    color: var(--figura);
+}
+
+main table thead th{
+    font-weight: var(--activo);
+    font-weight: normal;
+}
+
+main table tbody tr td:first-child {
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+main table tbody tr:hover {
+    color: var(--cobre);
+}
+
+footer {
+    padding-top: 5vh;
+    font-size: 0.9rem;
+    letter-spacing: 0.09rem;
+}
