@@ -6,7 +6,7 @@
 
 - - - - - - - - - - 
 
-Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que revisaremos, además de [p5.js](https://p5js.org/es/), son las siguientes:
+Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que revisamos, además de [p5.js](https://p5js.org/es/), son las siguientes:
 
 - [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
 
