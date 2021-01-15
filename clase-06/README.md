@@ -20,7 +20,15 @@ Nos queda por explorar:
 
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
-En la clase de hoy nos encargaremos de [jQuery](https://jquery.com/) y [Leaflet.js](https://leafletjs.com/) 
+En la clase de hoy exploraremos [jQuery](https://jquery.com/) y [Leaflet.js](https://leafletjs.com/). Esta exploración la haremos mediante un ejercicio preparado.
+
+Para resolver el ejercicio, conviene:
+
+- recordar el format [JSON](https://www.json.org/json-es.html)
+
+- tener a mano un [*cheatsheet* de jQuery](https://htmlcheatsheet.com/jquery/); y 
+
+- tener a mano las [referencias de Leaflet](https://leafletjs.com/reference-1.7.1.html)
 
 - - - - - - -
 
