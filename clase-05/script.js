@@ -11,19 +11,16 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
     complete: function (respuesta) {
         console.log(respuesta);
         var datos = respuesta.data;
-        // en caso resulte una última fila con "basurita", usar datos.pop();
-        var url = window.location.href;
-        console.log(url);
-        if (url.includes('index')) {
+        // en caso resulte una última fila con "basurita", recomiendo datos.pop();
+        if (document.getElementsByTagName("body")[0].classList.contains("portada")) {
             datos.forEach(function (dato, i) {
                 document.getElementsByTagName("tbody")[0].innerHTML += "<tr><td><a href='page.html?id=" + i + "'>" + dato.pais + "</td><td>" + dato.diez + "</td><td>" + dato.once + "</td><td>" + dato.doce + "</td><td>" + dato.trece + "</td><td>" + dato.catorce + "</td><td>" + dato.quince + "</td><td>" + dato.dieciseis + "</td></tr>";
-            });
+            });// cierra el forEach
         } else {
             var x = new URLSearchParams(window.location.search).get("id");
             console.log(x);
             if (x !== null) {
                 document.getElementsByTagName("h1")[0].append(datos[x].pais);
-                // crear un arreglo y empujarle elementos
                 var indice = [];
                 indice.push(datos[x].diez);
                 indice.push(datos[x].once);
@@ -32,7 +29,6 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                 indice.push(datos[x].catorce);
                 indice.push(datos[x].quince);
                 indice.push(datos[x].dieciseis);
-                // un inception de bibliotecas de JavaScript
                 new Chart(document.getElementById("grafico").getContext("2d"), {
                     type: "line",
                     data: {
@@ -45,9 +41,9 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                                 borderColor: "rgba(184, 115, 51, 1)",
                                 pointRadius: 2,
                                 borderWidth: 1,
-                                lineTension: 0,
-                            },
-                        ],
+                                lineTension: 0
+                            }
+                        ]
                     },
                     options: {
                         scales: {
@@ -55,11 +51,11 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                                 {
                                     ticks: {
                                         beginAtZero: true,
-                                    },
-                                },
-                            ],
-                        },
-                    },
+                                    }
+                                }
+                            ]
+                        }
+                    }
                 }); // cierra new Chart
             } else {
                 document.getElementsByTagName("h1")[0].innerHTML = "Algo salió mal &#128557;";
