@@ -20,7 +20,7 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/). Esta exploración la haremos mediante el ejercicio preparado. 
 
-Antes de comenzar con el ejercicio, conviene:
+Para resolver el ejercicio, conviene: 
 
 - haber revisado información sobre los archivos [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas);
 
