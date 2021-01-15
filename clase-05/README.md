@@ -6,7 +6,7 @@
 
 - - - - - - - - - - 
 
-Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que revisaremos, además de [p5.js](https://p5js.org/es/), son las siguientes:
+Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que exploraremos son:
 
 - [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
 
@@ -18,11 +18,11 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
+En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).
+
 - - - - - - -
 
 #### Ejercicio
-
-Hoy realizaremos un ejercicio que nos permitirá explorar [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/)
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-05/), sitio que puede descargar como *realease* clase-05.
 
