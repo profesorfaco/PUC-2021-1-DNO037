@@ -55,7 +55,7 @@ Para revisar un poco más, pueden ver:
 
 - [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 
-En el ejercicio que sigue podrán encontrar algo de Vue.js, pero en mayor parte el ejercicio busca repasar lo que hemos aprendido sobre JavaScript, el lenguaje de programación que controla el comportamiento de las páginas web. 
+En el ejercicio que sigue podrán encontrar algo de Vue.js, pero la mayor parte del ejercicio servirá de repaso a lo aprendido sobre JavaScript, el lenguaje de programación que controla el comportamiento de las páginas web. 
 
 - - - - - - - 
 
