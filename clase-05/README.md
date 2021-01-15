@@ -20,6 +20,16 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).
 
+Antes de comenzar a explorar, conviene:
+
+- revisar el [método `pop()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/pop);
+
+- revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push);
+
+- tener a mano la [documentación de Papa Parse](https://www.papaparse.com/docs); y
+
+- tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/)
+
 - - - - - - -
 
 #### Ejercicio
