@@ -16,13 +16,50 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
 
+Solo nos queda por revisar:
+
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
 - - - - - - -
 
-#### Ejercicio
+[Vue.js](https://v3.vuejs.org/) es un *framework* de JavaScript, tan popular como Angular.js y React.js. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una biblioteca de JavaScript con la que se facilita la escritura de secuencias de instrucciones, y desde ahí podemos sumar capas de complejidad.
 
-Hoy realizaremos un ejercicio que nos permitirá explorar [Vue.js](https://v3.vuejs.org/). A esto sumaremos una exploración de síntesis, para preparar la evalución de la próxima clase.
+Con Angular.js o React.js debes basar todo el desarrollo en el mismo *framework*, mientras que trabajando con [Vue.js](https://v3.vuejs.org/) puedes partir con un documento html, en tu editor de código fuente, en donde puedes escribir:
+
+```
+<main>
+    <ol>
+        <li v-for="color in colores">
+            {{ color }}
+        </li>
+    </ol>
+</main>
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+    const listado = {
+        data() {
+            return {
+                colores: ["rojo", "azul", "amarillo", "verde"],
+            }
+        }
+    };
+    Vue.createApp(listado).mount("main");
+</script>
+```
+
+En el código tenemos un ítem de lista (list item, `<li></li>`) con un atributo `v-for`, que da la siguiente instrucción: Vue, aquí va un `for` que desplegará todos los elementos en el arreglo "colores", llamando "color" a cada elemento. Así de simple.
+
+Para revisar un poco más, pueden ver:
+
+- [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
+
+- [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+
+En el ejercicio que sigue podrán encontrar algo de Vue.js, pero en mayor parte el ejercicio buscar hacer un repaso de lo que hemos aprendido sobre JavaScript, el lenguaje de programación que controla el comportamiento de las páginas web. 
+
+- - - - - - - 
+
+#### Ejercicio
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en esta carpeta de repositorio, que puede descargar como *realease* clase-07.
 
