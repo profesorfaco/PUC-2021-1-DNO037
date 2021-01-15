@@ -8,7 +8,7 @@
 
 Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
 
-Antes de explorar algunas de ellas, nos conviene tener completa claridad respecto de los tipos de datos con los que JavaScript, y sus respectivas bibliotecas, pueden operar.
+Antes de explorar algunas de ellas, nos conviene tener completa claridad respecto de los tipos de datos con los que JavaScript y sus respectivas bibliotecas pueden operar.
 
 Para comenzar a clarificar las cosas, partamos con el número 18261884. 
 
