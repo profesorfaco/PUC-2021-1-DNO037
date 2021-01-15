@@ -104,6 +104,8 @@ Para resolver el ejercicio, conviene:
 
 - tener a mano las [referencias de p5.js](https://p5js.org/es/reference/);
 
+- revisar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
+
 - revisar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
 - revisar el [método `toLocaleString()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Number/toLocaleString); y
