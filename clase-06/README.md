@@ -24,7 +24,7 @@ En la clase de hoy exploraremos [jQuery](https://jquery.com/) y [Leaflet.js](htt
 
 Para resolver el ejercicio, conviene:
 
-- recordar el format [JSON](https://www.json.org/json-es.html)
+- recordar el formato [JSON](https://www.json.org/json-es.html)
 
 - tener a mano un [*cheatsheet* de jQuery](https://htmlcheatsheet.com/jquery/); y 
 
