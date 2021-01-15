@@ -28,11 +28,11 @@ Con Angular.js o React.js debes basar todo el desarrollo en el mismo *framework*
 
 ```
 <main>
-    <ol>
+    <ul>
         <li v-for="color in colores">
             {{ color }}
         </li>
-    </ol>
+    </ul>
 </main>
 <script src="https://unpkg.com/vue@next"></script>
 <script>
