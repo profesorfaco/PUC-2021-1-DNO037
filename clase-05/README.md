@@ -18,17 +18,21 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
-En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).
+En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/). Esta exploración la haremos mediante el ejercicio preparado. 
 
-Antes de comenzar a explorar, conviene:
+Antes de comenzar con el ejercicio, conviene:
+
+- haber revisado información sobre los archivos [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas);
+
+- recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
 
 - revisar el [método `pop()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/pop);
 
 - revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push);
 
-- tener a mano la [documentación de Papa Parse](https://www.papaparse.com/docs); y
+- tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/); y
 
-- tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/)
+- tener a mano la [documentación de Papa Parse](https://www.papaparse.com/docs)
 
 - - - - - - -
 
