@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
 :root {
-    --fondo: rgba(232, 236, 237, 1);
-    --figura: rgba(50, 50, 50, 1);
-    --destacado: rgba(25, 25, 25, 0.75);
-    --activo: rgba(0, 0, 0, 1);
-    --cobre:rgba(184, 115, 51, 1);
+    --fondo: #eceff1;
+    --figura: #263238;
+    --destacado: #4f5b62;
+    --activo: #000a12;
 }
 
 body {
@@ -22,6 +21,7 @@ body {
 
 a {
     color: var(--destacado);
+    text-decoration: none;
 }
 
 a:hover {
@@ -67,33 +67,40 @@ body.portada main div{
     width:16%;
     padding:1%;
     margin:1%;
-    background:white;
+    background:rgb(212, 220, 221);
     display: inline-block;
     vertical-align: top;
     font-size:0.9rem;
     line-height: 1.3;
-    box-shadow: 0 0 0.25rem rgba(50,50,50,0.1);
+    box-shadow: 0 0 0.2rem rgba(202, 210, 211,0.25);
+    min-height: 14vh;
 }
 
 @media screen and (orientation:portrait){
     body.portada main div{
         width:44%;
         padding:2%;
+        min-height: 12vh;
     }
 }
 
-body.portada main div.uy{
-    background:rgb(211, 203, 202);
+body.portada main div h3, body.portada main div p{
+    margin:0 0 0.5rem 0;
+    padding:0;
 }
 
-body.portada main div h3, body.portada main div p{
-    margin:0;
-    padding:0;
+body.portada main div a{
+    text-decoration: underline;
+}
+
+body.portada main div a:hover{
+    text-decoration: none;
 }
 
 main div#mapa{
     width:100%;
     height:60vh;
+    box-shadow: 0 0 0.2rem rgba(202, 210, 211,0.25);
 }
 
 footer {

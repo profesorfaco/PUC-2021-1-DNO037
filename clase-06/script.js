@@ -4,8 +4,8 @@ $(document).ready(function () {
         if (document.getElementsByTagName("body")[0].classList.contains("portada")) {
             data.features.forEach(function (temblor, i) {
                 let division;
-                if(temblor.properties.mag >= 6){
-                    division = '<div class="uy">'
+                if((temblor.properties.mag >= 6) || (temblor.properties.place.includes("Chile"))){
+                    division = '<div style="background:rgb(255,255,255)">'
                 } else {
                     division = '<div>'
                 }
@@ -27,7 +27,7 @@ $(document).ready(function () {
                     zoomOffset: -1,
                 }).addTo(elmapa);
                 circle = L.circle([latitud, longitud], {
-                    fillColor: "#D31700",
+                    fillColor: "#FF4500",
                     fillOpacity: 0.8,
                     weight: 0,
                     radius: 100000,
