@@ -22,7 +22,7 @@ Solo nos queda por revisar:
 
 - - - - - - -
 
-[Vue.js](https://v3.vuejs.org/) es un *framework* de JavaScript, tan popular como Angular.js y React.js. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos sumar capas de complejidad.
+[Vue.js](https://v3.vuejs.org/) es un *framework* de JavaScript, tan popular como Angular.js y React.js. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos progresar en capas de complejidad.
 
 Con Angular.js o React.js debes basar todo el desarrollo en el mismo *framework*, mientras que trabajando con [Vue.js](https://v3.vuejs.org/) puedes partir con un documento html, en tu editor de código fuente, en donde puedes escribir:
 
