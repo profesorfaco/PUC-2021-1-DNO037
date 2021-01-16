@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>DNO037 &#129302;</title>
+        <title>DNO037vR2 &#129302;</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -12,9 +12,9 @@
             <nav>
                 <select onChange="window.document.location.href=this.options[this.selectedIndex].value;">
                     <option value="index.html">The Simpsons</option>
-                    <option value="page.html?nro=1">Taylor Swift</option>
-                    <option value="page.html?nro=2">Varios autores</option>
-                    <option value="page.html?nro=3">* Desafío</option>
+                    <option value="page.html?ej=1">Taylor Swift</option>
+                    <option value="page.html?ej=2">Varios autores</option>
+                    <option value="page.html?ej=3">* Desafío</option>
                 </select>
             </nav>
         </header>
@@ -25,7 +25,7 @@
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
         <script>
             var url = new URLSearchParams(window.location.search);
-            var seleccionado = url.get("nro");
+            var seleccionado = url.get("ej");
             var data;
 
             var principal = document.getElementsByTagName("main")[0];
@@ -39,12 +39,12 @@
                 function preload() {
                     data = loadJSON("https://gist.githubusercontent.com/natebass/b0a548425a73bdf8ea5c618149fe1fce/raw/f4231cd5961f026264bb6bb3a6c41671b044f1f4/quotes.json");
                 }
-            } else if(seleccionado == 3){
+            } else if (seleccionado == 3) {
                 function preload() {
                     // Genera tu propia API Key en https://api.nasa.gov/
                     // Cambia "DEMO_KEY" por la API Key generada
                     // Cambia la fecha de la consulta, puedes partir en 1995-6-16 y llegar hasta hoy mismo
-                    // Nota que ofrece una "explanation" y la "url" de una imagen
+                    // Nota que la api ofrece un texto de "explanation" y la "url" de una imagen
                     data = loadJSON("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2000-1-1");
                 }
             } else {
@@ -56,7 +56,7 @@
                     createElement("blockquote", data.quote).parent(principal);
                     opciones[1].selected = true;
                 } else if (seleccionado == 2) {
-                    let r = floor(random(0,101));
+                    let r = floor(random(0, 101));
                     createElement("blockquote", data[r].quote).parent(principal).id("cita");
                     createElement("cite", data[r].author).parent("cita");
                     opciones[2].selected = true;

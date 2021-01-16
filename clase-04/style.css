@@ -1,81 +1,85 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text:ital@1&display=swap');
-
 :root {
     --fondo: rgb(175, 205, 205);
     --figura: rgb(55, 55, 55);
-    --destacado:black;
-    --activo:blue;
+    --destacado: black;
+    --activo: blue;
+    --sinserifa: Helvetica, Arial, sans-serif;
+    --conserifa: Georgia, "Times New Roman", serif;
 }
 
 body {
     color: var(--figura);
     background: var(--fondo);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size:100%;
+    font-family: var(--sinserifa);
+    font-size: 100%;
     line-height: 1.6;
     text-align: center;
 }
 
-header, main, footer{
-    width:60%;
-    margin-left:auto;
-    margin-right:auto;
+header,
+main,
+footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
 }
 
-@media screen and (max-width: 768px){
-    header, main, footer{
-        width:80%;
-    }    
+@media screen and (max-width: 768px) {
+    header,
+    main,
+    footer {
+        width: 80%;
+    }
 }
 
-header h1{
-    padding-top: 2vw;    
+header h1 {
+    padding-top: 2vw;
 }
 
-header nav{
+header nav {
     padding-bottom: 2vw;
 }
 
-header nav select{
-    padding:0.3rem;
+header nav select {
+    padding: 0.3rem;
     border-radius: 0.4rem;
 }
 
-main p:nth-child(1){
-    color:rgba(0,0,0,0.6);
+main p:nth-child(1) {
+    color: rgba(0, 0, 0, 0.6);
 }
 
-main blockquote{
-    font-family: Georgia, serif;
+main blockquote {
+    font-family: var(--conserifa);
     font-style: italic;
-    font-size:1.6rem;
-    margin-left:0;
-    margin-right:0;
+    font-size: 1.6rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-main blockquote cite{
-    font-family: Helvetica, sans-serif;
+main blockquote cite {
+    font-family: var(--sinserifa);
     font-style: normal;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    margin-left:0.5rem;
+    margin-left: 0.5rem;
 }
 
 main img {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
-footer{
-    padding-top:5vh;
+footer {
+    padding-top: 5vh;
     padding-bottom: 2vh;
 }
 
-footer p{
-    font-size:0.8rem;
+footer p {
+    font-size: 0.8rem;
 }
