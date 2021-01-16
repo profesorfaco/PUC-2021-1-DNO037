@@ -56,7 +56,7 @@ Así, por ejemplo, podemos ver una página web con un recuadro negro. Si inspecc
 
 ```
 
-Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio en el que conviene:
+Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para el que conviene:
 
 - revisar el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date);
 
