@@ -1,4 +1,4 @@
-# Diseño y Nuevos Medios v10 
+# Diseño y Nuevos Medios VR2
 
 ### Clase 10 → 19/05/2021
 
