@@ -5,13 +5,15 @@
     --figura: rgba(50, 50, 50, 1);
     --destacado: rgba(25, 25, 25, 0.75);
     --activo: rgba(0, 0, 0, 1);
-    --cobre:rgba(184, 115, 51, 1);
+    --cobre: rgba(184, 115, 51, 1);
+    --sinserifa: Helvetica, Arial, sans-serif;
+    --monoespaciada: "Lucida Console", Monaco, monospace;
 }
 
 body {
     color: var(--figura);
     background: var(--fondo);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: var(--sinserifa);
     font-size: 100%;
     line-height: 1.6;
     text-align: left;
@@ -29,7 +31,7 @@ a:hover {
     text-decoration: none;
 }
 
-:hover{
+:hover {
     transition: color ease 0.25s;
 }
 
@@ -40,38 +42,38 @@ footer {
     padding-right: 10vw;
 }
 
-@media screen and (orientation:portrait){
+@media screen and (orientation: portrait) {
     header,
     main,
     footer {
         padding-left: 4vw;
         padding-right: 4vw;
-    }    
+    }
 }
 
-h1{
-    padding-top:2vh;
-    padding-bottom:2vh;
+h1 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     color: var(--destacado);
 }
 
 main table {
     width: 100%;
     text-align: right;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: var(--monoespaciada);
     font-size: 0.8rem;
     vertical-align: bottom;
     color: var(--figura);
 }
 
-main table thead th{
+main table thead th {
     font-weight: var(--activo);
     font-weight: normal;
 }
 
 main table tbody tr td:first-child {
     text-align: left;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: var(--sinserifa);
     font-size: 1rem;
 }
 
