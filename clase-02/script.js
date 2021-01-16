@@ -2,7 +2,6 @@
 var header = document.getElementsByTagName("header")[0];
 var main = document.getElementsByTagName("main")[0];
 var footer = document.getElementsByTagName("footer")[0];
-var path = document.location.pathname;
 var time = new Date().getHours();
 // también puedes declarar una variables
 var i;
