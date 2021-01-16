@@ -20,7 +20,7 @@ Antes de seguir, les conviene leer:
 
 El sitio web o prototipo de App Web puede ser un autoencargo o encargo. Generalmente el autoencargo es un portafolio de diseño, y el encargo atiende las necesidades comunicacionales de una empresa.
 
-Eviten encargos o autoencargos de tiendas en línea; existen diversas herramientas que apoyan a éstas tienda, herramientas que ofrecen sistemas de catálogo, transacción, *stock*, distribución, entre otros. Con lo aprendido en el curso podrían resolver apenas el catálogo.
+Pueden enfrentar el (auto)encargo de tienda en línea sólo como prototipo de Web App; para resolverlo como sitio web prefieran otra instancia, donde puedan aprovechar las herramientas que apoyan a éstas tienda, herramientas que ofrecen sistemas de catálogo, *stock*, transacción, confirmación, distribución, entre otros.
 
 - - - - - - - 
 
