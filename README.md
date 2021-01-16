@@ -8,9 +8,11 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 - conserva su nombre desde el año 2010 (pero no conserva el mismo programa);
 
-- de manera remota, ofrece una introducción al desarrollo de Aplicaciones Web, por la vía del FrontEnd; y
+- ofrece una introducción al desarrollo de Aplicaciones Web, por la vía del FrontEnd;
 
-- exige la constante ejercitación y publicación de resultados en GitHub.
+- exige la constante ejercitación y publicación de resultados en GitHub; y
+
+- esta es su segunda versión remota.
 
 - - - - - - - - - -
 
@@ -109,9 +111,7 @@ Esta organización atiende al calendario oficial de actividades académicas y e
 
 #### Referencias en línea
 
-- [Aprende sobre desarrollo web | MDN](https://developer.mozilla.org/es/docs/Learn)
 - [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [JavaScript Para Gatos](https://jsparagatos.com/)
-- [W3Schools Online Web Tutorials](https://www.w3schools.com/)
 
 Se agregarán más referencias en el `README.md` de cada clase.
