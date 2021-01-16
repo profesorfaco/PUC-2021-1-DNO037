@@ -12,7 +12,7 @@ Ya pudimos reconocer la diferencia entre los lengujes de descripción y el lengu
 
 Esta biblioteca fue creada por [Lauren McCarthy](http://lauren-mccarthy.com/) y es desarrollada por una comunidad de colaboradores, con apoyo de [Processing Foundation](https://processingfoundation.org/) y [NYU ITP](https://forms.tisch.nyu.edu/page/s/itp-landing). Entre los colaboradores hay 2 chilenos, que se han encargado de la traducción de referencias, tutoriales y [un libro](https://processingfoundation.press/product/introduccion-a-p5-js/) al castellano; ellos son: [Guillermo Montecinos](https://twitter.com/guillermolooped) y [Aarón Montoya-Moraga](https://twitter.com/montoyamoraga).
 
-[p5.js](https://p5js.org/es/) es una reinterpretación de [Processing](https://processing.org/) para la web. Consideremos que cuando se trabaja en Processing, cada *sketch* tiene su `void setup()` y `void draw()`. Hay un `setup` que se ejecuta una única vez, en la partida. Hay un `draw` que por defecto se ejecuta una y otra vez. Ahora, el `void` de Java por el `function` de JavaScript, y obtenemos:
+[p5.js](https://p5js.org/es/) es una reinterpretación de [Processing](https://processing.org/) para la web. Consideremos que cuando se trabaja en Processing cada *sketch* tiene su `void setup()` y `void draw()`. Hay un `setup` que se ejecuta una única vez, en la partida. Hay un `draw` que por defecto se ejecuta una y otra vez. Ahora, cambiemos el `void` de [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)) por el `function` de [JavaScript](https://es.wikipedia.org/wiki/JavaScript), y tenemos:
 
 ```
 function setup(){
@@ -32,19 +32,19 @@ Aquí conviene agregar una nota sobre el [Modelo de Objeto de Documento (DOM)](h
 
 Con el DOM puedes manipular una página así como cuando cambias una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. 
 
-Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente veremos lo capturado, mientras que en la consola veremos lo *photoshopeado*, y esto último coincide con lo que está a la vista.
+Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente está lo capturado originalmente, mientras que en la consola está lo *photoshopeado*, y esto último coincide con lo que tenemos a la vista.
 
-Así, por ejemplo, podemos ver una página web con recuadro negro. Si inspeccionamos los elementos veremos un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro de `<body></body>`. Pero en el código fuente podría verse así, con un `<body></body>` vacío:
+Así, por ejemplo, podemos ver una página web con un recuadro negro. Si inspeccionamos los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente, donde utilizamos [p5.js](https://p5js.org/es/), podríamos encontrar un `<body></body>` vacío:
 
 ```
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
     <head>
-        <title>ejemplo</title>
+        <title>Esto es un ejemplo</title>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
         <script>
             function setup() {
-                createCanvas(windowWidth - 50, windowHeight - 50).position(25, 25);
+                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20);
             }
             function draw() {
                 background(0);
@@ -55,6 +55,18 @@ Así, por ejemplo, podemos ver una página web con recuadro negro. Si inspeccion
 </html>
 
 ```
+
+Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio en el que conviene:
+
+- revisar el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date);
+
+- revisar el [contructor `URLSearchParams()`](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams/URLSearchParams);
+
+- revisar el [método `getElementsByName()`](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByName), echándole un vistazo rápido a la interfaz [Document](https://developer.mozilla.org/es/docs/Web/API/Document);
+
+- revisar la [propiedad `Element.classList`](https://developer.mozilla.org/es/docs/Web/API/Element/classList); y
+
+- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
 
 - - - - - - - - - - - - - - 
 
