@@ -24,6 +24,8 @@ Para resolver el ejercicio, conviene:
 
 - haber revisado información sobre los archivos [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas);
 
+- informarse respecto de [tablas en HTML](https://www.htmlquick.com/es/tutorials/tables.html);
+
 - recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
 
 - revisar el [método `pop()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/pop);
