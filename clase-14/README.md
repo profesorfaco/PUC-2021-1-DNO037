@@ -6,17 +6,17 @@
 
 - - - -  - - 
 
-Hoy comenzamos a trabajar en el diseño y desarrollo, autónomo, de su primer sitio web profesional o prototipo avanzado de aplicación web, atendiendo a una de las siguientes opciones: 
+Hoy comienzan a trabajar en el **diseño y desarrollo, autónomo, de su primer sitio web profesional o prototipo avanzado de aplicación web**, atendiendo a una de las siguientes opciones: 
 
-- Sitio web profesional, implementarse en línea con un dominio propio. 
+- Sitio web profesional, debe implementarse en línea con un dominio propio. 
 
-- Prototipo avanzado de aplicación web, implementarse en línea con dominio ajeno y acceso por clave.
+- Prototipo avanzado de aplicación web, debe implementarse en línea con dominio ajeno y acceso restringuido con clave.
 
 Estos sitio o prototipos pueden ser autoencargos o encargos. Generalmente el autoencargo es un portafolio de diseño, y el encargo atiende las necesidades comunicacionales de una empresa.
 
-Evitemos encargos o autoencargos de tiendas en línea; existen diversas herramientas que pueden encargarse del servicio de tienda en línea completo: catálogo, transacción, distribución, entre otros. Con lo aprendido en el curso sólo podríamos resolver el catálogo.
+Eviten encargos o autoencargos de tiendas en línea; existen diversas herramientas que apoyan a la tienda en línea ofreciendo sistemas de catálogo, transacción, distribución, entre otros. Con lo aprendido en el curso podrían resolver el catálogo.
 
-Antes de partir, nos conviene aprender: 
+Antes de partir, conviene leer: 
 
 - [Configurar GitHub Pages para usar dominios.cl](https://ggerena.medium.com/configurar-github-pages-para-usar-dominios-cl-13c1a644699f)
 
