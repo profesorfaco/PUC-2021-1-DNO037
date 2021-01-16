@@ -3,51 +3,54 @@
 :root {
     --fondo: rgba(205, 205, 205, 1);
     --figura: rgba(25, 25, 25, 0.75);
-    --destacado:rgba(5, 5, 5, 0.75);
-    --activo:rgba(0, 0, 0, 1);
+    --destacado: rgba(5, 5, 5, 0.75);
+    --activo: rgba(0, 0, 0, 1);
+    --sinserifa: Helvetica, Arial, sans-serif;
 }
 
 body {
     color: var(--figura);
     background: var(--fondo);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size:100%;
+    font-family: var(--sinserifa);
+    font-size: 100%;
     line-height: 1.6;
     text-align: left;
-    min-height:100%;
-    margin:0;
-    padding:0;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-header, main, footer{
-  padding-left:10vw;
-  padding-right:10vw;
+header,
+main,
+footer {
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
-header{
-  position: absolute;
-  top:0;
-  left:0;
-  height:10vh;
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10vh;
 }
 
-main{
-  padding-top:20vh
+main {
+    padding-top: 20vh;
 }
 
-footer{
-  position: absolute;
-  bottom:0;
-  left:0;
-  height:10vh;
-  font-size: 0.9rem;
-  letter-spacing: 0.2rem;
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10vh;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
 }
 
 a {
     text-decoration: none;
     color: var(--destacado);
-    margin-left:2vw;
+    margin-left: 2vw;
 }
 
 a:hover {
