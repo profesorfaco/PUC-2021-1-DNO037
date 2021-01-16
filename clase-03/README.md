@@ -1,4 +1,4 @@
-# Diseño y Nuevos Medios v14
+# Diseño y Nuevos Medios vR2
 
 ### Clase 03 → 31/03/2021
 
