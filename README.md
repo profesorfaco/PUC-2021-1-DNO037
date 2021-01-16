@@ -10,7 +10,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 - conserva su nombre desde el año 2010 (pero no conserva el mismo programa);
 
-- ofrece una introducción al desarrollo de Aplicaciones Web, por la vía del FrontEnd; y
+- de manera remota, ofrece una introducción al desarrollo de Aplicaciones Web, por la vía del FrontEnd; y
 
 - exige la constante ejercitación y publicación de resultados en GitHub.
 
@@ -18,7 +18,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 #### Materiales de trabajo
 
-Cada estudiante en este OPR debería contar con:
+Cada estudiante en este OPR debe contar con:
 
 - una cuenta personal en [GitHub](https://github.com/join);
 
@@ -29,20 +29,6 @@ Cada estudiante en este OPR debería contar con:
 - uno de los siguientes navegadores web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página" y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
 
 - - - - - - - - -
-
-#### Nota final 
-
-**25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
-
-**25%** → puntos acumulados entre clases 4 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
-
-**25%** → puntos acumulados entre clases 10 y 12 + puntaje obtenido en evaluación Nº3 (clase 13)
-
-**25%** → puntos acumulados entre clases 14 y 16 + puntaje obtenido en evaluación Nº4 (clases 17 y 18)
-
-**Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web**.
-
-- - - - - - - 
 
 #### Clase a clase
 
@@ -78,9 +64,9 @@ Cada estudiante en este OPR debería contar con:
 
 [Clase 16 → 30/06/2020](https://github.com/profesorfaco/dno037-2021/tree/main/clase-16) → Diseño y desarrollo
 
-[Clase 17 → 07/07/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-17) → Pre-entrega de evaluación Nº4
+[Clase 17 → 07/07/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-17) → Pre-evaluación Nº4
 
-[Clase 18 → 14/07/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-18) → Entrega de evaluación Nº4
+[Clase 18 → 14/07/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-18) → Evaluación Nº4
 
 Esta organización atiende al calendario oficial de actividades académicas y estudiantiles 2021, donde se indica que:
 
@@ -93,6 +79,21 @@ Esta organización atiende al calendario oficial de actividades académicas y e
 - El viernes 9 de julio finalizan las clases del primer período académico.
 
 - - - - - - - -
+
+#### Nota final 
+
+**25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
+
+**25%** → puntos acumulados entre clases 4 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
+
+**25%** → puntos acumulados entre clases 10 y 12 + puntaje obtenido en evaluación Nº3 (clase 13)
+
+**25%** → puntos acumulados entre clases 14 y 16 + puntaje obtenido en evaluación Nº4 (clases 17 y 18)
+
+**Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web**.
+
+- - - - - - - 
+
 
 #### Referencias bibliográficas
 
