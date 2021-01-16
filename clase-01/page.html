@@ -3,52 +3,54 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>DNO037 &#128567;</title>
-        <link href="style.css" rel="stylesheet" >
+        <title>DNO037vR2 &#128567;</title>
+        <link href="style.css" rel="stylesheet" />
         <style>
-            body{
-                cursor:pointer;
+            body {
+                cursor: pointer;
             }
             footer {
-                width:90vw;
-                padding-left:5vw;
-                padding-right:5vw;
+                width: 90vw;
+                padding-left: 5vw;
+                padding-right: 5vw;
             }
-            
+
             @media screen and (orientation: landscape) {
                 footer {
-                    width:50vw;
-                    padding-left:25vw;
-                    padding-right:25vw;
+                    width: 50vw;
+                    padding-left: 25vw;
+                    padding-right: 25vw;
                 }
-            }            
+            }
         </style>
     </head>
     <body>
         <header>
-            <h1>Nombre</h1>
+            <h1>Aquí puedes dibujar</h1>
         </header>
         <main></main>
         <footer>
-        	<p>
-                <a href="index.html" style="float:left;">&#9756; index.html</a> 
-                <a href="#" id="este" style="float:right;">&#9888; descargar</a>
+            <p>
+                <a href="index.html" style="float: left;">&#9756; index.html</a>
+                <a href="#" id="este" style="float: right;">&#9888; descarga el dibujo</a>
             </p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
         <script>
-         function setup(){
-            var d = select('#este');
-            d.mousePressed(artemania);
-         	createCanvas(windowWidth, windowHeight).position(0,0).style('z-index', '-1');
-         	background(205);
-         }
-         function draw(){
-            line(pmouseX, pmouseY, mouseX,mouseY);
-         }
-         function artemania(){
-            saveCanvas('mi_atacazo_artistico', 'jpg');
-         }
+            function setup() {
+                var d = select("#este");
+                d.mousePressed(artemania);
+                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", "-1");
+                background(205);
+            }
+            function draw() {
+                if (mouseIsPressed) {
+                    line(pmouseX, pmouseY, mouseX, mouseY);
+                }
+            }
+            function artemania() {
+                saveCanvas("mi_atacazo_artistico", "jpg");
+            }
         </script>
     </body>
 </html>

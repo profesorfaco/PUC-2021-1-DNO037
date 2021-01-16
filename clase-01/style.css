@@ -9,8 +9,9 @@ La diferencias es que en CSS este comentario aplica a cualquier cantidad de lín
 :root {
     --fondo: rgb(205, 205, 205);
     --figura: rgb(55, 55, 55);
-    --destacado:black;
-    --activo:blue;
+    --destacado: black;
+    --activo: blue;
+    --sinserifa: Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -21,39 +22,40 @@ La diferencias es que en CSS este comentario aplica a cualquier cantidad de lín
 body {
     color: var(--figura);
     background: var(--fondo);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size:100%;
+    font-family: var(--sinserifa);
+    font-size: 100%;
     line-height: 1.6;
 }
 
 /* ESTRUCTURAL */
 
-header, footer {
+header,
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header{
+header {
     min-height: 20vh;
 }
 
 main {
     min-height: 70vh;
-    width:90vw;
-    padding-left:5vw;
-    padding-right:5vw;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 @media screen and (orientation: landscape) {
     main {
-        width:50vw;
-        padding-left:25vw;
-        padding-right:25vw;
+        width: 50vw;
+        padding-left: 25vw;
+        padding-right: 25vw;
     }
 }
 
-footer{
+footer {
     min-height: 10vh;
 }
 
@@ -69,17 +71,17 @@ h2 {
     padding-bottom: 5vw;
 }
 
-p{
+p {
     text-align: justify;
-    width:100%;
+    width: 100%;
 }
 
 /* LINKS */
 
 a {
     text-decoration: none;
-    padding-left:1vw;
-    padding-right:1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     color: var(--destacado);
     background: var(--fondo);
 }
