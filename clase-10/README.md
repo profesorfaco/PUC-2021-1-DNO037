@@ -49,7 +49,7 @@ Con tal documento HTML listo, podemos comenzar a utilizar una grilla de 12 colum
 </html>
 ```
 
-Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/). Allí podemos ver "en acción" las clases:
+Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/index.html). Allí podemos ver "en acción" las clases:
 
 - `.container` → https://getbootstrap.com/docs/5.0/layout/containers/
 - `.bg-light` → https://getbootstrap.com/docs/5.0/components/badge/#background-colors
@@ -64,7 +64,7 @@ Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta
 
 #### Ejercicio
 
-Ya exploramos parte de los documentos contenidos en en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/), pero hay más páginas y en cada una corresponde hacer un ajuste.
+Ya exploramos el `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/), pero hay más páginas y en cada una corresponde hacer un ajuste.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/).
 
