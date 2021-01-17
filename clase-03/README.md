@@ -10,9 +10,9 @@ Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages
 
 Cada versión debe ajustar a la siguiente pauta de cotejo:
 
-**PENDIENTE** 
+**PENDIENTE HASTA EL 31/02/21** 
 
-A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejercicios en clases [01](https://github.com/profesorfaco/dno037-2021/edit/main/clase-01/README.md) y [02](https://github.com/profesorfaco/dno037-2021/edit/main/clase-02/README.md). La suma de estos puntos se transforma en su primera evaluación del optativo, la que corresponde al 25% de su nota promedio final.
+A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejercicios en clases [01](https://github.com/profesorfaco/dno037-2021/tree/main/clase-01) y [02](https://github.com/profesorfaco/dno037-2021/tree/main/clase-02). La suma de estos puntos se transforma en su primera evaluación del optativo, la que corresponde al 25% de su nota promedio final.
 
 - - - - - - - 
 
