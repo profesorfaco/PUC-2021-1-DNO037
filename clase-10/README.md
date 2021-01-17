@@ -51,14 +51,14 @@ Con tal documento HTML listo, podemos comenzar a utilizar una grilla de 12 colum
 
 Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/). Allí podemos ver "en acción" las clases:
 
-- `.container` → url pendiente
-- `.bg-light` → url pendiente
-- `.row` → url pendiente
-- `.g-3` → url pendiente
-- `.py-3` → url pendiente
-- `.col-` → url pendiente
-- `.card` → url pendiente
-- `.shadow-sm` → url pendiente
+- `.container` → https://getbootstrap.com/docs/5.0/layout/containers/
+- `.bg-light` → https://getbootstrap.com/docs/5.0/components/badge/#background-colors
+- `.row` → https://getbootstrap.com/docs/5.0/layout/columns/
+- `.g-3` → https://getbootstrap.com/docs/5.0/layout/gutters/#row-columns-gutters
+- `.py-3` → https://getbootstrap.com/docs/5.0/utilities/spacing/#notation
+- `.col-` → https://getbootstrap.com/docs/5.0/layout/grid/
+- `.card` → https://getbootstrap.com/docs/5.0/components/card/
+- `.shadow-sm` → https://getbootstrap.com/docs/5.0/utilities/shadows/
 
 - - - - - - - 
 
