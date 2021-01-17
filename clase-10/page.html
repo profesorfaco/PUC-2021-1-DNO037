@@ -15,6 +15,10 @@
                 line-height: calc(1.5rem + 1vw);
             }
 
+            [v-cloak] {
+              display: none;
+            }
+
             footer small a {
                 color: rgba(255, 255, 255, 0.5);
                 text-decoration: none;
@@ -42,10 +46,10 @@
             <div class="row g-3 py-4 d-flex align-items-stretch" id="aca">
                 <div class="col-sm-6 col-md-4 col-lg-3" v-for="contenido in contenidos">
                     <div class="card h-100 shadow-sm">
-                        <img v-bind:src="'https://picsum.photos/id/' + contenido.img + '/300/200'" class="card-img-top" />
+                        <img v-bind:src="'https://picsum.photos/id/' + contenido.img + '/300/200'" class="card-img-top" v-cloak />
                         <div class="card-body">
-                            <h3 class="card-title fs-5">{{ contenido.title }}</h3>
-                            <p class="card-text">{{ contenido.text }}</p>
+                            <h3 class="card-title fs-5" v-cloak>{{ contenido.title }}</h3>
+                            <p class="card-text" v-cloak>{{ contenido.text }}</p>
                         </div>
                     </div>
                 </div>
