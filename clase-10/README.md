@@ -51,14 +51,19 @@ Con tal documento HTML listo, podemos comenzar a utilizar una grilla de 12 colum
 
 Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/index.html). Allí podemos ver "en acción" las clases:
 
-- `.container` → https://getbootstrap.com/docs/5.0/layout/containers/
 - `.bg-light` → https://getbootstrap.com/docs/5.0/components/badge/#background-colors
+- `.container` → https://getbootstrap.com/docs/5.0/layout/containers/
 - `.row` → https://getbootstrap.com/docs/5.0/layout/columns/
 - `.g-3` → https://getbootstrap.com/docs/5.0/layout/gutters/#row-columns-gutters
-- `.py-3` → https://getbootstrap.com/docs/5.0/utilities/spacing/#notation
+- `.py-5` → https://getbootstrap.com/docs/5.0/utilities/spacing/#notation
+- `.d-flex` → https://getbootstrap.com/docs/5.0/utilities/flex/#enable-flex-behaviors
+- `.align-items-stretch` → https://getbootstrap.com/docs/5.0/utilities/flex/#align-items
 - `.col-` → https://getbootstrap.com/docs/5.0/layout/grid/
 - `.card` → https://getbootstrap.com/docs/5.0/components/card/
 - `.shadow-sm` → https://getbootstrap.com/docs/5.0/utilities/shadows/
+- `.carousel` → https://getbootstrap.com/docs/5.0/components/carousel/
+
+Conviene tomar nota respecto del uso de https://picsum.photos/ –un *Lorem Ipsum for photos* que estamos aprovechando  en la misma página [index.html](https://profesorfaco.github.io/dno037-2021/clase-10/index.html).
 
 - - - - - - - 
 
