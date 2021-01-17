@@ -2,8 +2,9 @@
 var header = document.getElementsByTagName("header")[0];
 var main = document.getElementsByTagName("main")[0];
 var footer = document.getElementsByTagName("footer")[0];
+var path = document.location.pathname;
 var time = new Date().getHours();
-// también puedes declarar una variables
+// puedes declarar una variables
 var i;
 // después puedes asignar valor a la variable declarada según una condición
 if (document.body.classList.contains("portada")) {
@@ -20,7 +21,8 @@ if (5 < time && time < 12) {
 } else {
     saludo = "Buenas noches";
 }
-// ahora empezamos con p5.js
+// también puedes declarar variables que tomarán datos
+var colorido, grosor;
 function setup() {
     createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1);
     createElement("h1", "Hola. " + saludo + ".").parent(header);
@@ -40,9 +42,13 @@ function setup() {
     } else {
         error();
     }
+    colorido = createColorPicker('#000000').parent(main);
+    grosor = createSlider(1, 5, 3).parent(main);
 }
 // acá está lo que se dibuja una y otra vez
 function draw() {
+    stroke(colorido.color());
+    strokeWeight(grosor.value());
     if (mouseIsPressed) {
         line(pmouseX, pmouseY, mouseX, mouseY);
     }
