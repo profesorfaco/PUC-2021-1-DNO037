@@ -6,7 +6,7 @@ var path = document.location.pathname;
 var time = new Date().getHours();
 // puedes declarar una variables
 var i;
-// después puedes asignar valor a la variable declarada según una condición
+// puedes asignar valor a la variable declarada según una condición
 if (document.body.classList.contains("portada")) {
     i = 0;
 } else {
@@ -23,6 +23,7 @@ if (5 < time && time < 12) {
 }
 // también puedes declarar variables que tomarán datos
 var colorido, grosor;
+// lo que pasó fue JavaScript a secas, lo que sigue es p5.js
 function setup() {
     createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1);
     createElement("h1", "Hola. " + saludo + ".").parent(header);
@@ -42,7 +43,7 @@ function setup() {
     } else {
         error();
     }
-    colorido = createColorPicker('#000000').parent(main);
+    colorido = createColorPicker("#000000").parent(main);
     grosor = createSlider(1, 5, 3).parent(main);
 }
 // acá está lo que se dibuja una y otra vez
@@ -76,7 +77,7 @@ function tres() {
     select("body").style("background", "rgb(175,175,205)");
     select("a.tres").style("font-weight", "bold");
 }
-// esta función se ejecuta si la variable i contiene el valor 4
+// esta función se ejecuta si la variable i contiene otro valor
 function error() {
     createP("Estás en page.html —pero hay algo salió mal").parent(main);
 }
