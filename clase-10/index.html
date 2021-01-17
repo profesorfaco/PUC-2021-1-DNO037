@@ -10,24 +10,83 @@
                 border-radius: 0 0;
             }
         </style>
-        <title>DNO037</title>
+        <title>DNO037 &#127959;</title>
     </head>
-    <body>
-        <div class="container bg-light">
-            <div class="row g-3 py-3">
-                <div class="col-12"><div class="card shadow-sm">Un entero</div></div>
-                <div class="col-6"><div class="card shadow-sm">Una mitad</div></div>
-                <div class="col-6"><div class="card shadow-sm">Una mitad</div></div>
-                <div class="col-4"><div class="card shadow-sm">Un tercio</div></div>
-                <div class="col-4"><div class="card shadow-sm">Un tercio</div></div>
-                <div class="col-4"><div class="card shadow-sm">Un tercio</div></div>
-                <div class="col-3"><div class="card shadow-sm">Un cuarto</div></div>
-                <div class="col-3"><div class="card shadow-sm">Un cuarto</div></div>
-                <div class="col-3"><div class="card shadow-sm">Un cuarto</div></div>
-                <div class="col-3"><div class="card shadow-sm">Un cuarto</div></div>
+    <body class="bg-light">
+        <div class="container">
+            <div class="row g-3 py-5 d-flex align-items-stretch">
+                <div class="col-12">
+                    <div class="card h-100 shadow-sm">
+                        <p>Un entero</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100 shadow-sm">
+                        <p>Una mitad</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card h-100 shadow-sm">
+                        <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://picsum.photos/500?random=1" class="d-block w-100" alt="primera imagen" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/500?random=2" class="d-block w-100" alt="segunda imagen" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/500?random=3" class="d-block w-100" alt="tercera imagen" />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carrusel" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carrusel" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow-sm">
+                        <img src="https://picsum.photos/500?random=4" loading="lazy" alt="cuarta imagen" class="w-100" />
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100 shadow-sm">
+                        <p>Un tercio</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card h-100 shadow-sm">
+                        <p>Un tercio</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100 shadow-sm">
+                        <p>Un cuarto</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100 shadow-sm">
+                        <p>Un cuarto</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100 shadow-sm">
+                        <p>Un cuarto</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://picsum.photos/500?random=5" loading="lazy" alt="quinta imagen" class="w-100" />
+                    </div>
+                </div>
             </div>
         </div>
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </body>
 </html>
