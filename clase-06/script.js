@@ -5,11 +5,11 @@ $(document).ready(function () {
             data.features.forEach(function (temblor, i) {
                 let division;
                 if (temblor.properties.place.includes("Chile")) {
-                    division = '<div style="background:rgb(255,255,255)">';
+                    division = '<div class="chileno">';
                 } else {
                     division = "<div>";
                 }
-                $("main").append(division + "<h3>" + temblor.properties.mag + "</h3><p>" + temblor.properties.place + "</p><small><a href='page.html?temblor=" + i + "'>ver mapa</a></small></div>");
+                $("section").append(division + "<h2>" + temblor.properties.mag + "</h2><p>" + temblor.properties.place + "</p><p><a href='page.html?temblor=" + i + "'>ver mapa</a></p></div>");
             });
         } else {
             let t = new URLSearchParams(window.location.search).get("temblor");
