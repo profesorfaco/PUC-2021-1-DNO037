@@ -29,47 +29,47 @@
         <script>
             document.getElementsByTagName("a")[1].style.textDecorationLine = "underline";
 
-            $.getJSON("https://mindicador.cl/api/tasa_desempleo", function (consulta) {
-                console.log(consulta.serie);
-
-                let labels = [];
-                let data = [];
-
-                consulta.serie.forEach(function (indicador) {
-                    labels.push(indicador.fecha.split("T")[0]);
-                    data.push(indicador.valor);
-                });
-
-                labels.reverse();
-                data.reverse();
-
-                new Chart(document.getElementById("grafico"), {
-                    type: "line",
-                    data: {
-                        labels: labels,
-                        datasets: [
-                            {
-                                label: "Tasa de desempleo",
-                                data: data,
-                                backgroundColor: "rgba(207, 216, 220, 0.5)",
-                                borderColor: "rgba(107, 146, 157,1)",
-                                borderWidth: 1,
-                            },
-                        ],
-                    },
-                    options: {
-                        scales: {
-                            yAxes: [
+            $.getJSON("https://mindicador.cl/api/tasa_desempleo")
+                .then(function (consulta) {
+                    console.log(consulta.serie);
+                    let labels = [];
+                    let data = [];
+                    consulta.serie.forEach(function (indicador) {
+                        labels.push(indicador.fecha.split("T")[0]);
+                        data.push(indicador.valor);
+                    });
+                    labels.reverse();
+                    data.reverse();
+                    new Chart(document.getElementById("grafico"), {
+                        type: "line",
+                        data: {
+                            labels: labels,
+                            datasets: [
                                 {
-                                    ticks: {
-                                        beginAtZero: false,
-                                    },
+                                    label: "Tasa de desempleo",
+                                    data: data,
+                                    backgroundColor: "rgba(207, 216, 220, 0.6)",
+                                    borderColor: "rgba(107, 146, 157,1)",
+                                    borderWidth: 1,
                                 },
                             ],
                         },
-                    },
+                        options: {
+                            scales: {
+                                yAxes: [
+                                    {
+                                        ticks: {
+                                            beginAtZero: false,
+                                        },
+                                    },
+                                ],
+                            },
+                        },
+                    });
+                })
+                .fail(function () {
+                    $("main").append("<p>Algo salió mal</p>");
                 });
-            })
         </script>
     </body>
 </html>
