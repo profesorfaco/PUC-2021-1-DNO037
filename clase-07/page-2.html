@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+        <title>DNO037vR2 &#128211;</title>
+    </head>
+    <body>
+        <header>
+            <h1>Resumen</h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Vue.js</a></li>
+                    <li><a href="page-1.html">Chart.js + jQuery</a></li>
+                    <li><a href="page-2.html">Leaflet + Papa Parse</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page">
+            <h2>Titanic</h2>
+            <div id="mapa" style="width: 100%; height: 50vh;"></div>
+        </main>
+        <footer>
+            <p>Nombre — Diseño y Nuevos Medios</p>
+        </footer>
+        <script>
+            document.getElementsByTagName("a")[2].style.textDecorationLine = "underline";
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+
+        <script>
+            Papa.parse("https://gist.githubusercontent.com/michhar/2dfd2de0d4f8727f873422c5d959fff5/raw/fa71405126017e6a37bea592440b4bee94bf7b9e/titanic.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    console.log(respuesta);
+                    var datos = respuesta.data;
+                    var Southampton = [];
+                    var Cherburgo = [];
+                    var Queenstown = [];
+                    datos.forEach(function (pasajero, i) {
+                        if (pasajero.Embarked == "S") {
+                            Southampton.push(pasajero);
+                        } else if (pasajero.Embarked == "C") {
+                            Cherburgo.push(pasajero);
+                        } else {
+                            Queenstown.push(pasajero);
+                        }
+                    });
+
+                    console.log(Southampton.length);
+                    console.log(Cherburgo.length);
+                    console.log(Queenstown.length);
+
+                    var miMapa = L.map("mapa").setView([50.371389,-4.142222], 5);
+
+                    L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw", {
+                        maxZoom: 18,
+                        id: "mapbox/light-v10",
+                        tileSize: 512,
+                        zoomOffset: -1,
+                    }).addTo(miMapa);
+
+                    var estilo = { color: "rgb(107, 146, 157)", weight: 1.5, fillColor: "rgb(207, 216, 220)", fillOpacity: 0.75 };
+
+                    L.circle([50.8965, -1.3968], Southampton.length * 100, estilo).addTo(miMapa).bindPopup("En Southampton embarcaron " + Southampton.length + " personas");
+
+                    L.circle([49.659072, -1.611729], Cherburgo.length * 100, estilo).addTo(miMapa).bindPopup("En Cherburgo embarcaron " + Cherburgo.length + " personas");
+
+                    L.circle([51.851, -8.2967], Queenstown.length * 100, estilo).addTo(miMapa).bindPopup("En Queenstown embarcaron " + Queenstown.length + " personas");
+                },
+            });
+        </script>
+    </body>
+</html>

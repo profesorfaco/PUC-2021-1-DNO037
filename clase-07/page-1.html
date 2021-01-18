@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037vR2 &#128211;</title>
+    </head>
+    <body>
+        <header>
+            <h1>Resumen</h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Vue.js</a></li>
+                    <li><a href="page-1.html">Chart.js + jQuery</a></li>
+                    <li><a href="page-2.html">Leaflet + Papa Parse</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="page">
+            <h2>Indicadores</h2>
+            <canvas id="grafico" width="300" height="100"></canvas>
+        </main>
+        <footer>
+            <p>Nombre — Diseño y Nuevos Medios</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script>
+            document.getElementsByTagName("a")[1].style.textDecorationLine = "underline";
+
+            $.getJSON("https://mindicador.cl/api/tasa_desempleo", function (consulta) {
+                console.log(consulta.serie);
+
+                let labels = [];
+                let data = [];
+
+                consulta.serie.forEach(function (indicador) {
+                    labels.push(indicador.fecha.split("T")[0]);
+                    data.push(indicador.valor);
+                });
+
+                labels.reverse();
+                data.reverse();
+
+                new Chart(document.getElementById("grafico"), {
+                    type: "line",
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: "Tasa de desempleo",
+                                data: data,
+                                backgroundColor: "rgba(207, 216, 220, 0.5)",
+                                borderColor: "rgba(107, 146, 157,1)",
+                                borderWidth: 1,
+                            },
+                        ],
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [
+                                {
+                                    ticks: {
+                                        beginAtZero: false,
+                                    },
+                                },
+                            ],
+                        },
+                    },
+                });
+            })
+        </script>
+    </body>
+</html>

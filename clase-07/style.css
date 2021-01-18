@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+:root {
+    --fondo: #eceff1;
+    --figura: #263238;
+    --destacado: #4f5b62;
+    --activo: #000a12;
+}
+
+body {
+    color: var(--figura);
+    background: var(--fondo);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    text-align: left;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--destacado);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--activo);
+    text-decoration: none;
+}
+
+:hover {
+    transition: all ease 0.1s;
+}
+
+header,
+main,
+footer {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+main.page{
+    padding-left: calc(10vw + 1rem);
+    padding-right: calc(10vw + 1rem);      
+}
+
+@media screen and (orientation: portrait) {
+    header,
+    main,
+    footer {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    main.page{
+        padding-left: calc(2vw + 1rem);
+        padding-right: calc(2vw + 1rem);      
+    }
+}
+
+header h1 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color:var(--destacado);
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-table;
+}
+
+header nav ul li a {
+    display: table-cell;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+/* se recomienda un vistazo a https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section div {
+    width: 22%;
+    margin: 1.5%;
+    background: #cfd8dc;
+}
+
+@media screen and (orientation: portrait) {
+    section div {
+        width: 47%;
+        margin: 1.5%;
+    }
+}
+
+section div img{
+    width:100%;
+    height:auto;
+}
+
+section div h3{
+    margin:0.5rem 1rem 0.5rem 1rem;
+    font-size:1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+section div p{
+    margin:0 1rem 1rem 1rem;
+    font-size:0.9rem;
+}
+
+footer {
+    padding-top: 5vh;
+    font-size: 0.9rem;
+    letter-spacing: 0.09rem;
+}
+
+footer p {
+    padding-left:1rem;
+}
+
+[v-cloak] {
+    display: none;
+}

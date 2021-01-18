@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037vR2 &#128211;</title>
+    </head>
+    <body class="portada">
+        <header>
+            <h1>Resumen</h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Vue.js</a></li>
+                    <li><a href="page-1.html">Chart.js + jQuery</a></li>
+                    <li><a href="page-2.html">Leaflet + Papa Parse</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="aqui">
+                <div v-for="contenido in contenidos">
+                    <img v-bind:src="contenido.image" v-bind:alt="contenido.title" />
+                    <h3 v-cloak><a v-bind:href="contenido.link" target="_blank">{{ contenido.title }}</a></h3>
+                    <p v-cloak>{{ contenido.text }}</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Nombre — Diseño y Nuevos Medios</p>
+        </footer>
+        <script src="https://unpkg.com/vue@next"></script>
+        <script>
+            document.getElementsByTagName("a")[0].style.textDecorationLine = "underline";
+            const content = {
+                data() {
+                    return {
+                        // reemplaza cada "images/loren-ipsum.png" por una imagen pertinente
+                        // reemplaza cada "#"" con la URL del repositorio que creaste para tal clase
+                        contenidos: [
+                            { image: "images/loren-ipsum.png", title: "Clase 01", link: "#", text: "Para reconocer HTML, CSS y JS" },
+                            { image: "images/loren-ipsum.png", title: "Clase 02", link: "#", text: "Para reconocer JS a través de p5.js" },
+                            { image: "images/loren-ipsum.png", title: "Clase 03", link: "#", text: "Evaluación Nº1 - HTML, CSS y p5.js" },
+                            { image: "images/loren-ipsum.png", title: "Clase 04", link: "#", text: "Para comprender el uso de variables en JS" },
+                            { image: "images/loren-ipsum.png", title: "Clase 05", link: "#", text: "Para comprender el uso de Papa Parse y Charts.js" },
+                            { image: "images/loren-ipsum.png", title: "Clase 06", link: "#", text: "Para comprender el uso de jQuery y Leaflet" },
+                            { image: "images/loren-ipsum.png", title: "Clase 07", link: "#", text: "Para reconocer el potencial de Vue.js" },
+                            { image: "images/loren-ipsum.png", title: "Clase 08", link: "#", text: "Evaluación Nº2 - HTML, CSS y bibliotecas de JS" },
+                        ],
+                    };
+                },
+            };
+            Vue.createApp(content).mount("#aqui");
+        </script>
+    </body>
+</html>
