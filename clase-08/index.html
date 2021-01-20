@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037vR2 &#128184;</title>
+    </head>
+    <body>
+        <header>
+            <h1>Economía de pandemia</h1>
+            <nav>
+                <form>
+                    Selecciona un índice:
+                    <input type="radio" value="tasa_desempleo" name="indicador" />
+                    <label for="tasa_desempleo">DESEMPLEO</label>
+                    <input type="radio" value="imacec" name="indicador" />
+                    <label for="imacec">IMACEC</label>
+                </form>
+                <button onclick="printJS({printable: document.querySelector('#grafico').toDataURL(), type: 'image', imageStyle: 'width:100%'})" class="escondido">Imprimir índice</button>
+            </nav>
+        </header>
+        <main>
+            <canvas id="grafico" width="300" height="300"></canvas>
+        </main>
+        <aside></aside>
+        <footer>
+            <p><a href="#">Nombre apellido</a> <a href="#">Diseño y nuevos medios</a></p>
+        </footer>
+        <script></script>
+        <!--esta biblioteca es jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <!--esta biblioteca es Chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha256-t9UJPrESBeG2ojKTIcFLPGF7nHi2vEc7f5A2KpH/UBU=" crossorigin="anonymous"></script>
+        <!--esta biblioteca es novedad https://printjs.crabbly.com/ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/print-js/1.5.0/print.min.js" integrity="sha512-lzGE9ZqdrztBEk1wtq4O60N3WbsTlIvvm6ULCxWRt+CwpRD4WUbgC5aatbtourCUC15PJpqcpZk3VLs12vpNoA==" crossorigin="anonymous"></script>
+        <!--nuestro script-->
+        <script src="script.js"></script>
+    </body>
+</html>

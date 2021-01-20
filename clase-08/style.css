@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+:root {
+    --fondo: #eee;
+    --figura: #222;
+    --destacado: #444;
+    --activo: #000;
+}
+
+body {
+    color: var(--figura);
+    background: var(--fondo);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--destacado);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--activo);
+    text-decoration: none;
+}
+
+:hover {
+    transition: all ease 0.2s;
+}
+
+header,
+main,
+footer {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+aside {
+    margin-left: calc(10vw - 1rem);
+    margin-right: calc(10vw - 1rem);
+}
+
+@media screen and (orientation: portrait) {
+    header,
+    main,
+    aside,
+    footer {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    aside {
+        margin-left: calc(4vw - 1rem);
+        margin-right: calc(4vw - 1rem);
+    }
+}
+
+header h1 {
+    margin-top: 2rem;
+    color: var(--destacado);
+}
+
+header nav {
+    padding: 1rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header nav form {
+    padding-top: 0.5rem;
+}
+
+header nav button {
+    padding: 0.5rem;
+}
+
+header nav button.escondido {
+    display: none;
+}
+
+main {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 4px #ddd;
+}
+
+aside {
+    margin-top: 3vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+aside div {
+    background: white;
+    overflow: hidden;
+    padding: 1rem;
+    margin: 1rem;
+    width: calc(25% - 4rem);
+    box-shadow: 0 0 4px #ddd;
+    background: #fff;
+}
+
+aside div img {
+    width: calc(100% + 2rem);
+    margin: -1rem -1rem 1rem -1rem;
+    height: auto;
+}
+
+aside div h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+aside div p {
+    font-size: 0.9rem;
+}
+
+@media screen and (orientation: portrait) {
+    aside div {
+        width: calc(50% - 4rem);
+    }
+}
+
+footer {
+    padding: 5vh 1vw 0 1vw;
+    font-size: 0.9rem;
+    letter-spacing: 0.09rem;
+}
+
+footer p {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
