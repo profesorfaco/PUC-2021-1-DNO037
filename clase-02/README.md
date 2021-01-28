@@ -60,8 +60,6 @@ Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para
 
 - revisar el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date);
 
-- revisar el [contructor `URLSearchParams()`](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams/URLSearchParams);
-
 - revisar el [método `getElementsByName()`](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByName), echándole un vistazo rápido a la interfaz [Document](https://developer.mozilla.org/es/docs/Web/API/Document);
 
 - revisar la [propiedad `Element.classList`](https://developer.mozilla.org/es/docs/Web/API/Element/classList); y
