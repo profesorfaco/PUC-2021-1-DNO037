@@ -112,6 +112,7 @@ Esta organización atiende al calendario oficial de actividades académicas y e
 #### Referencias en línea
 
 - [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [Google Design’s Best of 2020](https://design.google/library/google-design-2020/)
 - [JavaScript Para Gatos](https://jsparagatos.com/)
 
 Se agregarán más referencias en el `README.md` de cada clase.
