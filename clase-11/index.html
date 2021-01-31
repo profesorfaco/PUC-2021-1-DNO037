@@ -3,35 +3,39 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Diseño y nuevos medios, segunda versión remota">
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
         <link href="style.css" rel="stylesheet" />
         <title>DNO037vR2 &#127959;</title>
     </head>
     <body>
-    <body>
-        <header class="container text-center">
-            <div class="row pt-5">
-                <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
-                    <h1 class="pb-3">Territorios Electorales</h1>
-                    <p class="lead">
-                        La actual división electoral de Chile es un conjunto de dos sistemas de división político-administrativa del país con fines electorales; el primero establece simultáneamente 28 distritos electorales y tantas circunscripciones senatoriales como regiones.
-                    </p>
+        <header>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 me-auto">
+                        <h1 class="text-white">Territorios Electorales</h1>
+                        <p class="lead">Chile se divide en 28 distritos electorales y tantas circunscripciones senatoriales como regiones.</p>
+                        <p>
+                            En las regiones extremas hay un distrito por circunscripción, pero el centro, que es más poblado, los distritos por región son varios; la Región Metropolitana de Santiago, donde habita el 40% de los electores del
+                            país, se divide en 7 distritos.
+                        </p>
+                    </div>
+                    <div class="d-none d-md-inline col-md-3 col-lg-4 col-xl-5 col-xxl-6 align-self-center text-center"><img src="images/votos.png" class="img-fluid" /></div>
                 </div>
             </div>
         </header>
         <main class="container">
-            <div class="row g-3 py-4 d-flex align-items-stretch" id="aca"></div>
+            <div class="row g-2 py-5 d-flex align-items-stretch" id="aca"></div>
         </main>
-        <footer>
+        <footer class="bg-light border-top">
             <div class="container">
-                <div class="row py-4">
-                    <div class="col mx-auto text-white">
+                <div class="row pt-3 pb-1">
+                    <div class="col">
+                        <p class="small d-flex justify-content-between align-items-center"><a href="#">Nombre Apellido</a> <a href="#">Diseño y nuevos medios</a></p>
                     </div>
                 </div>
             </div>
         </footer>
-
         <div class="modal fade" id="unModal" tabindex="-1" aria-labelledby="nombreRegion" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -43,12 +47,8 @@
                 </div>
             </div>
         </div>
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
-
         <script src="script.js"></script>
-
     </body>
 </html>
