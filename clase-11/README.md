@@ -6,20 +6,29 @@
 
 - - - - - - - 
 
-Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-11/index.html). Allí podemos ver "en acción" las clases:
+Recordemos que partimos la exploración de Boostrap con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.0/getting-started/introduction/#starter-template), con un documento HTML que debe verse así: 
 
-- `.bg-light` → https://getbootstrap.com/docs/5.0/components/badge/#background-colors
-- `.container` → https://getbootstrap.com/docs/5.0/layout/containers/
-- `.row` → https://getbootstrap.com/docs/5.0/layout/columns/
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>DNO037</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
+```
+
+Con el cuerpo de tal documento HTML podemos comenzar a utilizar las clases del CSS de Bootstrap, que nos permiten tomar de 1 a 12 columnas (`col`) en una fila (`row`) que está dentro de un contenedor (`container`). Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-11/index.html). Allí podemos ver "en acción" las clases:
+
 - `.g-3` → https://getbootstrap.com/docs/5.0/layout/gutters/#row-columns-gutters
-- `.py-5` → https://getbootstrap.com/docs/5.0/utilities/spacing/#notation
 - `.d-flex` → https://getbootstrap.com/docs/5.0/utilities/flex/#enable-flex-behaviors
 - `.align-items-stretch` → https://getbootstrap.com/docs/5.0/utilities/flex/#align-items
-- `.col-` → https://getbootstrap.com/docs/5.0/layout/grid/
 - `.card` → https://getbootstrap.com/docs/5.0/components/card/
-- `.shadow-sm` → https://getbootstrap.com/docs/5.0/utilities/shadows/
-
-Conviene tomar nota respecto del uso de https://picsum.photos/ –un *Lorem Ipsum for photos* que estamos aprovechando  en la misma página [index.html](https://profesorfaco.github.io/dno037-2021/clase-10/index.html).
 
 - - - - - - - 
 
