@@ -27,17 +27,13 @@ Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a part
 </html>
 ```
 
-Con tal documento HTML listo, podemos comenzar a utilizar una grilla de 12 columnas (`col-…`) dentro de una fila (`row`) que está, a su vez, dentro de un contenedor (`container-`). 
-
-Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/index.html). Allí podemos ver "en acción" las clases:
+Con tal documento HTML, podemos comenzar a utilizar las clases del CSS de Bootstrap que nos permiten tomar de 1 a 12 columnas (`col-…`) en una fila (`row`) que está dentro de un contenedor (`container-`). Antes de continuar, es recomendable que revises:
 
 - `.container` → https://getbootstrap.com/docs/5.0/layout/containers/
 - `.row` → https://getbootstrap.com/docs/5.0/layout/columns/
 - `.col-` → https://getbootstrap.com/docs/5.0/layout/grid/
-- `.py-5` → https://getbootstrap.com/docs/5.0/utilities/spacing/#notation
-- `.d-flex` → https://getbootstrap.com/docs/5.0/utilities/flex/#enable-flex-behaviors
-- `.align-items-stretch` → https://getbootstrap.com/docs/5.0/utilities/flex/#align-items
-- `.shadow` → https://getbootstrap.com/docs/5.0/utilities/shadows/
+
+Para continuar conviene pasar al archivo `index.html`, contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/index.html). En tal archivo se usan varias definiciones más; para comprenderlas, conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/#important-globals) y sacarle el mejor provecho a su buscador.
 
 - - - - - - - 
 
