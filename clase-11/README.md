@@ -23,12 +23,11 @@ Recordemos que partimos la exploración de Boostrap con una adaptación de la [S
 </html>
 ```
 
-Con el cuerpo de tal documento HTML podemos comenzar a utilizar las clases del CSS de Bootstrap, que nos permiten tomar de 1 a 12 columnas (`col`) en una fila (`row`) que está dentro de un contenedor (`container`). Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-11/index.html). Allí podemos ver "en acción" las clases:
+En el cuerpo (`<body></body>`) de tal documento HTML podemos comenzar a utilizar las clases del CSS de Bootstrap, que nos permiten tomar de 1 a 12 columnas (`class="col"`) en una fila (`class="row"`) que está dentro de un contenedor (`class="container"`). Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-11/index.html). Allí podemos ver algo de:
 
-- `.g-3` → https://getbootstrap.com/docs/5.0/layout/gutters/#row-columns-gutters
-- `.d-flex` → https://getbootstrap.com/docs/5.0/utilities/flex/#enable-flex-behaviors
-- `.align-items-stretch` → https://getbootstrap.com/docs/5.0/utilities/flex/#align-items
-- `.card` → https://getbootstrap.com/docs/5.0/components/card/
+- Gutters → https://getbootstrap.com/docs/5.0/layout/gutters/#row-columns-gutters
+- Flex → https://getbootstrap.com/docs/5.0/utilities/flex/#enable-flex-behaviors
+- Cards → https://getbootstrap.com/docs/5.0/components/card/
 
 - - - - - - - 
 
