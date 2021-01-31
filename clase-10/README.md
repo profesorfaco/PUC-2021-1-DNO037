@@ -29,7 +29,7 @@ Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a part
 
 Con tal documento HTML listo, podemos comenzar a utilizar una grilla de 12 columnas (`col-…`) dentro de una fila (`row`) que está, a su vez, dentro de un contenedor (`container-`). 
 
-Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-11/index.html). Allí podemos ver "en acción" las clases:
+Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/index.html). Allí podemos ver "en acción" las clases:
 
 - `.container` → https://getbootstrap.com/docs/5.0/layout/containers/
 - `.row` → https://getbootstrap.com/docs/5.0/layout/columns/
