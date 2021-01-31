@@ -27,7 +27,9 @@ Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a part
 </html>
 ```
 
-Con tal documento HTML, podemos comenzar a utilizar las clases del CSS de Bootstrap que nos permiten tomar de 1 a 12 columnas (`col`) en una fila (`row`) que está dentro de un contenedor (`container`). Antes de continuar, es recomendable que revises:
+Con el cuerpo de tal documento HTML podemos comenzar a utilizar las clases del CSS de Bootstrap, que nos permiten tomar de 1 a 12 columnas (`col`) en una fila (`row`) que está dentro de un contenedor (`container`). 
+
+Antes de continuar, es recomendable revisar:
 
 - Containers → https://getbootstrap.com/docs/5.0/layout/containers/
 - Grid system → https://getbootstrap.com/docs/5.0/layout/grid/
