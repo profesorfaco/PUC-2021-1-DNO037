@@ -44,7 +44,7 @@ En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<s
 var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
 ```
 
-Para continuar con esta exploración conviene pasar al ejercicio.
+Para continuar, conviene pasar al ejercicio.
 
 - - - - - - - - - - - - - - 
 
