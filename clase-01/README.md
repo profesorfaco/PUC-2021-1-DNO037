@@ -38,7 +38,7 @@ text-align: center;
 }
 ```
 
-En las líneas finales del `index.html`, dentro etiquetas de script (`<script></script>`), podemos ver una variable de JavaScript; esta variable se llama palabras y contiene un arreglo con distintas cadenas de caracteres entre comillas: 
+En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<script></script>`), podemos ver una variable de JavaScript; esta variable se llama `palabras` y contiene un arreglo con distintas cadenas de caracteres entre comillas: 
 
 ```
 var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
