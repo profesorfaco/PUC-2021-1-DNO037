@@ -18,11 +18,41 @@ El editor de código fuente nos dará indicaciones para poder escribir código f
 
 - - - - - - - - - - - - - - 
 
+Para reconocer los lenguajes mencionados más arriba, vamos a aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html):
+
+Allí podemos ver la estructura típica de toda página HTML: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>…</head>
+    <body>…</body>
+</html>
+```
+
+Dentro de la cabeza (`<head></head>`), y dentro de unas etiquetas de estilo (`<style></style>`), podemos ver una regla de CSS
+
+```
+footer p {
+text-align: center;
+}
+```
+
+En las líneas finales del `index.html`, dentro etiquetas de script (`<script></script>`), podemos ver una variable de JavaScript; esta variable se llama palabras y contiene un arreglo con distintas cadenas de caracteres entre comillas: 
+
+```
+var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
+```
+
+Para continuar con esta exploración conviene pasar al ejercicio.
+
+- - - - - - - - - - - - - - 
+
 #### Ejercicio
 
-Realizaremos un ejercicio enfocado en el reconocimiento de los lenguajes mencionados más arriba.
+Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-01/), según indicaciones que se compartan en la clase vía Zoom. 
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-01/).
+El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
 
 El ejercicio completo puede ser evaluado con:
 
@@ -31,8 +61,6 @@ El ejercicio completo puede ser evaluado con:
 - **1 punto** → logrado.
 
 - **2 puntos** → logrado, con aporte descatado.
-
-El ejercicio incompleto es evaluado con 0 punto.
 
 - - - - - - - 
 
