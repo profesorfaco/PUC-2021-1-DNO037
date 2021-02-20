@@ -3,52 +3,34 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Diseño y nuevos medios, segunda versión remota">
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
         <title>DNO037vR2 &#128567;</title>
         <link href="style.css" rel="stylesheet" />
-        <style>
-            body {
-                cursor: pointer;
-            }
-            footer {
-                width: 90vw;
-                padding-left: 5vw;
-                padding-right: 5vw;
-            }
-
-            @media screen and (orientation: landscape) {
-                footer {
-                    width: 50vw;
-                    padding-left: 25vw;
-                    padding-right: 25vw;
-                }
-            }
-        </style>
     </head>
     <body>
-        <header>
-            <h1>Aquí puedes dibujar</h1>
-        </header>
-        <main></main>
         <footer>
-            <p>
-                <a href="index.html" style="float: left;">&#9756; index.html</a>
-                <a href="#" id="este" style="float: right;">&#9888; descarga el dibujo</a>
-            </p>
+            <div id="back"><a href="index.html">back</a></div>
+            <div id="controles"></div>
+            <div id="print"><a href="#" id="aqui">descarga</a></div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
         <script>
             function setup() {
-                var d = select("#este");
+                var d = select("#aqui");
                 d.mousePressed(artemania);
-                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", "-1");
-                background(205);
+                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1);
+                background(240);
+                elColor = createColorPicker("#777777").parent("controles");
+                elSlider = createSlider(1, 5, 3).parent("controles");
             }
             function draw() {
+                stroke(elColor.color());
+                strokeWeight(elSlider.value());
                 if (mouseIsPressed) {
                     line(pmouseX, pmouseY, mouseX, mouseY);
                 }
             }
+
             function artemania() {
                 saveCanvas("mi_atacazo_artistico", "jpg");
             }

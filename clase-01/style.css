@@ -1,92 +1,111 @@
 @charset "UTF-8";
 
-/* 
-Este es un comentario de CSS. 
-Se ve igual al comentario de varias líneas de Javascript.
-La diferencias es que en CSS este comentario aplica a cualquier cantidad de líneas (una o muchas)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 
 :root {
-    --fondo: rgb(205, 205, 205);
-    --figura: rgb(55, 55, 55);
-    --destacado: black;
-    --activo: blue;
-    --sinserifa: Helvetica, Arial, sans-serif;
+    --figura: rgb(25, 25, 25);
+    --fondo: rgb(240, 240, 240);
 }
 
 * {
     margin: 0;
     padding: 0;
+    transition: color ease 1s;
 }
 
 body {
+    font-family: 'Space Grotesk', sans-serif;
     color: var(--figura);
     background: var(--fondo);
-    font-family: var(--sinserifa);
-    font-size: 100%;
-    line-height: 1.6;
 }
-
-/* ESTRUCTURAL */
-
-header,
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header {
-    min-height: 20vh;
-}
-
-main {
-    min-height: 70vh;
-    width: 90vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-}
-
-@media screen and (orientation: landscape) {
-    main {
-        width: 50vw;
-        padding-left: 25vw;
-        padding-right: 25vw;
-    }
-}
-
-footer {
-    min-height: 10vh;
-}
-
-/* TIPOGRÁFICO */
-
-h1 {
-    vertical-align: center;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    padding-bottom: 5vw;
-}
-
-p {
-    text-align: justify;
-    width: 100%;
-}
-
-/* LINKS */
 
 a {
+    color: #555;
     text-decoration: none;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    color: var(--destacado);
-    background: var(--fondo);
 }
 
 a:hover {
-    color: var(--activo);
-    transition: color ease 0.5s;
+    color: #000;
+}
+
+header, main, footer {
+    width: 90vw;
+    margin: 0;
+    padding: 5vh 5vw;
+}
+
+header h1 {
+    line-height: 1;
+    font-size: 2rem;
+}
+
+main p {
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+@media (min-width:599px){
+
+    main p {
+        max-width:600px;
+    }
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a {
+    display: block;
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(245, 245, 245);
+    box-shadow: 3px 3px 6px rgba(100, 100, 100, 0.25);
+    padding: 0.25rem 0.5rem;
+}
+
+footer div#next a{
+    padding-right:1.75rem;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>');
+    background-repeat:no-repeat;
+    background-position: 90% center;
+}
+
+footer div#back a{
+    padding-left:1.75rem;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg>');
+    background-repeat:no-repeat;
+    background-position: 10% center;
+}
+
+footer div#print a{
+    padding-left:2rem;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/></svg>');
+    background-repeat:no-repeat;
+    background-position: 10% center;
+}
+
+footer div#controles {
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(245, 245, 245);
+    box-shadow: 3px 3px 6px rgba(100, 100, 100, 0.25);
+}
+
+footer div#controles input[type="color"] {
+    border-radius: 0 0;
+    border: none;
+    background: rgb(250, 250, 250);
+    border-right: 1px solid rgb(240, 240, 240);
+    padding: 3px 5px;
+    width: 2rem;
+}
+
+footer div#controles input[type="range"] {
+    width: 4rem;
+    margin: 0 0.5rem;
 }
