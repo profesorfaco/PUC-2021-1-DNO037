@@ -3,47 +3,46 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Diseño y nuevos medios, segunda versión remota">
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
         <link href="style.css" rel="stylesheet" />
-        <title>DNO037 | Evalución Nº1</title>
+        <title>&#128397; DNO037 | Evalución Nº1</title>
     </head>
     <body>
         <header>
-            <h1>
-                DibujApp
-            </h1>
-            <nav>
-                <ul>
-                    <li>&#127912;</li>
-                    <li>&#128396;</li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </nav>
-            <hr />
+            <div>
+                <h1>&#128397; <span>DibujApp</span></h1>
+            </div>
+            <div></div>
+            <div></div>
         </header>
         <main></main>
-        <footer></footer>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
         <script>
-            var main = document.getElementsByTagName("main")[0];
-            var h = main.offsetHeight;
-            var footer = document.getElementsByTagName("footer")[0];
-            var menuColor = document.getElementsByTagName("li")[0];
-            var menuGrosor = document.getElementsByTagName("li")[1];
-            var menuBorrador = document.getElementsByTagName("li")[2];
-            var menuDescargar = document.getElementsByTagName("li")[3];
-            var colorido, grosor, borrador, descarga;
+            var main = document.querySelector("main");
+            var footer = document.querySelector("footer");
+            var menuColor = document.getElementsByTagName("div")[1];
+            var menuGrosor = document.getElementsByTagName("div")[2];
+            var menuDescargar = document.getElementsByTagName("div")[3];
+            var colorido, grosor, descarga;
 
             function setup() {
-                createCanvas(windowWidth, h).parent(main);
-                colorido = createColorPicker("#000000").parent(menuColor);
-                grosor = createSlider(1, 5, 3).parent(menuGrosor);
-                borrador = createButton("Borrar").parent(menuBorrador);
-                borrador.mousePressed(borrar);
-                descarga = createButton("Descargar").parent(menuDescargar);
+                createCanvas(windowWidth, windowHeight).parent(main);
+                background(235);
+                colorido = createColorPicker("#FF5359").parent(menuColor);
+                createSpan("Grosor ").parent(menuGrosor);
+                grosor = createSelect().parent(menuGrosor);
+                grosor.option("Thin", 1);
+                grosor.option("Extra Light", 2);
+                grosor.option("Light", 3);
+                grosor.option("Normal", 4);
+                grosor.option("Medium", 5);
+                grosor.option("Semi Bold", 6);
+                grosor.option("Bold", 7);
+                grosor.option("Extra Bold", 8);
+                grosor.option("Black", 9);
+                grosor.selected(4);
+                descarga = createButton("Bajar").parent(main);
                 descarga.mousePressed(descargar);
-                createElement("p", "<a href='#'>Nombre apellido</a> — <a href='#'>Diseño y nuevos medios</a>").parent(footer).style("padding", "3vh 2vw 1vh 2vw");
             }
 
             function draw() {
@@ -54,14 +53,8 @@
                 }
             }
 
-            function borrar() {
-                // esto lo resuelve usted
-                // https://p5js.org/es/reference/
-            }
-
             function descargar() {
-                // esto lo resuelve usted
-                // clase-01, clase-02
+                saveCanvas("mi_atacazo_artistico", "jpg");
             }
         </script>
     </body>

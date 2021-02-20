@@ -1,104 +1,122 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
 :root {
-    --fondo: #eee;
+    --fondo: rgb(245, 245, 245);
     --gris: #ddd;
     --figura: #444;
-    --sinserifa: Helvetica, Arial, sans-serif;
+}
+
+::selection {
+    background: transparent;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    transition: all ease 0.25s;
 }
 
 body {
-    color: var(--figura);
-    background: var(--fondo);
-    font-family: var(--sinserifa);
-    font-size: 100%;
     line-height: 1.38;
-}
-
-a {
-    /* de esto se encarga usted */
-}
-
-a:hover {
-    /* de esto se encarga usted */
-}
-
-header h1 {
-    float: left;
-    width: 16vw;
-    padding: 2vh 2vw;
     overflow: hidden;
 }
 
-header nav {
-    float: left;
-    width: 80vw;
+a {
+    color: #555;
+    text-decoration: none;
 }
 
-header hr {
-    border: 1px solid var(--gris);
-    clear: both;
+a:hover {
+    color: #111;
 }
 
-@media screen and (orientation: portrait) {
-    header h1 {
-        width: 96vw;
-        background: var(--gris);
+header {
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+    width: calc(100vw - 3.1rem);
+    height: auto;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px 3px;
+    box-shadow: 0 0 5px rgba(200, 200, 200, 0.7);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+header div {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+}
+
+header div h1 {
+    font-size: calc(0.9rem + 1vw);
+}
+
+@media (orientation:portrait) {
+    header div h1 span{
+        display:none;
     }
-    header nav {
-        width: 100vw;
+}
+
+header div input[type="color"] {
+    border-radius: 3px 3px;
+    width: 2rem;
+    background: #fff;
+    padding: 0;
+}
+
+header div select {
+    border-radius: 3px 3px;
+    border: 1px solid #999;
+    padding: 0.1rem 0.15rem 0.25rem 0.15rem;
+    margin-left:1vw;
+    width: 20vw;
+}
+
+@media (orientation: landscape) {
+    header div select {
+        width: 10vw;
     }
 }
 
-header nav ul {
-    display: inline-table;
-    list-style: none;
-    width: 100%;
+main button {
+    position: absolute;
+    bottom: 1.75rem;
+    right: 1.75rem;
+    width: 5.75rem;
+    height: 5.75rem;
+    border-radius: 50% 50%;
+    border: 1px solid rgba(255, 81, 92, 0.05);
+    background-color: rgba(214, 66, 74, 0.75);
+    color: white;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 0.9rem center;
+    padding-right: 0.75rem;
+    letter-spacing: 0.075rem;
+    text-align: right;
+    box-shadow: 0 0 3px rgba(100, 100, 155, 0.5);
+    outline: none;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
-header nav ul li {
-    display: table-cell;
-    text-align: center;
-    padding-top: 3.5vh;
-    padding-bottom: 2.5vh;
-}
-
-header nav ul li:nth-child(1) {
-    width: 25%;
-}
-
-header nav ul li:nth-child(2) {
-    width: 35%;
-}
-
-header nav ul li button {
-    padding: 0.3rem 0.5rem;
-    margin-right: 1rem;
-    cursor: ;
+main button:hover {
+    background-color: rgba(214, 66, 74, 1);
+    box-shadow: 0 0 3px rgba(100, 100, 100, 0.75);
+    cursor: pointer;
 }
 
 main {
-    height: 70vh;
-    background: white;
-}
-
-@media screen and (orientation: landscape) {
-    main {
-        height: 79vh;
-    }
-}
-
-footer {
-    border-top: 1px solid var(--gris);
-    font-size: 0.8rem;
-    letter-spacing: 0.05rem;
-}
-
-footer p {
-    width: 96vw;
+    height: 100vh;
+    width: 100vw;
 }
