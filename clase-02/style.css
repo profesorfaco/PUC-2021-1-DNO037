@@ -1,59 +1,76 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@400;700&display=swap");
+
 :root {
-    --fondo: rgba(205, 205, 205, 1);
-    --figura: rgba(25, 25, 25, 0.75);
-    --destacado: rgba(5, 5, 5, 0.75);
-    --activo: rgba(0, 0, 0, 1);
-    --sinserifa: Helvetica, Arial, sans-serif;
+    --figura: rgb(20, 20, 20);
+    --fondo: rgb(200, 200, 200);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: color ease 0.5s;
 }
 
 body {
+    font-family: "DM Sans", sans-serif;
     color: var(--figura);
     background: var(--fondo);
-    font-family: var(--sinserifa);
-    font-size: 100%;
-    line-height: 1.6;
-    text-align: left;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
+    line-height: 1.25;
 }
 
-header,
-main,
-footer {
-    padding-left: 10vw;
-    padding-right: 10vw;
+a {
+    color: #666;
+    text-decoration: none;
+    margin-right: 3vw;
+}
+
+a:hover {
+    color: #000;
+}
+
+header, main, footer {
+    width: 86vw;
+    margin: 0;
+    padding: 5vh 7vw;
 }
 
 header {
     position: absolute;
     top: 0;
-    left: 0;
-    height: 10vh;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(100, 100, 100, 0.25);
 }
 
-main {
-    padding-top: 20vh;
+header h1 {
+    font-size: 3.5rem;
 }
 
 footer {
     position: absolute;
     bottom: 0;
-    left: 0;
-    height: 10vh;
-    font-size: 0.9rem;
-    letter-spacing: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
 }
 
-a {
-    text-decoration: none;
-    color: var(--destacado);
-    margin-left: 2vw;
+footer div#controles{
+    background:#eee;
+    border:1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.25);
 }
 
-a:hover {
-    color: var(--activo);
-    transition: color ease 0.5s;
+footer div#controles input[type=color]{
+    border-radius: 0 0;
+    border:none;
+    border-right:1px solid #ddd;
+    padding:3px 5px;
+    width:2rem;
+}
+
+footer div#controles input[type=range]{
+    width:4rem;
+    margin:0 0.5rem;
 }
