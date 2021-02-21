@@ -12,17 +12,21 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
         console.log(respuesta);
         // necesitamos solo una parte de toda la respuesta
         var datos = respuesta.data;
-        // para elimnar una fila de sobra al final, borrar el doble slash en la siguiente línea
+        // para eliminar una fila de sobra al final, borrar el doble slash en la siguiente línea
         // datos.pop();
+
         if (document.body.classList.contains("portada")) {
             datos.forEach(function (dato, i) {
-                document.getElementsByTagName("tbody")[0].innerHTML += "<tr><td><a href='page.html?fila=" + i + "'>" + dato.pais + "</td><td>" + dato.diez + "</td><td>" + dato.once + "</td><td>" + dato.doce + "</td><td>" + dato.trece + "</td><td>" + dato.catorce + "</td><td>" + dato.quince + "</td><td>" + dato.dieciseis + "</td></tr>";
+                document.getElementsByTagName("section")[0].innerHTML += "<article><a href='page.html?pais=" + i + "'>" + dato.pais + "</article>";
             }); // cierra el forEach
         } else {
-            var f = new URLSearchParams(window.location.search).get("fila");
+            var f = new URLSearchParams(window.location.search).get("pais");
             console.log(f);
+            if(window.innerHeight > window.innerWidth){
+                document.getElementById("grafico").setAttribute("height", "75");
+            }
             if (f !== null) {
-                document.getElementsByTagName("h1")[0].append(datos[f].pais);
+                document.querySelector("h2").append(datos[f].pais);
                 var indice = [];
                 indice.push(datos[f].diez);
                 indice.push(datos[f].once);
@@ -38,9 +42,8 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                         datasets: [
                             {
                                 data: indice,
-                                label: "Índice de intesidad de uso del cobre",
-                                backgroundColor: "rgba(184, 115, 51, 0.3)",
-                                borderColor: "rgba(184, 115, 51, 1)",
+                                backgroundColor: "rgba(4, 52, 71, .1)",
+                                borderColor: "rgba(4, 52, 71, 1)",
                                 pointRadius: 2,
                                 borderWidth: 1,
                                 lineTension: 0,
@@ -48,11 +51,29 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                         ],
                     },
                     options: {
+                        layout: {
+                            padding: { left: 15, right: 20, top: 20, bottom: 10
+                            }
+                        },
+                        legend: {
+                            display: false,
+                        },
                         scales: {
                             yAxes: [
                                 {
                                     ticks: {
-                                        beginAtZero: true,
+                                        fontColor: "rgba(4, 52, 71, 0.75)",
+                                        fontFamily: "monospace",
+                                        fontSize: 11,
+                                    },
+                                },
+                            ],
+                            xAxes: [
+                                {
+                                    ticks: {
+                                        fontColor: "rgba(4, 52, 71, 0.75)",
+                                        fontFamily: "monospace",
+                                        fontSize: 11,
                                     },
                                 },
                             ],

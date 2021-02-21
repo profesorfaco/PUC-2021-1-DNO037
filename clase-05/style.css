@@ -1,88 +1,76 @@
 @charset "UTF-8";
 
-:root {
-    --fondo: rgba(242, 239, 237, 1);
-    --figura: rgba(50, 50, 50, 1);
-    --destacado: rgba(25, 25, 25, 0.75);
-    --activo: rgba(0, 0, 0, 1);
-    --cobre: rgba(184, 115, 51, 1);
-    --sinserifa: Helvetica, Arial, sans-serif;
-    --monoespaciada: "Lucida Console", Monaco, monospace;
+html{
+        background: linear-gradient(135deg, rgba(230, 170, 140, .9), rgba(150, 100, 75, .9)), url('images/camion.jpg') right bottom no-repeat fixed;
+        min-height: 100%;
 }
 
 body {
-    color: var(--figura);
-    background: var(--fondo);
-    font-family: var(--sinserifa);
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(4, 52, 71, 1);
     font-size: 100%;
-    line-height: 1.6;
-    text-align: left;
-    min-height: 100%;
     margin: 0;
     padding: 0;
 }
 
-a {
-    color: var(--destacado);
+header{
+  padding:0 5vw;  
 }
 
-a:hover {
-    color: var(--activo);
-    text-decoration: none;
+main{
+  padding:0 3vw;  
 }
 
-:hover {
-    transition: color ease 0.25s;
+footer{
+  padding:5vh 5vw 0 5vw;  
 }
 
-header,
-main,
-footer {
-    padding-left: 10vw;
-    padding-right: 10vw;
+header h1{
+    font-size:calc(1rem + 2vw);
+    line-height: 1;
 }
 
-@media screen and (orientation: portrait) {
-    header,
-    main,
-    footer {
-        padding-left: 4vw;
-        padding-right: 4vw;
+header h2{
+    font-size:calc(1rem + 1vw);
+    line-height: 1;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main section article {
+    border-radius: 5px 5px;
+    width: calc(50% - 4vw);
+    margin: 1vh 1vw;
+    padding:1.5vh 1vw;
+    background:rgba(255,255,255,0.1);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);    
+}
+
+@media (orientation:landscape){
+    main section article {
+        width: calc(25% - 4vw);
+        margin: 1vh 1vw;
+        padding:2vh 1vw;
     }
 }
 
-h1 {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    color: var(--destacado);
+main canvas{
+    background:rgba(255,255,255,0.1);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 5px 5px;
 }
 
-main table {
+footer p{
     width: 100%;
-    text-align: right;
-    font-family: var(--monoespaciada);
-    font-size: 0.8rem;
-    vertical-align: bottom;
-    color: var(--figura);
-}
-
-main table thead th {
-    font-weight: var(--activo);
-    font-weight: normal;
-}
-
-main table tbody tr td:first-child {
-    text-align: left;
-    font-family: var(--sinserifa);
-    font-size: 1rem;
-}
-
-main table tbody tr:hover {
-    color: var(--cobre);
-}
-
-footer {
-    padding-top: 5vh;
-    font-size: 0.9rem;
-    letter-spacing: 0.09rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
 }
