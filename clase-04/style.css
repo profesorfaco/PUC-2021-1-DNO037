@@ -1,85 +1,119 @@
 @charset "UTF-8";
 
-:root {
-    --fondo: rgb(175, 205, 205);
-    --figura: rgb(55, 55, 55);
-    --destacado: black;
-    --activo: blue;
-    --sinserifa: Helvetica, Arial, sans-serif;
-    --conserifa: Georgia, "Times New Roman", serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    color: var(--figura);
-    background: var(--fondo);
-    font-family: var(--sinserifa);
-    font-size: 100%;
-    line-height: 1.6;
-    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(270deg, rgb(200, 235, 235), rgb(175, 200, 200));
+    color: #333;
 }
 
-header,
-main,
-footer {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+a {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-    header,
-    main,
-    footer {
-        width: 80%;
+a:hover {
+    color: rgba(0, 0, 0, 0.75);
+    transition: color ease .5s;
+}
+
+div.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+nav, footer {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+}
+
+nav p, footer p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active {
+    text-decoration: underline;
+    color: black;
+}
+
+main {
+    width: 100%;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+main div {
+    width: 50%;
+    height: 80vh;
+    float: left;
+    display: flex;
+}
+
+@media (orientation:portrait) {
+    main div {
+        width: 100%;
+        height: auto;
+        float: none;
     }
 }
 
-header h1 {
-    padding-top: 2vw;
+main div:nth-child(1) article {
+    align-self: center;
+    padding: 3rem 0;
 }
 
-header nav {
-    padding-bottom: 2vw;
+@media (orientation:landscape) {
+    main div:nth-child(1) article {
+        padding-right: 5rem;
+    }
 }
 
-header nav select {
-    padding: 0.3rem;
-    border-radius: 0.4rem;
+main div:nth-child(1) article h1 {
+    font-size: calc(1.5rem + 1vw);
+    line-height: 1.1;
+    margin-bottom: 1rem;
 }
 
-main p:nth-child(1) {
-    color: rgba(0, 0, 0, 0.6);
+main div:nth-child(1) article p {
+    line-height: 1.4;
 }
 
-main blockquote {
-    font-family: var(--conserifa);
-    font-style: italic;
-    font-size: 1.6rem;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-main blockquote cite {
-    font-family: var(--sinserifa);
+main div:nth-child(1) article blockquote {
     font-style: normal;
-    font-size: 1.2rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    margin-left: 0.5rem;
+    line-height: 1.6;
 }
 
-main img {
+main div:nth-child(1) article blockquote cite {
+    font-style: normal;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    font-size:90%;
+}
+
+main div:nth-child(2) aside {
+    align-self: center;
+}
+
+main div:nth-child(2) img {
     width: 100%;
     height: auto;
 }
 
-footer {
-    padding-top: 5vh;
-    padding-bottom: 2vh;
-}
-
-footer p {
-    font-size: 0.8rem;
+main div:nth-child(2):after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
