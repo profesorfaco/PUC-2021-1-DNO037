@@ -37,7 +37,7 @@ nav p, footer p {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin:auto;
 }
 
 .active {
@@ -46,74 +46,51 @@ nav p, footer p {
 }
 
 main {
-    width: 100%;
-}
-
-h2, h3, h4, h5, h6 {
-    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    height: 80vh;
 }
 
 main div {
     width: 50%;
-    height: 80vh;
-    float: left;
-    display: flex;
+    margin:auto;
+    line-height: 1.5;
 }
 
-@media (orientation:portrait) {
+main div:first-child h1, main div:first-child blockquote, main div:first-child p{
+    padding-right:5rem;
+}
+
+main div img{
+    max-width:100%;
+    height:auto;
+}
+
+@media (orientation:portrait){
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;    
+        height: auto;
+        min-height: 80vh
+    }
+
     main div {
         width: 100%;
-        height: auto;
-        float: none;
+        margin:auto;
+        line-height: 1.5;
     }
-}
 
-main div:nth-child(1) article {
-    align-self: center;
-    padding: 3rem 0;
-}
-
-@media (orientation:landscape) {
-    main div:nth-child(1) article {
-        padding-right: 5rem;
+    main div:first-child h1, main div:first-child blockquote, main div:first-child p{
+        padding-right:0;
     }
-}
 
-main div:nth-child(1) article h1 {
-    font-size: calc(1.5rem + 1vw);
-    line-height: 1.1;
-    margin-bottom: 1rem;
-}
+    main div img{
+        max-width:100%;
+        height:auto;
+        margin:3rem 0;
+    }   
 
-main div:nth-child(1) article p {
-    line-height: 1.4;
-}
-
-main div:nth-child(1) article blockquote {
-    font-style: normal;
-    line-height: 1.6;
-}
-
-main div:nth-child(1) article blockquote cite {
-    font-style: normal;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
-    font-size:90%;
-}
-
-main div:nth-child(2) aside {
-    align-self: center;
-}
-
-main div:nth-child(2) img {
-    width: 100%;
-    height: auto;
-}
-
-main div:nth-child(2):after {
-    content: " ";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
 }
