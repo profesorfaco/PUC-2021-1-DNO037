@@ -6,7 +6,7 @@
 
 - - - - - - - - - - - - - - 
 
-#### Lectura
+**Lectura**
 
 Ya pudimos reconocer la diferencia entre los lengujes de descripción y el lenguaje de programación. Para comenzar a profundizar en un lenguaje de programación aprovechamos [p5.js](https://p5js.org/es/):
 
@@ -38,7 +38,7 @@ Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de
 
 - - - - - - - - - - - - -
 
-#### Exploración
+**Exploración**
 
 Es muy necesario saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en Chrome o Firefox.
 
@@ -69,7 +69,7 @@ Podemos abrir `ejemplo.html` en Chrome o Firefox. En la ventana del navegador po
 
 - - - - - - - - - - - - - - 
 
-#### Práctica
+**Práctica**
 
 Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para el que conviene:
 
