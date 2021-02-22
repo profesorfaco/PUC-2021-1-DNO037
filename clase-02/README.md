@@ -6,6 +6,8 @@
 
 - - - - - - - - - - - - - - 
 
+#### Lectura
+
 Ya pudimos reconocer la diferencia entre los lengujes de descripción y el lenguaje de programación. Para comenzar a profundizar en un lenguaje de programación aprovechamos [p5.js](https://p5js.org/es/):
 
 > ¡**p5.js** es una biblioteca de JavaScript para la programación creativa, que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona! **p5.js** es gratuito y de código abierto porque creemos que el software y las herramientas para aprenderlo deben ser accesibles para todos.
@@ -34,7 +36,13 @@ Con el DOM podemos manipular una página así como cuando manipulamos una imagen
 
 Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo *photoshopeado*, y esto último coincide con lo que tenemos a la vista.
 
-Así, por ejemplo, podemos ver una página web con un recuadro negro. Si inspeccionamos los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente, donde utilizamos [p5.js](https://p5js.org/es/), podríamos encontrar un `<body></body>` vacío:
+- - - - - - - - - - - - -
+
+#### Exploración
+
+Es muy necesario saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en Chrome o Firefox.
+
+También es necesario contar con un editor de código fuente, en donde podemos crear un documento nuevo, pegar el código que sigue y guardar con el nombre `ejemplo.html`:
 
 ```
 <!doctype html>
@@ -56,6 +64,13 @@ Así, por ejemplo, podemos ver una página web con un recuadro negro. Si inspecc
 
 ```
 
+Podemos abrir `ejemplo.html` en Chrome o Firefox. En la ventana del navegador podemos ver una página web con un recuadro negro. Si vamos a inspeccionar los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente hay un `<body></body>` vacío:
+
+
+- - - - - - - - - - - - - - 
+
+#### Práctica
+
 Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para el que conviene:
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
@@ -65,12 +80,6 @@ Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para
 - revisar la [propiedad `Element.classList`](https://developer.mozilla.org/es/docs/Web/API/Element/classList); y
 
 - tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
-
-- - - - - - - - - - - - - - 
-
-#### Ejercicio
-
-Realizaremos un ejercicio para comenzar a profundizar en la programación con JavaScript, a través de [p5.js](https://p5js.org/es/)
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-02/).
 
