@@ -13,15 +13,11 @@
                 <p><a href="index.html">Portada</a> <a href="page.html?ej=1">Taylor</a> <a href="page.html?ej=2">Quotes</a> <a href="page.html?ej=3">NASA</a></p>
             </nav>
             <main>
-                <div>
-                    <article></article>
-                </div>
-                <div>
-                    <aside></aside>
-                </div>
+                <div></div>
+                <div></div>
             </main>
             <footer>
-                <p><a href="#">Nombre Apellido</a> <a href="#">Diseño y Nuevos Medios</a></p>
+                <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
             </footer>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
@@ -30,8 +26,8 @@
             var seleccionado = url.get("ej");
             var data;
 
-            var texto = document.querySelector("article");
-            var imagen = document.querySelector("aside");
+            var texto = document.querySelector("main").getElementsByTagName("div")[0];
+            var imagen = document.querySelector("main").getElementsByTagName("div")[1];
 
             if (seleccionado == 1) {
                 function preload() {
@@ -57,7 +53,6 @@
                 if (seleccionado == 1) {
                     createElement("blockquote", data.quote).parent(texto).id("cita");
                     createElement("cite", " TAYLOR SWIFT").parent("cita");
-
                     createImg("images/isometriclove-2.png", "Piano").parent(imagen);
                     selectAll("nav a")[1].addClass("active");
                 } else if (seleccionado == 2) {
