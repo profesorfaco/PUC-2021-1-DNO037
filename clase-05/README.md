@@ -1,10 +1,8 @@
-# Diseño y Nuevos Medios vR2
+### Diseño y Nuevos Medios → Clase 05 → 14/04/2021
 
-### Clase 05 → 14/04/2021
+# HTML5 + CSS3 + otras bibliotecas de JavaScript
 
-### HTML5 + CSS3 + otras bibliotecas de JavaScript
-
-- - - - - - - - - - 
+### Lectura
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que exploraremos, además de [p5.js](https://p5js.org/es/), son:
 
@@ -18,7 +16,11 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
-En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/). Esta exploración la haremos mediante el ejercicio preparado. 
+En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/). 
+
+### Exploración
+
+Esta exploración la haremos mediante el ejercicio preparado. 
 
 Para resolver el ejercicio, conviene: 
 
