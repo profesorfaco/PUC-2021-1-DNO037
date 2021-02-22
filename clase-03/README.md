@@ -1,8 +1,6 @@
-# Diseño y Nuevos Medios vR2
+### Diseño y Nuevos Medios → Clase 03 → 31/03/2021
 
-### Clase 03 → 31/03/2021
-
-### HTML5 + CSS3 + p5.js
+# HTML5 + CSS3 + p5.js
 
 **Evaluación Nº1**
 
