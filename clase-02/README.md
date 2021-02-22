@@ -58,9 +58,9 @@ Así, por ejemplo, podemos ver una página web con un recuadro negro. Si inspecc
 
 Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para el que conviene:
 
-- revisar el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date);
+- revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
-- revisar el [método `getElementsByName()`](https://developer.mozilla.org/es/docs/Web/API/Document/getElementsByName), echándole un vistazo rápido a la interfaz [Document](https://developer.mozilla.org/es/docs/Web/API/Document);
+- revisar el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date);
 
 - revisar la [propiedad `Element.classList`](https://developer.mozilla.org/es/docs/Web/API/Element/classList); y
 
