@@ -1,68 +1,42 @@
 @charset "UTF-8";
 
-:root {
-    --fondo: #fff;
-    --figura: #222;
-    --destacado: #444;
-    --activo: #000;
-    --mar:#d3dadb;
-    --tierra:#F2F2F0;
-}
-
-body {
-    color: var(--figura);
-    background: var(--fondo);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 100%;
-    line-height: 1.6;
-    text-align: left;
-    min-height: 100%;
+*{
     margin: 0;
     padding: 0;
 }
 
+body {
+    color: #ddd;
+    background: #222;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
 a {
-    color: var(--destacado);
-    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    text-decoration: underline;
 }
 
 a:hover {
-    color: var(--activo);
+    color: rgba(255,255,255,1);
     text-decoration: none;
 }
 
-:hover {
-    transition: all ease 0.1s;
+div.container{
+    padding:0 5vw 5vh;
 }
 
-header,
-footer {
-    padding-left: 10vw;
-    padding-right: 10vw;
+header, footer{
+    padding:2%;
 }
 
-main {
-    padding-left: 9vw;
-    padding-right: 9vw;
+header h1{
+    font-size:calc(2rem + 1vw);
+    line-height: 1.5;
 }
 
-@media screen and (orientation: portrait) {
-    header,
-    footer {
-        padding-left: 4vw;
-        padding-right: 4vw;
-    }
-    main {
-        padding-left: 3vw;
-        padding-right: 3vw;
-    }
-}
-
-h1 {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    line-height: 1.2;
-    color: var(--destacado);
+header p{
+    line-height: 1.5;
 }
 
 section {
@@ -71,52 +45,54 @@ section {
     flex-wrap: wrap;
 }
 
-section div {
-    width: 22%;
-    margin: 1.5%;
-    background: var(--mar);
+section article {
+    width: 16%;
+    margin:1%;
+    padding:1%;
+    background: rgba(60,60,60,0.5);
+    border-radius: 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-section div.chileno{
-    background:var(--tierra);
+section article h2{
+    font-size:calc(3rem + 2vw);
+    line-height: 1;
 }
 
-section div:hover {
-    transform: scale(1.025);
+section article p{
+    font-size:1rem;
+    padding:0.5rem 0;
 }
 
-@media screen and (orientation: portrait) {
-    section div {
-        width: 47%;
-        margin: 1.5%;
+section article.chileno{
+    background: rgba(40,40,40,0.5);
+}
+
+@media (max-width: 767.98px) {
+
+    header, footer{
+        padding:5%;
     }
-}
 
-section div h2,
-section div p {
-    margin: 0.5rem 0;
-    padding: 0 0.75rem;
-}
+    section article {
+        width: 40%;
+        margin:2%;
+        padding:3%;
+    }
 
-section div a {
-    text-decoration: underline;
-}
-
-section div a:hover {
-    text-decoration: none;
 }
 
 main div#mapa {
     width: 100%;
-    height: 60vh;
+    height: 55vh;
+    border-radius: 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin:1%;
 }
 
-footer {
-    padding-top: 5vh;
-    font-size: 0.9rem;
-    letter-spacing: 0.09rem;
-}
-
-footer p {
+footer p{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
 }
