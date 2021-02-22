@@ -1,4 +1,4 @@
-### Clase 01 → 17/03/2021
+### Diseño y Nuevos Medios → Clase 01 → 17/03/2021
 
 # HTML5 + CSS3 + p5.js
 
