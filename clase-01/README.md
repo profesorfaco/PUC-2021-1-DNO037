@@ -46,7 +46,7 @@ Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro 
 
 Para que comprendamos este primer paso en JavaScript de mejor manera, conviene: 
 
-- aprovechar el [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n);
+- aprovechar [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n);
  
 - revisar [la propiedad length](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length); y
 
