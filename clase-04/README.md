@@ -114,7 +114,7 @@ Porque podríamos necesitar un listado ordenado que incluya el nombre de cada un
 
 - - - - - - - - - 
 
-#### Práctica
+### Práctica
 
 Podríamos preguntarnos: ¿Siempre vamos a tener que asignar a mano los datos de una variable? 
 
