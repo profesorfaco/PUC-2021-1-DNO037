@@ -38,7 +38,7 @@ Paso por paso, las instrucciones arriba dicen:
 3. La misma biblioteca se encargará de descargarlo `download: true,` 
 4. considerando la primera línea del CSV como una línea de encabezados `header: true,` y
 5. cuidando el tipo de dato de las líneas siguientes `dynamicTyping: true,`.
-6. Una vez completes lo anterior, la estructura de dato debe asignarse a respuesta `complete: function (respuesta) {…}`.
+6. Cuando se complete lo anterior, la estructura de dato debe asignarse a respuesta `complete: function (respuesta) {…}`.
 
 - - - - - - - - - - - 
 
