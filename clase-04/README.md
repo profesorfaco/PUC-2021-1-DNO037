@@ -1,10 +1,8 @@
-# Diseño y Nuevos Medios vR2
+### Diseño y Nuevos Medios → Clase 04 → 07/04/2021
 
-### Clase 04 → 07/04/2021
+# HTML5 + CSS3 + otras bibliotecas de JS
 
-### HTML5 + CSS3 + otras bibliotecas de JS
-
-- - - - - - - - 
+### Lectura
 
 Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
 
@@ -90,33 +88,42 @@ Las variables `g` y `h` son mezclas de las anteriores.
 
 Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
-Partamos con la variable `e`. Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
+- - - - - - - - - - - 
 
-Pasemos a la variable `f`. Si necesitamos escribir la frase `Fue Kirk Van Houten quien intentó dibujar la dignidad`, tendríamos que escribir `'Fue ' + f.dad + ' quien intentó dibujar la dignidad'`.
+### Exploración
 
-Vamos por la variable `g`. Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
+Para comprender de mejor manera lo recién expuesto, conviene aprovechar [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
 
-Llegando a la variable `h` podríamos necesitar un listado ordenado que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. Para hacerlo, tendríamos que crear un ciclo que vaya a buscar un elemento cada vez. Para entender la lógica de esta consulta, nos conviene hacer un ejercicio más con [p5.js](https://p5js.org/es/)
+Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
 
-Cuando estemos resolviendo el ejercicio, podríamos preguntarnos: ¿Siempre vamos a tener que asignar a mano los datos de una variable? La respuesta: No siempre. También podemos programarlo. Para poder programarlo nos conviene aprender algo respecto de las [APIs](https://es.wikipedia.org/wiki/Web_API) y el [JSON](https://www.json.org/json-es.html). La próxima clase aprenderemos algo del [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas).
+Pasemos a la variable `f`: 
 
-Para resolver el ejercicio, conviene: 
+Si necesitamos escribir la frase `Fue Kirk Van Houten quien intentó dibujar la dignidad`, tendríamos que escribir `'Fue ' + f.dad + ' quien intentó dibujar la dignidad'`.
 
-- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
+Vamos por la variable `g`: 
 
-- revisar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
+Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
+
+Llegando a la variable `h` podríamos necesitar un listado ordenado que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. Para hacerlo, necesitamos: 
 
 - revisar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
-- revisar el [método `toLocaleString()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Number/toLocaleString); y
+- revisar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
+
+- - - - - - - - - 
+
+#### Práctica
+
+Podríamos preguntarnos: ¿Siempre vamos a tener que asignar a mano los datos de una variable? 
+
+La respuesta: No siempre. También podemos dejar que el programa vaya a buscarlos; ahora conviene aprender algo respecto de [APIs](https://es.wikipedia.org/wiki/Web_API) y [JSON](https://www.json.org/json-es.html).
+
+Para aprenderlo desde la práctica, conviene: 
+
+- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/); y
 
 - tener a mano las [referencias de p5.js](https://p5js.org/es/reference/);
 
-- - - - - - -
-
-#### Ejercicio
-
-Realizaremos un ejercicio enfocado en el uso de los tipos de datos mencionados más arriba.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-04/).
 
