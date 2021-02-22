@@ -44,7 +44,7 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones dentro del arreglo se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
 
-Para continuar, conviene pasar al ejercicio teniendo a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
+Para continuar, conviene aprovecharnos de [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n), teniendo a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
 
 - - - - - - - - - - - - - - 
 
