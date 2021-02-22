@@ -30,12 +30,10 @@ Allí podemos ver la estructura típica de toda página HTML:
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), y dentro de unas etiquetas de estilo (`<style></style>`), podemos ver una regla de CSS
+Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un CSS que revisaremos luego:
 
 ```
-footer p {
-text-align: center;
-}
+<link href="style.css" rel="stylesheet" />
 ```
 
 En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<script></script>`), podemos ver una variable de JavaScript; esta variable se llama `palabras` y contiene un arreglo con distintas cadenas de caracteres entre comillas: 
@@ -43,6 +41,8 @@ En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<s
 ```
 var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
 ```
+
+Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones dentro del arreglo se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente`.
 
 Para continuar, conviene pasar al ejercicio.
 
