@@ -10,11 +10,11 @@ Escribir código fuente es describir y/o programar. Para reconocer los lenguajes
 
 El editor de código fuente nos dará indicaciones para poder escribir código fuente con:
 
-- **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web. HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>`. Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Web/HTML
+- **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web. HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>`. Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
-- **CSS (Cascading Style Sheets)**. Lenguaje estándar que describe la presentación de las páginas web. CSS3 es la versión más reciente de este lenguaje. Su unidad más básica es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene un bloque de declaraciones. En tal bloque, cada declaración se separa de otra mediante punto y coma `;`. Una declaración se compone del par `propiedad: valor`. Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: `selector{ propiedad: valor; }`. Podemos complementar esta breve introducción a CSS con una revisión de la página: https://developer.mozilla.org/es/docs/Web/CSS
+- **CSS (Cascading Style Sheets)**. Lenguaje estándar que describe la presentación de las páginas web. CSS3 es la versión más reciente de este lenguaje. Su unidad más básica es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene un bloque de declaraciones. En tal bloque, cada declaración se separa de otra mediante punto y coma `;`. Una declaración se compone del par `propiedad: valor`. Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: `selector{ propiedad: valor; }`. Podemos complementar esta breve introducción a CSS con una revisión de la página: https://developer.mozilla.org/es/docs/Web/CSS/Referencia_CSS
 
-- **JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web. Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar un poco, dependiendo de la lógica de cada instrucción y la biblioteca de programación que estemos aprovechando. La bibliteca que utilizaremos primero será [p5.js](https://p5js.org/es/get-started/); podemos imaginar que una biblioteca de programación es como una selección de ingredientes listos para poder preparar determinado tipo de comida, sin la necesidad de ser cocinero experto. Podemos complementar esta breve introducción a JS con una revisión de la página: https://developer.mozilla.org/es/docs/Web/JavaScript/Acerca_de_JavaScript
+- **JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web. Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar un poco, dependiendo de la lógica de cada instrucción y la biblioteca de programación que estemos aprovechando. La bibliteca que utilizaremos primero será [p5.js](https://p5js.org/es/get-started/); podemos imaginar que una biblioteca de programación es como una selección de ingredientes listos para poder preparar determinado tipo de comida, sin la necesidad de ser cocinero experto. Podemos complementar esta breve introducción a JS con una revisión de la página: https://jsparagatos.com/
 
 - - - - - - - - - - - - - - 
 
@@ -44,7 +44,7 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones dentro del arreglo se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente`.
 
-Para continuar, conviene pasar al ejercicio.
+Para continuar, conviene pasar al ejercicio teniendo a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
 
 - - - - - - - - - - - - - - 
 
