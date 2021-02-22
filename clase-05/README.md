@@ -36,9 +36,9 @@ Paso por paso, las instrucciones arriba dicen:
 1. En este script vamos a usar `Papa.parse()`.
 2. Esta biblioteca irá por el CSV en tal dirección `Papa.parse("…",{})`.
 3. La misma biblioteca se encargará de descargarlo `download: true,` 
-4. considerando la primera línea del CSV como una línea de encabezados `header: true,` y
-5. cuidando el tipo de dato de las líneas siguientes `dynamicTyping: true,`.
-6. Cuando se complete lo anterior, la estructura de dato debe asignarse a respuesta `complete: function (respuesta) {…}`.
+4. considerando la primera línea del CSV como una línea de encabezados `header: true,`
+5. cuidando el tipo de dato de las líneas siguientes `dynamicTyping: true,` y
+6. cuando se complete lo anterior, la estructura de dato debe asignarse a respuesta `complete: function (respuesta) {…}`.
 
 - - - - - - - - - - - 
 
