@@ -6,7 +6,11 @@
 
 - - - - - - - - - - - - - - 
 
-Escribir código fuente es describir y/o programar. Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de  sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un editor de código fuente. Puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
+##### Lectura
+
+Escribir código fuente es describir y/o programar. 
+
+Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un editor de código fuente. Puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
 
 El editor de código fuente nos dará indicaciones para poder escribir código fuente con:
 
@@ -18,7 +22,9 @@ El editor de código fuente nos dará indicaciones para poder escribir código f
 
 - - - - - - - - - - - - - - 
 
-Para reconocer los lenguajes mencionados más arriba, vamos a aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html):
+##### Exploración
+
+Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html):
 
 Allí podemos ver la estructura típica de toda página HTML: 
 
@@ -30,7 +36,7 @@ Allí podemos ver la estructura típica de toda página HTML:
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un CSS que revisaremos luego:
+Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/style.css) que revisaremos luego:
 
 ```
 <link href="style.css" rel="stylesheet" />
@@ -44,7 +50,7 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
 
-Para que comprendamos este primer paso en JavaScript de mejor manera, conviene: 
+Para comprender de mejor manera lo recién expuesto, conviene: 
 
 - aprovechar [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n);
  
@@ -54,7 +60,7 @@ Para que comprendamos este primer paso en JavaScript de mejor manera, conviene:
 
 - - - - - - - - - - - - - - 
 
-#### Ejercicio
+#### Práctica
 
 Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-01/), según indicaciones que se compartan en la clase vía Zoom. 
 
