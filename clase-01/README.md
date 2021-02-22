@@ -6,7 +6,7 @@
 
 - - - - - - - - - - - - - - 
 
-#### Lectura
+### Lectura
 
 Escribir código fuente es describir y/o programar. 
 
@@ -22,7 +22,7 @@ El editor de código fuente nos dará indicaciones para poder escribir código f
 
 - - - - - - - - - - - - - - 
 
-#### Exploración
+### Exploración
 
 Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html):
 
@@ -60,7 +60,7 @@ Para comprender de mejor manera lo recién expuesto, conviene:
 
 - - - - - - - - - - - - - - 
 
-#### Práctica
+### Práctica
 
 Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-01/), según indicaciones que se compartan en la clase vía Zoom. 
 
