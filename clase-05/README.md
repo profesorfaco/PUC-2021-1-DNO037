@@ -16,7 +16,22 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
-En la clase de hoy exploraremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/). 
+En la clase de hoy revisaremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).
+
+[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo CSV para convertirla en el contenido de una variable en JavaScript.
+
+Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción para este análisis de la siguiente forma:
+
+```
+Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv", {
+  download: true,
+  complete: function (respuesta) {}
+})
+```
+
+Instruimos a `Papa.parse()` para que vaya por un CSV `Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv",{})` que debe descargar (`download: true,`). Y en el contexto de una instrucción completado exitosamente, podemos aprovechar la `respuesta` que ahora contienen la estructura de datos de [tal CSV](https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv) a la manera que conviene a JavaScript ( `complete: function (respuesta) {…}`)
+
+- - - - - - - - - - - 
 
 ### Exploración
 
@@ -40,7 +55,7 @@ Para resolver el ejercicio, conviene:
 
 - - - - - - -
 
-#### Ejercicio
+#### Práctica
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-05/).
 
