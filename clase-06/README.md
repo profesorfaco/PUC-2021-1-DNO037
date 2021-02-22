@@ -30,7 +30,8 @@ Para resolver el ejercicio, conviene:
 
 - tener a mano las [referencias de Leaflet](https://leafletjs.com/reference-1.7.1.html)
 
-Una indicación: Si bien se puede considerar que jQuery es una biblioteca anticuada, que pudo ser muy útil hace 15 años (su primera versión estable fue lanzada el año 2006), no se podemos ignorar que su última versión estable, la 3.5.0, fue lanzada en abril de 2020.
+Si bien podemos considerar que jQuery es una biblioteca anticuada, que pudo ser muy útil hace 15 años (su primera versión estable fue lanzada el año 2006), no corresponde pasar por alto que su última versión estable, la 3.5.0, fue lanzada en abril de 2020. Pero ponerle mucha atención a jQuery podría hacernos perder de vista las actualizaciones del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript). Corresponde buscar un términos medio. 
+
 
 - - - - - - -
 
