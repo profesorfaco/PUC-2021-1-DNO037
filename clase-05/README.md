@@ -24,12 +24,21 @@ Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción
 
 ```
 Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv", {
-  download: true,
-  complete: function (respuesta) {}
+    download: true,
+    header: true,
+    dynamicTyping: true,
+    complete: function (respuesta) {…}
 })
 ```
 
-Instruimos a `Papa.parse()` para que vaya por un CSV `Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv",{})` que debe descargar (`download: true,`). Y en el contexto de una instrucción completado exitosamente, podemos aprovechar la `respuesta` que ahora contiene la estructura de datos de [tal CSV](https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv) a la manera que conviene a JavaScript (`complete: function (respuesta) {…}`)
+Paso por paso, las instrucciones arriba dicen:
+
+1. En este script vamos a usar `Papa.parse()`
+2. Esta biblioteca irá por el CSV en `Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv",{})`
+3. La misma biblioteca se encargará de descargarlo `download: true,`; 
+4. considerando la primera línea del CSV como una línea de encabezados `header: true,` y
+5. cuidando que los datos de las líneas siguientes  haber distintos tipos de datos que corresponde respetar `dynamicTyping: true,`
+6. Una vez completes todo lo anterior, cada dato deben asignarse a la variable de nombre respuesta `complete: function (respuesta) {…}`
 
 - - - - - - - - - - - 
 
