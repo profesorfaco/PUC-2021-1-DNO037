@@ -18,7 +18,7 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 En la clase de hoy revisaremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).
 
-[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo CSV para convertirla en el contenido de una variable en JavaScript.
+[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo CSV para asignarla a una variable en JavaScript.
 
 Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción para este análisis de la siguiente forma:
 
@@ -29,7 +29,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
 })
 ```
 
-Instruimos a `Papa.parse()` para que vaya por un CSV `Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv",{})` que debe descargar (`download: true,`). Y en el contexto de una instrucción completado exitosamente, podemos aprovechar la `respuesta` que ahora contienen la estructura de datos de [tal CSV](https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv) a la manera que conviene a JavaScript ( `complete: function (respuesta) {…}`)
+Instruimos a `Papa.parse()` para que vaya por un CSV `Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv",{})` que debe descargar (`download: true,`). Y en el contexto de una instrucción completado exitosamente, podemos aprovechar la `respuesta` que ahora contiene la estructura de datos de [tal CSV](https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv) a la manera que conviene a JavaScript (`complete: function (respuesta) {…}`)
 
 - - - - - - - - - - - 
 
