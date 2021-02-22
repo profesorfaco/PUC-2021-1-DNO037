@@ -31,7 +31,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
 })
 ```
 
-Paso por paso, las instrucciones arriba dicen:
+Paso por paso, las instrucciones de arriba son:
 
 1. En este script vamos a usar `Papa.parse()`.
 2. Esta biblioteca irá por el CSV en tal dirección `Papa.parse("…",{})`.
