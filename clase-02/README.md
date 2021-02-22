@@ -38,7 +38,7 @@ Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de
 
 Es muy necesario saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en Chrome o Firefox.
 
-También es necesario contar con un editor de código fuente, en donde podemos crear un documento nuevo, pegar el código que sigue y guardar con el nombre `ejemplo.html`:
+También es necesario contar con un editor de código fuente, en donde podemos crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre `ejemplo.html`:
 
 ```
 <!doctype html>
@@ -60,7 +60,7 @@ También es necesario contar con un editor de código fuente, en donde podemos c
 
 ```
 
-Podemos abrir `ejemplo.html` en Chrome o Firefox. En la ventana del navegador podemos ver una página web con un recuadro negro. Si vamos a inspeccionar los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente hay un `<body></body>` vacío:
+Podemos abrir este `ejemplo.html` en Chrome o Firefox. En la ventana del navegador podemos ver una página web con un recuadro negro. Si vamos a inspeccionar los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente hay un `<body></body>` vacío. Esta diferencia se debe al DOM.
 
 
 - - - - - - - - - - - - - - 
