@@ -42,8 +42,8 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                         datasets: [
                             {
                                 data: indice,
-                                backgroundColor: "rgba(4, 52, 71, .1)",
-                                borderColor: "rgba(4, 52, 71, 1)",
+                                backgroundColor: "rgba(0, 0, 0, .1)",
+                                borderColor: "rgba(0, 0, 0, .5)",
                                 pointRadius: 2,
                                 borderWidth: 1,
                                 lineTension: 0,
@@ -62,7 +62,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                             yAxes: [
                                 {
                                     ticks: {
-                                        fontColor: "rgba(4, 52, 71, 0.75)",
+                                        fontColor: "rgba(0, 0, 0, 0.75)",
                                         fontFamily: "monospace",
                                         fontSize: 11,
                                     },
@@ -71,7 +71,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                             xAxes: [
                                 {
                                     ticks: {
-                                        fontColor: "rgba(4, 52, 71, 0.75)",
+                                        fontColor: "rgba(0, 0, 0, 0.75)",
                                         fontFamily: "monospace",
                                         fontSize: 11,
                                     },
