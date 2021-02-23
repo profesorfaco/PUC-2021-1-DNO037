@@ -20,7 +20,7 @@ En la clase de hoy revisaremos [Papa Parse](https://www.papaparse.com/) y [Chart
 
 **[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo CSV para asignarla a una variable en JavaScript.**
 
-Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción para este análisis de la siguiente forma:
+Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción para tal análisis con:
 
 ```
 Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv", {
@@ -43,13 +43,17 @@ Paso a paso, la instrucción es:
 
 ```
 {
-	data: […]
-	errors: […]
-	meta: {…}
+    data: […]
+    errors: […]
+    meta: {…}
 }
 ```
 
-Cada línea de valores separado por coma será un elemento en el arreglo que se encuentra en `respuesta.data`.
+Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al que nos podemos referir con un `respuesta.data`.
+
+Allí podríamos encontrar valores numéricos para visualizar con gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en otra biblioteca de JavaScript:
+
+**[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite dibujar gráficos desde valores numéricos, dentro de un `<canvas></canvas>`**
 
 
 
