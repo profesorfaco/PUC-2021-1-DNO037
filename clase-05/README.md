@@ -16,9 +16,9 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
-**En la clase de hoy revisaremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).**
+En la clase de hoy revisaremos [Papa Parse](https://www.papaparse.com/) y [Chart.js](https://www.chartjs.org/).
 
-[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo CSV para asignarla a una variable en JavaScript.
+**[Papa Parse](https://www.papaparse.com/) nos permite hacer un análisis sintáctico de una estructura de datos contenidos en un archivo CSV para asignarla a una variable en JavaScript.**
 
 Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción para este análisis de la siguiente forma:
 
@@ -31,14 +31,27 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
 })
 ```
 
-Paso por paso, las instrucciones de arriba son:
+Paso a paso, la instrucción es:
 
 1. En este script vamos a usar `Papa.parse()`.
-2. Esta biblioteca irá por el CSV en tal dirección `Papa.parse("…",{})`.
+2. Esta biblioteca irá por el CSV en tal dirección `Papa.parse("https://…",{})`.
 3. La misma biblioteca se encargará de descargarlo `download: true,` 
-4. considerando la primera línea del CSV como una línea de encabezados `header: true,`
+4. tomando la primera línea de valores separados por coma como encabezado `header: true,`
 5. cuidando el tipo de dato de las líneas siguientes `dynamicTyping: true,` y
-6. cuando se complete lo anterior, la estructura de dato debe asignarse a respuesta `complete: function (respuesta) {…}`.
+6. cuando se complete corresponde abrir una función `complete: function (respuesta) {…}`.
+7. La variable `respuesta` será reconocida dentro de tal función, conteniendo el resultado del análisis sintáctido de aquél CSV como un objeto:
+
+```
+{
+	data: […]
+	errors: […]
+	meta: {…}
+}
+```
+
+Cada línea de valores separado por coma será un elemento en el arreglo que se encuentra en `respuesta.data`.
+
+
 
 - - - - - - - - - - - 
 
