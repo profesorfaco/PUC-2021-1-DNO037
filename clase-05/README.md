@@ -24,10 +24,10 @@ Con [Papa Parse](https://www.papaparse.com/) podemos simplificar la instrucción
 
 ```
 Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv", {
-    download: true,
-    header: true,
-    dynamicTyping: true,
-    complete: function (respuesta) {…}
+download: true,
+header: true,
+dynamicTyping: true,
+complete: function (respuesta) {…}
 })
 ```
 
@@ -43,9 +43,9 @@ Paso a paso, la instrucción es:
 
 ```
 {
-	data: [ ... ],    // parsed data
-	errors: [ ... ],  // errors encountered
-	meta: {	... }     // extra parse info
+data: [ ... ],    // parsed data
+errors: [ ... ],  // errors encountered
+meta: {	... }     // extra parse info
 }
 ```
 
@@ -77,23 +77,16 @@ Más arriba mostramos unas líneas de código para resolver algo con [Papa Parse
 
 ### Exploración
 
-Esta exploración la haremos mediante el ejercicio preparado. 
-
-Para resolver el ejercicio, conviene: 
-
-- haber revisado información sobre los archivos [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas);
-
-- informarse respecto de [tablas en HTML](https://www.htmlquick.com/es/tutorials/tables.html);
+Para esta exploración corresponde: 
 
 - recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
 
+- revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push); y
+
 - revisar el [método `pop()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/pop);
 
-- revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push);
+- tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
 
-- tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/); y
-
-- tener a mano la [documentación de Papa Parse](https://www.papaparse.com/docs)
 
 - - - - - - -
 
