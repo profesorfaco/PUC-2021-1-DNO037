@@ -38,7 +38,7 @@ Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de
 
 Es muy necesario saber como **ver código fuente**, [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador) en Chrome o Firefox.
 
-También es necesario contar con un editor de código fuente, en donde crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre `ejemplo.html`:
+También es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre `ejemplo.html`:
 
 ```
 <!doctype html>
