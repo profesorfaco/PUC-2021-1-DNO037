@@ -48,7 +48,7 @@ También es necesario contar con un editor de código fuente, en donde podemos c
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
         <script>
             function setup() {
-                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1;
+                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1);
             }
             function draw() {
                 background(0);
