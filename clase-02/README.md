@@ -48,16 +48,18 @@ También es necesario contar con un editor de código fuente, en donde podemos c
         <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
         <script>
             function setup() {
-                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20);
+                createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1;
             }
             function draw() {
                 background(0);
             }
+            function windowResized() { 
+                resizeCanvas(windowWidth - 40, windowHeight - 40);
+            } 
         </script>
     </head>
     <body></body>
 </html>
-
 ```
 
 Podemos abrir este `ejemplo.html` en Chrome o Firefox. En la ventana del navegador podemos ver una página web con un recuadro negro. Si vamos a inspeccionar los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente hay un `<body></body>` vacío. Esta diferencia se debe al DOM.
