@@ -53,7 +53,9 @@ Cada línea de valores separado por coma pasa a ser un elemento en un arreglo al
 
 En la *parsed data* podríamos encontrar valores numéricos para visualizar con gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en otra biblioteca de JavaScript:
 
-**[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar gráficos desde valores numéricos. Su promesa, en inglés, es *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** Para poder usarlo corresponde reconocer sus partes: 
+**[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar gráficos desde valores numéricos. Su promesa, en inglés, es *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** 
+
+Para poder usarlo corresponde reconocer sus partes: 
 
 ```
 var contexto = document.getElementById('nombre').getContext('2d');
