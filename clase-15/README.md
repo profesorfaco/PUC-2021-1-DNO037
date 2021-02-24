@@ -1,8 +1,6 @@
-# Diseño y Nuevos Medios vR2
+### Diseño y Nuevos Medios → Clase 15 → 23/06/2021
 
-### Clase 15 → 23/06/2021
-
-### Diseño y desarrollo
+# Diseño y desarrollo
 
 - - - -  - - 
 
