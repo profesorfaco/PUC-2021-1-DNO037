@@ -1,10 +1,6 @@
-# Diseño y Nuevos Medios vR2 
+### Diseño y Nuevos Medios → Clase 17 → 14/07/2021
 
-### Clase 17 → 14/07/2021
-
-### Diseño y desarrollo
-
-- - - - - - - - - - - -
+# Diseño y desarrollo
 
 Evaluación Nº4
 
