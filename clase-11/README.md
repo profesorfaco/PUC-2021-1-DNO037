@@ -1,10 +1,6 @@
-# Diseño y Nuevos Medios vR2
+### Diseño y Nuevos → Clase 11 → 26/05/2021
 
-### Clase 11 → 26/05/2021
-
-### Bootstrap v5
-
-- - - - - - - 
+# Bootstrap v5
 
 Recordemos que partimos la exploración de Boostrap con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.0/getting-started/introduction/#starter-template): 
 
