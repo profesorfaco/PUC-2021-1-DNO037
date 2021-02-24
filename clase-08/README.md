@@ -1,10 +1,6 @@
-## Diseño y Nuevos Medios vR2
+## Diseño y Nuevos Medios → Clase 08 → 05/05/2021
 
-### Clase 08 → 05/05/2021
-
-### HTML5 + CSS3 + otras bibliotecas de JavaScript
-
-- - - - - - - - 
+# HTML5 + CSS3 + otras bibliotecas de JavaScript
 
 **Evaluación Nº2**
 
