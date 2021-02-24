@@ -1,10 +1,8 @@
-# Diseño y Nuevos Medios vR2
+### Diseño y Nuevos Medios → Clase 07 → 28/04/2021
 
-### Clase 07 → 28/04/2021
+# HTML5 + CSS3 + otras bibliotecas de JavaScript
 
-### HTML5 + CSS3 + otras bibliotecas de JavaScript
-
-- - - - - - - - - - 
+### Lectura
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que hemos explorado, además de [p5.js](https://p5js.org/es/), son:
 
@@ -16,13 +14,11 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
 
-Solo nos queda por revisar:
+**Solo nos queda por revisar [Vue.js](https://v3.vuejs.org/), un *framework* de JavaScript, tan popular como Angular.js y React.js**. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos progresar en capas de complejidad.
 
-- [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
+- - - - - - - - 
 
-- - - - - - -
-
-[Vue.js](https://v3.vuejs.org/) es un *framework* de JavaScript, tan popular como Angular.js y React.js. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos progresar en capas de complejidad.
+### Exploración
 
 Con Angular.js o React.js debes basar todo el desarrollo en el mismo *framework*, mientras que trabajando con [Vue.js](https://v3.vuejs.org/) puedes partir con un documento html, en tu editor de código fuente, en donde puedes escribir:
 
@@ -59,7 +55,7 @@ En el ejercicio que sigue podrán encontrar algo de Vue.js, pero la mayor parte 
 
 - - - - - - - 
 
-#### Ejercicio
+### Práctica
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-07/).
 
