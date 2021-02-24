@@ -1,4 +1,4 @@
-### Diseño y Nuevos → Clase 11 → 26/05/2021
+### Diseño y Nuevos Medios → Clase 11 → 26/05/2021
 
 # Bootstrap v5
 
