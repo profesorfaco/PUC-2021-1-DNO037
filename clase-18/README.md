@@ -1,8 +1,6 @@
-# Diseño y Nuevos Medios vR2 
+### Diseño y Nuevos Medios → Clase 18 → 14/07/2021
 
-### Clase 18 → 14/07/2021
-
-### Diseño y desarrollo
+# Diseño y desarrollo
 
 - - - - - - - - - - - -
 
