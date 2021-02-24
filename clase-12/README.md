@@ -1,10 +1,6 @@
-# Diseño y Nuevos Medios vR2 
+### Diseño y Nuevos Medios → Clase 12 → 02/06/2021
 
-### Clase 12 → 02/06/2021
-
-### Bootstrap v5
-
-- - - - - - -
+# Bootstrap v5
 
 Para seguir avanzando, conviene pasar al archivo `index.html` contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-12/index.html). Allí podemos volver sobre algunas cosa ya revisadas en JavaScript, para poder armar un portafolio.
 
