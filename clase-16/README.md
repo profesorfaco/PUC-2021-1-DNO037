@@ -1,10 +1,6 @@
-# Diseño y Nuevos Medios vR2
+### Diseño y Nuevos Medios → Clase 16 → 30/06/2020
 
-### Clase 16 → 30/06/2020
-
-### Diseño y desarrollo
-
-- - - -  - - 
+# Diseño y desarrollo
 
 Pre-evaluación Nº4
 
