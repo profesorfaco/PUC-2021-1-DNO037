@@ -1,4 +1,4 @@
-### Diseño y Nuevos → Clase 14 → 16/06/2021
+### Diseño y Nuevos Medios → Clase 14 → 16/06/2021
 
 # Diseño y desarrollo
 
