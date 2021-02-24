@@ -136,7 +136,7 @@ Es necesario contar con un editor de código fuente; vamos a crear un documento 
 </html>
 ```
 
-Luego podemos abrir este `ejemplo.html` en Chrome o Firefox.
+Podemos abrir este `ejemplo.html` en Chrome o Firefox. Ver el resultado y volver al editor de código fuente.
 
 - - - - - - -
 
