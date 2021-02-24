@@ -83,14 +83,60 @@ Antes de partir la exploración necesaria para hacer la configuración de [Chart
 
 - recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
 
-- revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push);
-
-- revisar el [método `pop()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/pop); y
+- revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push); y
 
 - tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
 
 Es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
 
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Esto es un ejemplo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <canvas id="myChart"></canvas>
+        <script>
+            //comunas más pobladas en la provincia de Santiago
+            var santiago = [
+                { comuna: "La Florida", habitante: 366.916, color: "#d32f2f" },
+                { comuna: "Las Condes", habitante: 294.838, color: "#7b1fa2" },
+                { comuna: "Maipú", habitante: 521.627, color: "#303f9f" },
+                { comuna: "Peñalolén", habitante: 241.599, color: "#0288d1" },
+                { comuna: "Santiago", habitante: 404.495, color: "#00796b" },
+            ];
+
+            var lasComunas = [];
+            var losHabitantes = [];
+            var losColores = [];
+
+            santiago.forEach(function (dato) {
+                lasComunas.push(dato.comuna);
+                losHabitantes.push(dato.habitante);
+                losColores.push(dato.color);
+            });
+
+            new Chart(document.getElementById("myChart").getContext("2d"), {
+                type: "bar",
+                data: {
+                    labels: lasComunas,
+                    datasets: [
+                        {
+                            data: losHabitantes,
+                            backgroundColor: losColores,
+                        },
+                    ],
+                },
+                options: {},
+            });
+        </script>
+    </body>
+</html>
+```
+
+Luego podemos abrir este `ejemplo.html` en Chrome o Firefox.
 
 - - - - - - -
 
