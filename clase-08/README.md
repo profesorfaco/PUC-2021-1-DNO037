@@ -1,4 +1,4 @@
-## Diseño y Nuevos Medios → Clase 08 → 05/05/2021
+### Diseño y Nuevos Medios → Clase 08 → 05/05/2021
 
 # HTML5 + CSS3 + otras bibliotecas de JavaScript
 
