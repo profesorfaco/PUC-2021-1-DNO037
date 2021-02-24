@@ -2,8 +2,6 @@
 
 # Diseño y desarrollo
 
-- - - -  - - 
-
 Pendiente
 
 - - - - - - - 
