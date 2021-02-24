@@ -1,10 +1,6 @@
-# Diseño y Nuevos Medios vR2 
+### Diseño y Nuevos → Clase 14 → 16/06/2021
 
-### Clase 14 → 16/06/2021
-
-### Diseño y desarrollo
-
-- - - -  - - 
+# Diseño y desarrollo
 
 Hoy comienzan a trabajar en el **diseño y desarrollo, autónomo, de su primer sitio web profesional o prototipo avanzado de aplicación web**, atendiendo a una de las siguientes opciones: 
 
