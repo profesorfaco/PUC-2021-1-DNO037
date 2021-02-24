@@ -1,8 +1,6 @@
-# Diseño y Nuevos Medios vR2 
+### Diseño y Nuevos → Clase 13 → 09/06/2021
 
-### Clase 13 → 09/06/2021
-
-### Bootstrap v5
+# Bootstrap v5
 
 - - - - - - -
 
