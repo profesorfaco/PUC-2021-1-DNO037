@@ -31,12 +31,59 @@ En la clase de hoy exploraremos [jQuery](https://jquery.com/) y [Leaflet.js](htt
 
 Para resolver esta exploración, conviene:
 
-- recordar el formato [JSON](https://www.json.org/json-es.html)
-
 - tener a mano un [*cheatsheet* de jQuery](https://htmlcheatsheet.com/jquery/); y 
 
 - tener a mano las [referencias de Leaflet](https://leafletjs.com/reference-1.7.1.html)
-- 
+
+Es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Esto es un ejemplo</title>
+        <style>
+            select{ margin:1%; }
+            main{display:flex; flex-flow: row wrap;}
+            article { width: calc(16% - 2px); padding: 1%; margin: 1%; border: 1px solid black;}
+        </style>
+    </head>
+    <body>
+        <select>
+            <option selected>Todos</option>
+            <option>Pares</option>
+            <option>Impares</option>
+        </select>
+        <main></main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script>
+            for (var n = 0; n < 10; n++) {
+                if (n % 2 == 0) {
+                    $("main").append('<article class="par">' + n + "</article>");
+                } else {
+                    $("main").append('<article class="impar">' + n + "</article>");
+                }
+            }
+            var v;
+            $("select").on("change", function () {
+                v = this.value;
+                if (v == "Pares") {
+                    $(".par").show();
+                    $(".impar").hide();
+                } else if (v == "Impares") {
+                    $(".par").hide();
+                    $(".impar").show();
+                } else {
+                    $(".par, .impar").show()
+                }
+            });
+        </script>
+    </body>
+</html>
+```
+
+Podemos abrir este ejemplo.html en Chrome o Firefox. Ver el resultado y volver al editor de código fuente.
+
 - - - - - - -
 
 ### Práctica
