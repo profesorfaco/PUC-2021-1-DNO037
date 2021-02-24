@@ -20,9 +20,9 @@ Nos queda por explorar:
 
 En la clase de hoy exploraremos [jQuery](https://jquery.com/) y [Leaflet.js](https://leafletjs.com/). Esta exploración la haremos mediante un ejercicio preparado.
 
-**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006. La tecnología web y sus usos han cambiado mucho desde tal fecha, incluyendo varias actualizaciones del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript) que tienen a simplificar la redacción del mismo lenguaje.
+**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006. La tecnología web y sus usos han cambiado mucho desde tal fecha, incluyendo varias actualizaciones del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript) que tienden a simplificar la redacción del mismo lenguaje.
 
-**- [Leaflet.js](https://leafletjs.com/) es una alternativa para trabajar con mapas interactivos**. 
+**[Leaflet.js](https://leafletjs.com/) es una alternativa para trabajar con mapas interactivos**. 
 
 - - - - - - -
 
