@@ -18,11 +18,11 @@ Nos queda por explorar:
 
 - [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
 
-En la clase de hoy exploraremos [jQuery](https://jquery.com/) y [Leaflet.js](https://leafletjs.com/). Esta exploración la haremos mediante un ejercicio preparado.
+En la clase de hoy nos referiremos a [jQuery](https://jquery.com/) y [Leaflet.js](https://leafletjs.com/).
 
-**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), que comenzó a simplificar la redacción del mismo lenguaje.
+**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
 
-Para comenzar a enteder esta simplificación, que aún puede resultar útil, conviene partir con un ejemplo; si en una página web tenemos varios elementos con una clase a la que denominamos "media", con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp), y sin usar bibliotecas, podríamos ir por cada uno de tales elementos con un `document.querySelectorAll(".media")`. De ello resultaría la representación de una lista. Luego, podríamos utilizar el método `forEach()` para afectar a cada elemento en tal lista. Si queremos afectar a los elementos con un cambio de color, sería algo como: 
+Conviene partir con un ejemplo respecto; si en una página web tenemos varios elementos con una clase a la que denominamos "media", con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp), y sin usar bibliotecas, podríamos ir por cada uno de tales elementos con un `document.querySelectorAll(".media")`. De ello resultaría la representación de una lista. Luego, podríamos utilizar el método `forEach()` para afectar a cada elemento en tal lista. Si queremos afectar a los elementos con un cambio de color, sería algo como: 
 
 ```
 var elementos = document.querySelectorAll(".media");
@@ -58,19 +58,20 @@ $("#cambio").on("click", enrojece);
 
 La clave del uso de jQuery está en la concatenación de un selector y una acción: `$(selector).action()`. Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y se muestran de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-**[Leaflet.js](https://leafletjs.com/) es una alternativa para trabajar con mapas interactivos**. 
+**[Leaflet.js](https://leafletjs.com/) es una alternativa ligera para trabajar con mapas interactivos**. Para usarlo necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También se puede decidir por un tipo de mapa a usar entre las alternativas de [Mapbox](https://www.mapbox.com/maps/): [light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64), [dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64), [streets-v11](https://api.mapbox.com/styles/v1/mapbox/streets-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64), [outdoors-v11](https://api.mapbox.com/styles/v1/mapbox/outdoors-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64), [satellite-v9](https://api.mapbox.com/styles/v1/mapbox/satellite-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64).
 
+```
+var miMapa = L.map('mapid').setView([-33.4189754,-70.6181116], 12);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', { maxZoom: 17, id: 'mapbox/light-v10', tileSize: 512, zoomOffset: -1 }).addTo(miMapa);
+
+L.marker([-33.4189754,-70.6181116]).addTo(miMapa).bindPopup("<strong>Escuela de Diseño</strong><br>Campus Lo Contador");
+```
 
 - - - - - - -
 
 
 ### Exploración
-
-Para resolver esta exploración, conviene:
-
-- tener a mano un [*cheatsheet* de jQuery](https://htmlcheatsheet.com/jquery/); y 
-
-- tener a mano las [referencias de Leaflet](https://leafletjs.com/reference-1.7.1.html)
 
 Es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
 
