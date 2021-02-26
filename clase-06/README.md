@@ -81,9 +81,9 @@ L.marker([-33.4189754,-70.6181116]).addTo(miMapa).bindPopup("<strong>Escuela de 
 
 Las instrucciones que se muestran arriba dicen:
 
-1. Crea un mapa dentro del elemento con la aqui, y su centro tiene que ser tal coordenada, con un zoom inicial de 12. Me referiré a lo creado como `miMapa` 
-2. Crea una capa aprovechando un mapa de [Mapbox](https://www.mapbox.com/maps/) al que se le podrá hacer un zoom máximo de 17, y agregar la capa a `miMapa`.
-3. Crea un marcador en tal coordenada y agrégalo a `miMapa`, a ese marcador agrégale el despliegue de un mensaje.
+1. Crea un mapa dentro del elemento con la identidad `aqui`. El mapa debe mostar en su centro tal coordenada, con un zoom inicial de 12. Me referiré a lo creado como `miMapa` 
+2. Crea una capa aprovechando un mapa de [Mapbox](https://www.mapbox.com/maps/) al que se le podrá hacer un zoom máximo de 17, y agrega esta capa a `miMapa`.
+3. Crea un marcador en tal coordenada y agrégalo a `miMapa`. Tal marcador tiene que desplegar un mensaje.
 
 Para más detalles, conviene revisar la [*Leaflet Quick Start Guide*](https://leafletjs.com/examples/quick-start/).
 
