@@ -43,9 +43,9 @@ Es necesario contar con un editor de código fuente; vamos a crear un documento 
     <head>
         <title>Esto es un ejemplo</title>
         <style>
-            select{ margin:1%; }
-            main{ display:flex; flex-flow:row wrap; }
-            article { width:calc(16% - 2px); padding:1%; margin:1%; border:1px solid black; }
+            select { margin: 1%; }
+            main { display: flex; flex-flow: row wrap; }
+            article { width: calc(16% - 2px); padding: 1%; margin: 1%; border: 1px solid black; }
         </style>
     </head>
     <body>
@@ -57,26 +57,28 @@ Es necesario contar con un editor de código fuente; vamos a crear un documento 
         <main></main>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
         <script>
-            for (var n = 1; n < 11; n++) {
-                if (n % 2 == 0) {
-                    $("main").append('<article class="par">' + n + "</article>");
-                } else {
-                    $("main").append('<article class="impar">' + n + "</article>");
+            $(document).ready(function () {
+                for (var n = 1; n < 11; n++) {
+                    if (n % 2 == 0) {
+                        $("main").append('<article class="par">' + n + "</article>");
+                    } else {
+                        $("main").append('<article class="impar">' + n + "</article>");
+                    }
                 }
-            }
-            var v;
-            $("select").on("change", function () {
-                v = this.value;
-                if (v == "Pares") {
-                    $(".par").fadeTo("slow",1);
-                    $(".impar").fadeTo("slow",0.1);
-                } else if (v == "Impares") {
-                    $(".par").fadeTo("slow",0.1);
-                    $(".impar").fadeTo("slow",1);
-                } else {
-                    $(".par, .impar").fadeTo("slow",1);
-                }
-            });
+                var v;
+                $("select").on("change", function () {
+                    v = this.value;
+                    if (v == "Pares") {
+                        $(".par").fadeTo("slow", 1);
+                        $(".impar").fadeTo("slow", 0.1);
+                    } else if (v == "Impares") {
+                        $(".par").fadeTo("slow", 0.1);
+                        $(".impar").fadeTo("slow", 1);
+                    } else {
+                        $(".par, .impar").fadeTo("slow", 1);
+                    }
+                });
+            }); //cierro ready(function(){})
         </script>
     </body>
 </html>
