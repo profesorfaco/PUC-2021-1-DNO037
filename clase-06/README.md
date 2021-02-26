@@ -58,7 +58,7 @@ $("#cambio").on("click", enrojece);
 
 La clave del uso de jQuery está en la concatenación de un selector y una acción: `$(selector).action()`. Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y se muestran de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-**[Leaflet.js](https://leafletjs.com/) es una alternativa ligera para trabajar con mapas interactivos**. Para usarlo necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar entre las alternativas de [Mapbox](https://www.mapbox.com/maps/): 
+**[Leaflet.js](https://leafletjs.com/) es una alternativa ligera para trabajar con mapas interactivos**. Para usarlo necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
 
 - [light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
@@ -67,12 +67,25 @@ La clave del uso de jQuery está en la concatenación de un selector y una acci�
 - [satellite-v9](https://api.mapbox.com/styles/v1/mapbox/satellite-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64).
 
 ```
-var miMapa = L.map('mapid').setView([-33.4189754,-70.6181116], 12);
+var miMapa = L.map('aqui').setView([-33.4189754,-70.6181116], 12);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', { maxZoom: 17, id: 'mapbox/light-v10', tileSize: 512, zoomOffset: -1 }).addTo(miMapa);
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', { 
+maxZoom: 17, 
+id: 'mapbox/light-v10', 
+tileSize: 512, 
+zoomOffset: -1 
+}).addTo(miMapa);
 
 L.marker([-33.4189754,-70.6181116]).addTo(miMapa).bindPopup("<strong>Escuela de Diseño</strong><br>Campus Lo Contador");
 ```
+
+Las instrucciones que se muestran arriba dicen:
+
+1. Crea un mapa dentro del elemento con la aqui, y su centro tiene que ser tal coordenada, con un zoom inicial de 12. Me referiré a lo creado como `miMapa` 
+2. Crea una capa aprovechando un mapa de [Mapbox](https://www.mapbox.com/maps/) al que se le podrá hacer un zoom máximo de 17, y agregar la capa a `miMapa`.
+3. Crea un marcador en tal coordenada y agrégalo a `miMapa`, a ese marcador agrégale el despliegue de un mensaje.
+
+Para más detalles, conviene revisar la [*Leaflet Quick Start Guide*](https://leafletjs.com/examples/quick-start/).
 
 - - - - - - -
 
