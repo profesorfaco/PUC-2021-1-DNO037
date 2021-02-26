@@ -17,17 +17,20 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
 
         if (document.body.classList.contains("portada")) {
             datos.forEach(function (dato, i) {
-                document.getElementsByTagName("section")[0].innerHTML += "<article><a href='page.html?pais=" + i + "'>" + dato.pais + "</article>";
+                document.querySelector("main").innerHTML += "<article><a href='page.html?pais=" + i + "'>" + dato.pais + "</article>";
             }); // cierra el forEach
         } else {
             var f = new URLSearchParams(window.location.search).get("pais");
             console.log(f);
             if(window.innerHeight > window.innerWidth){
-                document.getElementById("grafico").setAttribute("height", "75");
+                document.querySelector("#grafico").setAttribute("height", "100");
             }
             if (f !== null) {
                 document.querySelector("h2").append(datos[f].pais);
                 var indice = [];
+                indice.push(datos[f].siete);
+                indice.push(datos[f].ocho);
+                indice.push(datos[f].nueve);
                 indice.push(datos[f].diez);
                 indice.push(datos[f].once);
                 indice.push(datos[f].doce);
@@ -35,10 +38,10 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                 indice.push(datos[f].catorce);
                 indice.push(datos[f].quince);
                 indice.push(datos[f].dieciseis);
-                new Chart(document.getElementById("grafico").getContext("2d"), {
+                new Chart(document.querySelector("#grafico").getContext("2d"), {
                     type: "line",
                     data: {
-                        labels: [2010, 2011, 2012, 2013, 2014, 2015, 2016],
+                        labels: [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
                         datasets: [
                             {
                                 data: indice,
@@ -62,6 +65,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                             yAxes: [
                                 {
                                     ticks: {
+                                        beginAtZero: true,
                                         fontColor: "rgba(0, 0, 0, 0.75)",
                                         fontFamily: "monospace",
                                         fontSize: 11,
@@ -81,7 +85,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                     },
                 }); // cierra new Chart
             } else {
-                document.getElementsByTagName("h1")[0].innerHTML = "Algo salió mal &#128557;";
+                document.querySelector("main").innerHTML = "<article>Algo salió mal &#128557;</article>";
             } // cierra else
         } // cierra else
     }, // cierra function(respuesta){}

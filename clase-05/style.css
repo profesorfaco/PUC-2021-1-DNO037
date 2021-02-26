@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 html{
-        background: linear-gradient(135deg, rgba(230, 170, 140, .9), rgba(150, 100, 75, .9)), url('images/camion.jpg') right bottom no-repeat fixed;
+        background: linear-gradient(135deg, rgba(240, 170, 140, .9), rgba(150, 100, 75, .9)), url('images/camion.jpg') right bottom no-repeat fixed;
         min-height: 100%;
 }
 
@@ -12,25 +12,45 @@ body {
     padding: 0;
 }
 
+a{color:black;}
+
 div.container {
-    width: 80vw;
+    width: 80%;
     height: auto;
     min-height: 100vh;
     margin: 0 auto;
+}
+
+header, main, footer{
     display:flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
 }
 
-header, footer{
-  margin:auto 2vw;
+header div {
+        width: 96%;
+        margin: 1%;
+        padding:1%; 
 }
 
-main{
-  margin:auto 0;
+header div:nth-child(2) {
+        display:none;
+}
+
+@media (orientation:landscape){
+    header div{
+        width: 46%;
+        margin: 1%;
+        padding:1%;    
+    }
+    header div:nth-child(2) {
+        display:block;
+    }
 }
 
 header h1{
-    font-size:calc(1rem + 2vw);
+    font-size:calc(3.5rem - 2vw);
     line-height: 1;
 }
 
@@ -39,17 +59,22 @@ header h2{
     line-height: 1;
 }
 
-main section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+header h3{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
-main section article {
+main{
+    min-height: 50vh;
+    padding-bottom:5vh;
+}
+
+main article {
     border-radius: 5px 5px;
-    width: calc(50% - 4vw);
-    margin: 1vh 1vw;
-    padding:1.5vh 1vw;
+    width: 44%;
+    margin: 1%;
+    padding:2%;
     background:rgba(255,255,255,0.1);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
     backdrop-filter: blur(2px);
@@ -57,10 +82,10 @@ main section article {
 }
 
 @media (orientation:landscape){
-    main section article {
-        width: calc(25% - 4vw);
-        margin: 1vh 1vw;
-        padding:2vh 1vw;
+    main article {
+        width: 21%;
+        margin: 1%;
+        padding:1%;
     }
 }
 
@@ -73,7 +98,8 @@ main canvas{
 }
 
 footer p{
-    width: 100%;
+    width: 96%;
+    margin:2%;
     display: flex;
     justify-content: space-between;
     align-items: center;    
