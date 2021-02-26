@@ -22,7 +22,44 @@ En la clase de hoy exploraremos [jQuery](https://jquery.com/) y [Leaflet.js](htt
 
 **[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), que comenzó a simplificar la redacción del mismo lenguaje.
 
+Para comenzar a enteder esta simplificación, que aún puede resultar útil, conviene partir con un ejemplo; si en una página web tenemos varios elementos con una clase a la que denominamos "media", con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp), y sin usar bibliotecas, podríamos ir por cada uno de tales elementos con un `document.querySelectorAll(".media")`. De ello resultaría la representación de una lista. Luego, podríamos utilizar el método `forEach()` para afectar a cada elemento en tal lista. Si queremos afectar a los elementos con un cambio de color, sería algo como: 
+
+```
+var elementos = document.querySelectorAll(".media");
+elementos.forEach(elemento => elemento.style.color="red");
+```
+
+Para hacer lo mismo aprovechando jQuery, basta escribir: 
+
+```
+$(".media").css("color","red");
+```
+
+Agreguemos otro ejemplo; queremos que el cambio de color se aplique una vez se presione un botón de identidad "cambio". 
+
+Con JavaScript, sin una biblioteca, podríamos usar `querySelector` y `addEventListener`:
+
+```
+function enrojece(){
+  var elementos = document.querySelectorAll(".media");
+  elementos.forEach(elemento => elemento.style.color="red");  
+}
+document.querySelector("#cambio").addEventListener("click", enrojece);
+```
+
+Con jQuery podríamos usar `$` y `on`:
+
+```
+function enrojece() {
+  $(".media").css("color","red");
+}
+$("#cambio").on("click", enrojece);
+```
+
+La clave del uso de jQuery está en la concatenación de un selector y una acción: `$(selector).action()`. Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y se muestran de manera muy abreviada en https://htmlcheatsheet.com/jquery/
+
 **[Leaflet.js](https://leafletjs.com/) es una alternativa para trabajar con mapas interactivos**. 
+
 
 - - - - - - -
 
