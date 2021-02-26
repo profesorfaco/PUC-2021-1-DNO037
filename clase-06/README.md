@@ -27,7 +27,7 @@ Conviene partir con un ejemplo: En una página web tenemos varios elementos con 
 ```
 var elementos = Array.from(document.getElementsByClassName("media"));
 elementos.forEach(function(elemento){
-	elemento.style.color="red";
+  elemento.style.color="red";
 });
 ```
 
@@ -83,10 +83,10 @@ La creación de un mapa con [Leaflet.js](https://leafletjs.com/) puede verse as�
 var miMapa = L.map('aqui').setView([-33.4189754,-70.6181116], 12);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', { 
-maxZoom: 17, 
-id: 'mapbox/light-v10', 
-tileSize: 512, 
-zoomOffset: -1 
+  maxZoom: 17, 
+  id: 'mapbox/light-v10', 
+  tileSize: 512, 
+  zoomOffset: -1 
 }).addTo(miMapa);
 
 L.marker([-33.4189754,-70.6181116]).addTo(miMapa).bindPopup("<strong>Escuela de Diseño</strong><br>Campus Lo Contador");
