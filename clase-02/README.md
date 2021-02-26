@@ -79,7 +79,9 @@ Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para
 
 - tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-02/).
+Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-02/), según indicaciones que se compartan en la clase vía Zoom. 
+
+El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
 
 El ejercicio completo puede ser evaluado con:
 
