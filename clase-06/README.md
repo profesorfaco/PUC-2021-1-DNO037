@@ -29,7 +29,7 @@ var elementos = document.querySelectorAll(".media");
 elementos.forEach(elemento => elemento.style.color="red");
 ```
 
-Para hacer lo mismo aprovechando jQuery, basta escribir: 
+Para hacer lo mismo aprovechando jQuery basta escribir: 
 
 ```
 $(".media").css("color","red");
@@ -37,7 +37,7 @@ $(".media").css("color","red");
 
 Agreguemos otro ejemplo; queremos que el cambio de color se aplique una vez se presione un botón de identidad "cambio". 
 
-Con JavaScript, sin una biblioteca, podríamos usar `querySelector` y `addEventListener`:
+Con JavaScript, sin una biblioteca, podríamos usar `function(){}`, `querySelector` y `addEventListener`:
 
 ```
 function enrojece(){
@@ -58,12 +58,12 @@ $("#cambio").on("click", enrojece);
 
 La clave del uso de jQuery está en la concatenación de un selector y una acción: `$(selector).action()`. Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y se muestran de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-**[Leaflet.js](https://leafletjs.com/) es una alternativa ligera para trabajar con mapas interactivos**. Para usarlo necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
+**Ya podemos pasar a [Leaflet.js](https://leafletjs.com/), que es una biblioteca de JavasScript que sirve de alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
 
 - [light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [streets-v11](https://api.mapbox.com/styles/v1/mapbox/streets-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
-- [outdoors-v11](https://api.mapbox.com/styles/v1/mapbox/outdoors-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); y 
+- [outdoors-v11](https://api.mapbox.com/styles/v1/mapbox/outdoors-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); o 
 - [satellite-v9](https://api.mapbox.com/styles/v1/mapbox/satellite-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64).
 
 ```
@@ -79,9 +79,9 @@ zoomOffset: -1
 L.marker([-33.4189754,-70.6181116]).addTo(miMapa).bindPopup("<strong>Escuela de Diseño</strong><br>Campus Lo Contador");
 ```
 
-Las instrucciones que se muestran arriba dicen:
+Las instrucciones dicen:
 
-1. Crea un mapa dentro del elemento con la identidad `aqui`. El mapa debe mostar en su centro tal coordenada, con un zoom inicial de 12. Me referiré a lo creado como `miMapa` 
+1. Crea un mapa dentro del elemento con la identidad `aqui`. El mapa debe mostar en su centro tal coordenada, con un zoom inicial de 12. Y refiére a lo creado como `miMapa` 
 2. Crea una capa aprovechando un mapa de [Mapbox](https://www.mapbox.com/maps/) al que se le podrá hacer un zoom máximo de 17, y agrega esta capa a `miMapa`.
 3. Crea un marcador en tal coordenada y agrégalo a `miMapa`. Tal marcador tiene que desplegar un mensaje.
 
