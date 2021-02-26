@@ -3,22 +3,33 @@ $(document).ready(function () {
         console.log(data);
         if (document.body.classList.contains("portada")) {
             data.features.forEach(function (temblor, i) {
-                let articuloTipo;
+                var articuloTipo;
                 if (temblor.properties.place.includes("Chile")) {
-                    articuloTipo = '<article class="chileno">';
+                    articuloTipo = '<article class="local">';
                 } else {
-                    articuloTipo = "<article>";
+                    articuloTipo = '<article class="global">';
                 }
                 $("section").append(articuloTipo + "<h2>" + temblor.properties.mag + "</h2><p>" + temblor.properties.place + "</p><p><a href='page.html?temblor=" + i + "'>ver mapa</a></p></article>");
             });
+            var valor;
+            $('#opciones').change(function(){
+                valor = $("input[name='paises']:checked").val();
+                if(valor == "chile"){
+                    $(".local").fadeTo("slow",1);
+                    $(".global").fadeTo("slow",0.1);
+                } else {
+                    $(".local").fadeTo("slow",1);
+                    $(".global").fadeTo("slow",1);
+                }
+            }); 
         } else {
-            let t = new URLSearchParams(window.location.search).get("temblor");
+            var t = new URLSearchParams(window.location.search).get("temblor");
             if (t !== null) {
-                let nombre = data.features[t].properties.title;
-                let longitud = data.features[t].geometry.coordinates[0];
-                let latitud = data.features[t].geometry.coordinates[1];
-                let more = data.features[t].properties.url;
-                let elmapa = L.map("mapa").setView([latitud, longitud], 3);
+                var nombre = data.features[t].properties.title;
+                var longitud = data.features[t].geometry.coordinates[0];
+                var latitud = data.features[t].geometry.coordinates[1];
+                var more = data.features[t].properties.url;
+                var elmapa = L.map("mapa").setView([latitud, longitud], 3);
                 L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw", {
                     maxZoom: 18,
                     id: "mapbox/dark-v10",
@@ -26,9 +37,9 @@ $(document).ready(function () {
                     zoomOffset: -1,
                 }).addTo(elmapa);
                 circle = L.circle([latitud, longitud], {
-                    fillColor: "cyan",
-                    fillOpacity: 0.8,
-                    weight: 0,
+                    fillColor: "#0079F6",
+                    fillOpacity: 0.75,
+                    weight: 2,
                     radius: 100000,
                 })
                     .addTo(elmapa)
@@ -40,6 +51,6 @@ $(document).ready(function () {
             } else {
                 $("h2").append(" — Algo salió mal &#128557;");
             } // cierro un else
-        } // cierro un else
+        } // cierro otro else
     }); // cierro $.getJSON({})
 }); //cierro ready(function(){})

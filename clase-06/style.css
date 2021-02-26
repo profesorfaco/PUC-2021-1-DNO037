@@ -27,15 +27,17 @@ div.container{
 }
 
 header, footer{
-    padding:2%;
+    padding:4% 2%;
 }
 
 header h1{
     font-size:calc(2rem + 1vw);
-    line-height: 1.5;
+    line-height: 1.1;
+    max-width: 80%;
 }
 
-header p{
+header h2{
+    margin-top: 0.5rem;
     line-height: 1.5;
 }
 
@@ -62,10 +64,6 @@ section article h2{
 section article p{
     font-size:1rem;
     padding:0.5rem 0;
-}
-
-section article.chileno{
-    background: rgba(40,40,40,0.5);
 }
 
 @media (max-width: 767.98px) {
@@ -95,4 +93,14 @@ footer p{
     display: flex;
     justify-content: space-between;
     align-items: center;    
+}
+
+#opciones{
+    top:1rem;
+    right:1rem;
+    position: fixed;
+    background:black;
+    padding:0.5rem 1rem;
+    border-radius: 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
