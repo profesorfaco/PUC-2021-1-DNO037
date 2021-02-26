@@ -22,22 +22,40 @@ En la clase de hoy nos referiremos a [jQuery](https://jquery.com/) y [Leaflet.js
 
 **[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
 
-Conviene partir con un ejemplo respecto; si en una página web tenemos varios elementos con una clase a la que denominamos "media", con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp), y sin usar bibliotecas, podríamos ir por cada uno de tales elementos con un `document.querySelectorAll(".media")`. De ello resultaría la representación de una lista. Luego, podríamos utilizar el método `forEach()` para afectar a cada elemento en tal lista. Si queremos afectar a los elementos con un cambio de color, sería algo como: 
+Conviene partir con un ejemplo: En una página web tenemos varios elementos con una clase a la que denominamos "media". Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
+
+```
+var elementos = Array.from(document.getElementsByClassName("media"));
+elementos.forEach(function(elemento){
+	elemento.style.color="red";
+});
+```
+
+Pero con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
 
 ```
 var elementos = document.querySelectorAll(".media");
 elementos.forEach(elemento => elemento.style.color="red");
 ```
 
-Para hacer lo mismo aprovechando jQuery basta escribir: 
+Ahora bien, usando [jQuery](https://jquery.com/), basta con escribir:
 
 ```
 $(".media").css("color","red");
 ```
 
-Agreguemos otro ejemplo; queremos que el cambio de color se aplique una vez se presione un botón de identidad "cambio". 
+Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en los años más recientes el mismo lenguaje ha tendido a simplificarse; no conviene perder de vista esta tendencia por prestarle mucha atención a la biblioteca, esto sería casi como olvidar el modo correcto de escribir algunas palabras por prestarle mucha atención a las abreviaciones de mensajería instantánea.
 
-Con JavaScript, sin una biblioteca, podríamos usar `function(){}`, `querySelector` y `addEventListener`:
+Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
+
+```
+function enrojece() {
+  $(".media").css("color","red");
+}
+$("#cambio").on("click", enrojece);
+```
+
+Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo siguiente:
 
 ```
 function enrojece(){
@@ -47,24 +65,19 @@ function enrojece(){
 document.querySelector("#cambio").addEventListener("click", enrojece);
 ```
 
-Con jQuery podríamos usar `$` y `on`:
+Con la última instrucción, el cambio de color sobre todos los elementos de clase "media" se hace al presionar el botón de identidad "cambio". Y ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción: `$(selector).action()`. 
 
-```
-function enrojece() {
-  $(".media").css("color","red");
-}
-$("#cambio").on("click", enrojece);
-```
+Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-La clave del uso de jQuery está en la concatenación de un selector y una acción: `$(selector).action()`. Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y se muestran de manera muy abreviada en https://htmlcheatsheet.com/jquery/
-
-**Ya podemos pasar a [Leaflet.js](https://leafletjs.com/), que es una biblioteca de JavasScript que sirve de alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
+**Ahora podemos pasar a [Leaflet.js](https://leafletjs.com/), una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
 
 - [light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [streets-v11](https://api.mapbox.com/styles/v1/mapbox/streets-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
 - [outdoors-v11](https://api.mapbox.com/styles/v1/mapbox/outdoors-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); o 
 - [satellite-v9](https://api.mapbox.com/styles/v1/mapbox/satellite-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64).
+
+La creación de un mapa con [Leaflet.js](https://leafletjs.com/) puede verse así:
 
 ```
 var miMapa = L.map('aqui').setView([-33.4189754,-70.6181116], 12);
@@ -79,20 +92,29 @@ zoomOffset: -1
 L.marker([-33.4189754,-70.6181116]).addTo(miMapa).bindPopup("<strong>Escuela de Diseño</strong><br>Campus Lo Contador");
 ```
 
-Las instrucciones dicen:
+En la instrucción hay tres L de [Leaflet.js](https://leafletjs.com/), las que se usan para:
 
-1. Crea un mapa dentro del elemento con la identidad `aqui`. El mapa debe mostar en su centro tal coordenada, con un zoom inicial de 12. Y refiére a lo creado como `miMapa` 
-2. Crea una capa aprovechando un mapa de [Mapbox](https://www.mapbox.com/maps/) al que se le podrá hacer un zoom máximo de 17, y agrega esta capa a `miMapa`.
-3. Crea un marcador en tal coordenada y agrégalo a `miMapa`. Tal marcador tiene que desplegar un mensaje.
+1. Crear un mapa dentro del elemento con la identidad `aqui`. El mapa debe tener en su centro tal coordenada, con un zoom inicial de 12. Y corresponde referir a lo creado como `miMapa`. 
+2. Crear una capa aprovechando un mapa de [Mapbox](https://www.mapbox.com/maps/) al que se le podrá hacer un zoom máximo de 17, y agrega esta capa a `miMapa`.
+3. Crear un marcador en tal coordenada y agregarlo a `miMapa`. Tal marcador tiene que desplegar un mensaje.
 
-Para más detalles, conviene revisar la [*Leaflet Quick Start Guide*](https://leafletjs.com/examples/quick-start/).
+Dos maneras sencillas para encontrar las coordenadas necesarias: 
+
+- En la dirección de Google Maps, son los dos números que siguen después del arroba en `https://www.google.com/maps/@`
+
+- A la derecha del título principal de cada artículo de Wikipedia, en letra azul y pequeña, habitualmente están las coordenadas con vínculo a GeoHack.
+
+
 
 - - - - - - -
 
 
 ### Exploración
 
-Es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
+La exploración estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
+
+
+Además, es necesario contar con un editor de código fuente; allí vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
 
 ```
 <!DOCTYPE html>
@@ -141,14 +163,14 @@ Es necesario contar con un editor de código fuente; vamos a crear un documento 
 </html>
 ```
 
-Podemos abrir este ejemplo.html en Chrome o Firefox. Ver el resultado y volver al editor de código fuente.
+Podemos abrir este ejemplo.html en Chrome o Firefox. 
 
 - - - - - - -
 
 ### Práctica
 
 
-Hoy realizaremos un ejercicio que nos permitirá explorar [jQuery](https://jquery.com/) y [Leaflet.js](https://leafletjs.com/)
+Hoy realizaremos un ejercicio trabajaremos con [jQuery](https://jquery.com/) y [Leaflet.js](https://leafletjs.com/) en conjunto.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-06/).
 
