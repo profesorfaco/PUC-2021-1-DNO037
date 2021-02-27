@@ -54,7 +54,7 @@ Para comprender de mejor manera lo recién expuesto, conviene hacer un paréntes
 
 - tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
 
-Cuando cerremos el paréntesis volveremos a la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html) para resolver un ejercicio.
+Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html) para resolver el ejercicio de la clase de hoy.
 
 - - - - - - - - - - - - - - 
 
