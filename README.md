@@ -32,10 +32,6 @@ Cada estudiante en este OPR debe contar con:
 
 #### Clase a clase
 
-Cada clase de divide en 3 partes: Lectura, exploración y práctica. 
-
-Se recomienda adelantar la lectura. La exploración se realiza en sesiones sincrónicas. Y la práctica se completa cuando cada estudiante publica, con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada de un sitio web.
-
 [Clase 01 → 17/03/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-01) → HTML5 + CSS3 + p5.js
 
 [Clase 02 → 24/03/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-02) → HTML5 + CSS3 + p5.js
@@ -81,6 +77,10 @@ Esta organización atiende al calendario oficial de actividades académicas y e
 - Entre lunes 10 y sábado 15 de mayo hay una semana de receso para los estudiantes.
 
 - El viernes 9 de julio finalizan las clases del primer período académico.
+
+**Cada clase se dividirá en 3 partes: Lectura, exploración y práctica**. 
+
+Se recomienda adelantar la lectura. La exploración se realiza en sesiones sincrónicas. Y la práctica se completa cuando cada estudiante publica, con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada de un sitio web.
 
 - - - - - - - -
 
