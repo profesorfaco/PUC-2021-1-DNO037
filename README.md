@@ -4,7 +4,7 @@
 
 Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del profesor [Felipe Cortez](https://faco.cl/).
 
-#### Descripción abreviada
+### Descripción abreviada
 
 - esta es su segunda versión remota;
 
@@ -16,7 +16,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 - - - - - - - - - -
 
-#### Materiales de trabajo
+### Materiales de trabajo
 
 Cada estudiante en este OPR debe contar con:
 
@@ -30,7 +30,7 @@ Cada estudiante en este OPR debe contar con:
 
 - - - - - - - - -
 
-#### Clase a clase
+### Clase a clase
 
 [Clase 01 → 17/03/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-01) → HTML5 + CSS3 + p5.js
 
@@ -84,7 +84,7 @@ Se recomienda adelantar la lectura. La exploración se realiza en sesiones sincr
 
 - - - - - - - -
 
-#### Nota final 
+### Nota final 
 
 **25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
 
@@ -98,8 +98,7 @@ Se recomienda adelantar la lectura. La exploración se realiza en sesiones sincr
 
 - - - - - - - 
 
-
-#### Referencias bibliográficas
+### Referencias bibliográficas
 
 [O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket References". En el desarrollo del Optativo, podrían consultar: 
 
@@ -113,7 +112,7 @@ Se recomienda adelantar la lectura. La exploración se realiza en sesiones sincr
 - Cederholm, D. (2014) *CSS3 for web designers*
 - Keith, J. & Andrew, R. (2010). *HTML5 for web designers*
 
-#### Referencias en línea
+### Referencias en línea
 
 - [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [Google Design’s Best of 2020](https://design.google/library/google-design-2020/)
