@@ -78,9 +78,9 @@ Esta organización atiende al calendario oficial de actividades académicas y e
 
 - El viernes 9 de julio finalizan las clases del primer período académico.
 
-**Cada clase se dividirá en 3 partes: Lectura, exploración y práctica**. 
+**Para cada clase, la organización es: Lectura, exploración y práctica**. 
 
-Se recomienda adelantar la lectura. La exploración se realiza en sesiones sincrónicas. Y la práctica se completa cuando cada estudiante publica, con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada de un sitio web.
+La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda adelantar la lectura. Participar de la exploración que se realiza en sesiones sincrónicas breves. Y atender al desafío práctico en el horario de clases o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) su versión ajustada de un sitio web.
 
 - - - - - - - -
 
