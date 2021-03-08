@@ -14,7 +14,7 @@ El editor de código fuente nos dará indicaciones para poder escribir código f
 
 - **CSS (Cascading Style Sheets)**. Lenguaje estándar que describe la presentación de las páginas web. CSS3 es la versión más reciente de este lenguaje. Su unidad más básica es la regla. Cada regla se inicia con un selector, seguido de paréntesis de llave `{…}`. Tal paréntesis contiene un bloque de declaraciones. En tal bloque, cada declaración se separa de otra mediante punto y coma `;`. Una declaración se compone del par `propiedad: valor`. Con todo lo dicho, una regla se escribirá, generalmente, de la siguiente manera: `selector{ propiedad: valor; }`. Podemos complementar esta breve introducción a CSS con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics (no es necesario realizar el ejercicio que allí se propone).
 
-- **JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web. Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar un poco, dependiendo de la lógica de cada instrucción, la biblioteca (*library*) o el *framework* de programación que estemos aprovechando; podemos imaginar que una biblioteca de programación es como una selección de ingredientes listos para poder preparar determinado tipo de comida sin necesidad de ser cocinero experto. Pero el *framework* es como una cocina completa. Podemos complementar esta breve introducción a JS con una vistazo a este video: https://youtu.be/ZCSyjKAD-lY (para no confundir la función principal de JS con la de CSS, recomendaría pensar el "Que se vea bonito" del video como un "Que se vea simpático, que pasen cosas, que haya movimientos, transiciones, ajustes").
+- **JS (JavaScript)**. Lenguaje de programación que controla el comportamiento de las páginas web. Con JS se pueden escribir secuencias de instrucciones con las que una computadora realizará una tarea determinada. Su estructura puede variar un poco, dependiendo de la lógica de cada instrucción, el estándar en uso, la biblioteca (*library*) en la que nos apoyemos, o el *framework* de programación en la que se base el trabajo; podemos imaginar que una biblioteca de programación es como una selección de ingredientes listos para poder preparar determinado tipo de comida sin necesidad de ser cocinero experto. Pero el *framework* es como una cocina completa. Podemos complementar esta breve introducción a JS con una vistazo a este video: https://youtu.be/ZCSyjKAD-lY (para no confundir la función principal de JS con la de CSS, recomendaría pensar el "Que se vea bonito" del video como un "Que se vea simpático, que pasen cosas, que haya movimientos, transiciones, ajustes").
 
 - - - - - - - - - - - - - - 
 
@@ -48,11 +48,11 @@ Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro 
 
 Esta variable es utilizada para realizar una tarea simplificada con [p5.js](https://p5js.org/es/get-started/), una bibliteca de JS. Para comprender tal simplificación, conviene hacer un paréntesis para:
 
-- aprovechar [el **p5.js** Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n); y
- 
-- revisar [la propiedad length](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length); y
+- aprovechar [el **p5.js** Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n);
 
-- revisar [la página de referencias de **p5.js**](https://p5js.org/es/reference/)
+- revisar [la página de referencias de **p5.js**](https://p5js.org/es/reference/); y
+
+- revisar [la propiedad length](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length).
 
 Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html) para resolver el ejercicio de la clase de hoy.
 
