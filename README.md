@@ -71,16 +71,13 @@ Cada estudiante en este OPR debe contar con:
 Esta organización atiende al calendario oficial de actividades académicas y estudiantiles 2021, donde se indica que:
 
 - El lunes 15 de marzo se inician las clases de primer semestre para estudiante nuevos y antiguos.
-
 - Entre lunes 5 y miércoles 7 de abril no se realizarán evaluaciones académicas y controles a los Estudiantes, por ser los primeros tres días posteriores a Semana Santa.
-
 - Entre lunes 10 y sábado 15 de mayo hay una semana de receso para los estudiantes.
-
 - El viernes 9 de julio finalizan las clases del primer período académico.
 
 **Para cada clase, la organización es: Lectura, exploración y práctica**. 
 
-La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda: 
+La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda:
 
 - adelantar la lectura; 
 - participar de la exploración que se realiza en sesiones sincrónicas breves; y 
