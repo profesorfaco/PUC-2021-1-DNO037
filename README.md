@@ -80,11 +80,15 @@ Esta organización atiende al calendario oficial de actividades académicas y e
 
 **Para cada clase, la organización es: Lectura, exploración y práctica**. 
 
-La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda adelantar la lectura. Participar de la exploración que se realiza en sesiones sincrónicas breves. Y atender al desafío práctico en el horario de clases o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) su versión ajustada de un sitio web.
+La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda: 
+
+- adelantar la lectura; 
+- participar de la exploración que se realiza en sesiones sincrónicas breves; y 
+- atender al desafío de la práctica en el horario de la clase o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) su versión ajustada de un sitio web.
 
 - - - - - - - -
 
-### Nota final 
+### Nota final
 
 **25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
 
