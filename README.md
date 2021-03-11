@@ -83,13 +83,21 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 - participar de la exploración que se realiza en sesiones sincrónicas breves; y 
 - atender al desafío de la práctica en el horario de la clase o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) su versión ajustada de un sitio web.
 
+Esta organización no aplica en:
+
+- [Clase 03 → 31/03/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-03) → Evaluación Nº1
+- [Clase 08 → 05/05/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-08) → Evaluación Nº2
+- [Clase 13 → 09/06/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-13) → Evaluación Nº3
+- [Clase 17 → 07/07/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-17) → Pre-evaluación Nº4
+- [Clase 18 → 14/07/2021](https://github.com/profesorfaco/dno037-2021/tree/main/clase-18) → Evaluación Nº4
+
 - - - - - - - -
 
 ### Nota final
 
 **25%** → puntos acumulados entre clases 1 y 2 + puntaje obtenido en evaluación Nº1 (clase 3)
 
-**25%** → puntos acumulados entre clases 4 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
+**25%** → puntos acumulados entre clases 5 y 7 + puntaje obtenido en evaluación Nº2 (clase 8)
 
 **25%** → puntos acumulados entre clases 10 y 12 + puntaje obtenido en evaluación Nº3 (clase 13)
 
