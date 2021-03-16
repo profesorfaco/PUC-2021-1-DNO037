@@ -72,6 +72,41 @@ El ejercicio completo puede ser evaluado con:
 
 - **2 puntos** → logrado, con aporte descatado.
 
+Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 17 de marzo. 
+
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-01 |
+|:----:|:----------------|-----------|--------------------|
+| 1    | DIEGO BARRIENTOS | — | — |
+| 2    | MARTÍN BENNETT | — | — |
+| 3    | RODRIGO CAMPUSANO | — | — |
+| 4    | PALOMA CARRASCO | — | — |
+| 5    | SOFIA CAVALLINI | — | — |
+| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 7    | FELIPE FUENTEALBA | — | — |
+| 8    | VERÓNICA GATICA | — | — |
+| 9    | MIRKO GONZÁLEZ | — | — |
+| 10    | LAURA GUERINONI | — | — |
+| 11   | RODRIGO GUZMÁN | — | — |
+| 12   | VALENTINA HERRERA | — | — |
+| 13   | BETINA HIP | — | — |
+| 14   | MARÍA HONORATO | — | — |
+| 15   | MARÍA IBÁÑEZ | — | — |
+| 16   | NICOLE LUNA | — | — |
+| 17   | MARGARITA MATTE | — | — |
+| 18   | CONSTANZA MONTERO | — | — |
+| 19   | VALENTINA MORALES | — | — |
+| 20   | DANIELA ORELLANA | — | — |
+| 21   | FRANCISCA PARRA | — | — |
+| 22   | JAVIER RAMÍREZ | — | — |
+| 23   | MARIO REINIKE | — | — |
+| 24   | VALENTINA REY | — | — |
+| 25   | MIRANDA SEPULVEDA | — | — |
+| 26   | JOSEFINA TORO | — | — |
+| 27   | ROSARIO TORRES | — | — |
+| 28   | BIANCA VALLADARES | — | — |
+| 29   | MARGARITA VIAL | — | — |
+| 30   | IGNACIA VIZCAYA | — | — |
+
 - - - - - - - 
 
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-02)
