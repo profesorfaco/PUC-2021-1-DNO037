@@ -75,7 +75,7 @@ El ejercicio completo puede ser evaluado con:
 Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 17 de marzo. 
 
 | Nº   | Estudiante      | GitHub    | Ejercicio clase-01 |
-|:----:|:----------------|-----------|--------------------|
+|:----:|:----------------|:----------|:-------------------|
 | 1    | DIEGO BARRIENTOS | — | — |
 | 2    | MARTÍN BENNETT | — | — |
 | 3    | RODRIGO CAMPUSANO | — | — |
