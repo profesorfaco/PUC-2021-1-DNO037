@@ -97,7 +97,7 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 19   | LUNA VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase1/ |
 | 20   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-01/ |
 | 21   | FRANCISCA PARRA | — | — |
-| 22   | YAHAIRA PEREZ | - | - |
+| 22   | YAHAIRA PEREZ | — | — |
 | 23   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase1/ |
 | 24   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037-clase-01/ |
 | 25   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_Clase_1/ |
