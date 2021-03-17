@@ -102,11 +102,12 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 24   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037-clase-01/ |
 | 25   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_Clase_1/ |
 | 26   | MIRANDA SEPULVEDA | — | — |
-| 27   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase17-03/ |
-| 28   | ROSARIO TORRES | https://github.com/rosipilipi | https://rosipilipi.github.io/dno-clase-01/ |
-| 29   | BIANCA VALLADARES | https://github.com/bivall | https://bivall.github.io/dno037-clase-1/ |
-| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037-clase-1/ |
-| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | https://ignaviz.github.io/dno037-clase-01/ |
+| 27   | JAVIERA ROBLES | — | — |
+| 28   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase17-03/ |
+| 29   | ROSARIO TORRES | https://github.com/rosipilipi | https://rosipilipi.github.io/dno-clase-01/ |
+| 30   | BIANCA VALLADARES | https://github.com/bivall | https://bivall.github.io/dno037-clase-1/ |
+| 31   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037-clase-1/ |
+| 32   | IGNACIA VIZCAYA | https://github.com/ignaviz | https://ignaviz.github.io/dno037-clase-01/ |
 
 - - - - - - - 
 
