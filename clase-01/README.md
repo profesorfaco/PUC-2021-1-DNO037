@@ -80,7 +80,7 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 2    | MARTÍN BENNETT | — | — |
 | 3    | RODRIGO CAMPUSANO | — | — |
 | 4    | PALOMA CARRASCO | — | — |
-| 5    | SOFIA CAVALLINI | — | — |
+| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | https://sofiacavallinii.github.io/dno037clase-1/ |
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-01/ |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_1/ |
 | 8    | VERÓNICA GATICA | — | — |
