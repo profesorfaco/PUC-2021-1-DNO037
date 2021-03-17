@@ -79,7 +79,7 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 1    | DIEGO BARRIENTOS | — | — |
 | 2    | MARTÍN BENNETT | — | — |
 | 3    | RODRIGO CAMPUSANO | — | — |
-| 4    | PALOMA CARRASCO | — | — |
+| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-1/ |
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | https://sofiacavallinii.github.io/dno037clase-1/ |
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-01/ |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_1/ |
@@ -99,7 +99,7 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 21   | FRANCISCA PARRA | — | — |
 | 22   | YAHAIRA PEREZ | - | - |
 | 23   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase1/ |
-| 24   | MARIO REINIKE | — | — |
+| 24   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037-clase-01/ |
 | 25   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_Clase_1/ |
 | 26   | MIRANDA SEPULVEDA | — | — |
 | 27   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase17-03/ |
