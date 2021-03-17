@@ -77,7 +77,7 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | Nº   | Estudiante      | GitHub    | Ejercicio clase-01 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | DIEGO BARRIENTOS | — | — |
-| 2    | MARTÍN BENNETT | — | — |
+| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dnom-clase1-17-03/ |
 | 3    | RODRIGO CAMPUSANO | — | — |
 | 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-1/ |
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | https://sofiacavallinii.github.io/dno037clase-1/ |
