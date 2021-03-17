@@ -82,30 +82,31 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 4    | PALOMA CARRASCO | — | — |
 | 5    | SOFIA CAVALLINI | — | — |
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-01/ |
-| 7    | FELIPE FUENTEALBA | — | https://leocto.github.io/Nuevos_Medios_Clase_1/index.html |
+| 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_1/ |
 | 8    | VERÓNICA GATICA | — | — |
-| 9    | MIRKO GONZÁLEZ | — | https://mirkogonzalez.github.io/clase.01_dno/index.html |
+| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase.01_dno/ |
 | 10    | LAURA GUERINONI | — | — |
-| 11   | RODRIGO GUZMÁN | — | https://rodrigo-bot.github.io/dno037-clase01/ |
+| 11   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase01/ |
 | 12   | VALENTINA HERRERA | — | — |
-| 13   | BETINA HIP | — | https://bbhip.github.io/dno-nuevos-medios/ |
+| 13   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios/ |
 | 14   | MARÍA HONORATO | — | — |
-| 15   | MARÍA IBÁÑEZ | — | https://franibanezm.github.io/Clase_01/ |
+| 15   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/Clase_01/ |
 | 16   | NICOLE LUNA | — | — |
-| 17   | MARGARITA MATTE | — | https://mar-garita1.github.io/clase-01/ |
+| 17   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-01/ |
 | 18   | CONSTANZA MONTERO | — | — |
-| 19   | VALENTINA MORALES | — | https://lunalaffx.github.io/DNO037-clase1/ |
-| 20   | DANIELA ORELLANA | — | https://dacorellana.github.io/dno-medios-clase-01/ |
+| 19   | LUNA VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase1/ |
+| 20   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-01/ |
 | 21   | FRANCISCA PARRA | — | — |
-| 22   | JAVIER RAMÍREZ | — | https://rama2432.github.io/DNO-clase1/ |
-| 23   | MARIO REINIKE | — | — |
-| 24   | VALENTINA REY | — | https://valentinarey.github.io/DNO037_Clase_1/ |
-| 25   | MIRANDA SEPULVEDA | — | — |
-| 26   | JOSEFINA TORO | — | https://josefinatoro.github.io/dno_nuevos_medios_clase17-03/ |
-| 27   | ROSARIO TORRES | — | https://rosipilipi.github.io/dno-clase-01/ |
-| 28   | BIANCA VALLADARES | — | — |
-| 29   | MARGARITA VIAL | — | https://margaraitavialm.github.io/dno037-clase-1/ |
-| 30   | IGNACIA VIZCAYA | — | https://ignaviz.github.io/dno037-clase-01/ |
+| 22   | YAHAIRA PEREZ | - | - |
+| 23   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase1/ |
+| 24   | MARIO REINIKE | — | — |
+| 25   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_Clase_1/ |
+| 26   | MIRANDA SEPULVEDA | — | — |
+| 27   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase17-03/ |
+| 28   | ROSARIO TORRES | https://github.com/rosipilipi | https://rosipilipi.github.io/dno-clase-01/ |
+| 29   | BIANCA VALLADARES | https://github.com/bivall | https://bivall.github.io/dno037-clase-1/ |
+| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037-clase-1/ |
+| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | https://ignaviz.github.io/dno037-clase-01/ |
 
 - - - - - - - 
 
