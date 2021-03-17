@@ -87,7 +87,7 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase.01_dno/ |
 | 10    | LAURA GUERINONI | — | — |
 | 11   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase01/ |
-| 12   | VALENTINA HERRERA | — | — |
+| 12   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-1/ |
 | 13   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios/ |
 | 14   | MARÍA HONORATO | — | — |
 | 15   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/Clase_01/ |
