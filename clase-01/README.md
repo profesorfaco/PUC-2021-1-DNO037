@@ -83,7 +83,7 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | https://sofiacavallinii.github.io/dno037clase-1/ |
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-01/ |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_1/ |
-| 8    | VERÓNICA GATICA | — | — |
+| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/1_clase_dno037/ |
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase.01_dno/ |
 | 10    | LAURA GUERINONI | — | — |
 | 11   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase01/ |
