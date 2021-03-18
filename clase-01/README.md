@@ -93,15 +93,15 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 15   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/Clase_01/ |
 | 16   | NICOLE LUNA | — | — |
 | 17   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-01/ |
-| 18   | CONSTANZA MONTERO | — | — |
+| 18   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase1/ |
 | 19   | LUNA VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase1/ |
 | 20   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-01/ |
-| 21   | FRANCISCA PARRA | — | — |
+| 21   | FRANCISCA PARRA | https://github.com/frnparr | https://frnparr.github.io/dno_clase1/ |
 | 22   | YAHAIRA PEREZ | — | https://yahairaperez.github.io/Ejercicio-clase-01/ |
 | 23   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase1/ |
 | 24   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037-clase-01/ |
 | 25   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_Clase_1/ |
-| 26   | MIRANDA SEPULVEDA | — | — |
+| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/actividad_clase_1/ |
 | 27   | JAVIERA ROBLES | — | — |
 | 28   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase17-03/ |
 | 29   | ROSARIO TORRES | https://github.com/rosipilipi | https://rosipilipi.github.io/dno-clase-01/ |
