@@ -72,7 +72,7 @@ El ejercicio completo puede ser evaluado con:
 
 - **2 puntos** → logrado, con aporte descatado.
 
-Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 17 de marzo. 
+Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso](https://drive.google.com/drive/folders/1MhBnA7gJtoxwTkYibXcP1gCyWmMKGr3k?usp=sharing). Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 17 de marzo. 
 
 | Nº   | Estudiante      | GitHub    | Ejercicio clase-01 |
 |:----:|:----------------|:----------|:-------------------|
