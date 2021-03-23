@@ -95,7 +95,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 
 Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso](https://drive.google.com/drive/folders/1MhBnA7gJtoxwTkYibXcP1gCyWmMKGr3k?usp=sharing). Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 24 de marzo. 
 
-| Nº   | Estudiante      | GitHub    | Ejercicio clase-01 |
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-02 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | DIEGO BARRIENTOS | — | — |
 | 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
