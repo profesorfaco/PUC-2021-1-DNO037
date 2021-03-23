@@ -85,11 +85,11 @@ Podrán revisar el registro de los puntos obtenidos en carpeta Drive del curso. 
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_1/ |
 | 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/1_clase_dno037/ |
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase.01_dno/ |
-| 10    | LAURA GUERINONI | — | — |
+| 10   | LAURA GUERINONI | — | — |
 | 11   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase01/ |
 | 12   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-1/ |
 | 13   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios/ |
-| 14   | MARÍA HONORATO | — | https://elisahonorato.github.io/clase_01/ |
+| 14   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_01/ |
 | 15   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/Clase_01/ |
 | 16   | NICOLE LUNA | — | — |
 | 17   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-01/ |
