@@ -93,6 +93,42 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso](https://drive.google.com/drive/folders/1MhBnA7gJtoxwTkYibXcP1gCyWmMKGr3k?usp=sharing). Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 24 de marzo. 
+
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-01 |
+|:----:|:----------------|:----------|:-------------------|
+| 1    | DIEGO BARRIENTOS | — | — |
+| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
+| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
+| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
+| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 7    | FELIPE FUENTEALBA | https://github.com/leocto | — |
+| 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
+| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — |
+| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
+| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
+| 12   | BETINA HIP | https://github.com/bbhip | — |
+| 13   | MARÍA HONORATO | https://github.com/elisahonorato | — |
+| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
+| 15   | NICOLE LUNA | — | — |
+| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | — |
+| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
+| 18   | VALENTINA MORALES | https://github.com/lunalaffx | — |
+| 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
+| 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
+| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | — |
+| 23   | MARIO REINIKE | https://github.com/marioreinike | — |
+| 24   | VALENTINA REY | https://github.com/valentinarey | — |
+| 25   | JAVIERA ROBLES | — | — |
+| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
+| 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
+| 29   | BIANCA VALLADARES | https://github.com/bivall | — |
+| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | — |
+| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-03)
