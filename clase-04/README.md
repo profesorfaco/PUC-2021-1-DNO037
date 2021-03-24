@@ -38,7 +38,7 @@ Mencionamos `int`, `float`, `bool` y `char` porque son palabras que en lenguajes
 
 **En JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
 
-**Lo importante es que en JavaScript no cambiamos la palabra reservada para decir algo respecto del tipo de dato que contendrá la variable** (como lo tendríamos que hacer en Java, que es la base de [Processing](https://processing.org/)). O sea, en JavaScript y en sus bibliotecas hacemos esto:
+Usando únicamente `var`, en JavaScript podemos asignar como contenido de la variable todas las siguientes alternativas:
 
 ```
 var a = 18261884;
@@ -76,7 +76,7 @@ var h = [
 
 ```
 
-**Lo que cambia viene después del signo igual `=`, que en este caso está asignando valor a cada variable.** 
+**Lo que cambia viene después del signo igual `=`, que en este caso está asignando contenido a cada variable.** 
 
 Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
 
@@ -104,7 +104,7 @@ Vamos por la variable `g`:
 
 Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
-Llegando a la variable `h` convendría hacer algunas pruebas con los octillizos Nahasapeemapetilon aprovechando:
+Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemapetilon para explorar:
 
 - el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
@@ -125,7 +125,6 @@ Para aprenderlo desde la práctica, conviene:
 - contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/); y
 
 - tener a mano las [referencias de p5.js](https://p5js.org/es/reference/);
-
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), una versión ajustada del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-04/).
 
