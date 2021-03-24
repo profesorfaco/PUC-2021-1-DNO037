@@ -106,7 +106,7 @@ Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso]
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_2/ |
 | 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — |
-| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
+| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase02/ |
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
 | 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-02/ |
 | 13   | MARÍA HONORATO | https://github.com/elisahonorato | — |
@@ -120,13 +120,13 @@ Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso]
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
 | 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase2/ |
 | 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-02/ |
-| 24   | VALENTINA REY | https://github.com/valentinarey | — |
+| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_clase2/ |
 | 25   | JAVIERA ROBLES | — | — |
 | 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
 | 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
 | 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
 | 29   | BIANCA VALLADARES | https://github.com/bivall | — |
-| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | — |
+| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037-clase-02/ |
 | 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
 
 - - - - - - - 
