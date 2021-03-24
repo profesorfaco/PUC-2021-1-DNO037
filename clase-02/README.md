@@ -125,7 +125,7 @@ Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso]
 | 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
 | 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
 | 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
-| 29   | BIANCA VALLADARES | https://github.com/bivall | https://bivall.github.io/clase_2/ |
+| 29   | BIANCA VALLADARES | https://github.com/bivall | — |
 | 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037-clase-02/ |
 | 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
 
