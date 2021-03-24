@@ -5,6 +5,7 @@
 :root {
     --figura: rgb(20, 20, 20);
     --fondo: rgb(200, 200, 200);
+    /* ¿Qué valor de contrast-ratio está utilizando? Revise en https://contrast-ratio.com/ */
 }
 
 * {
