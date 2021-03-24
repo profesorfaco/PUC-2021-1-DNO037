@@ -104,13 +104,13 @@ Vamos por la variable `g`:
 
 Si necesitamos escribir la frase `El chupete de Maggie Simpson`, tendríamos que escribir `'El chupete de ' + g.children[2]`.
 
-Llegando a la variable `h` se hace necesario:
+Llegando a la variable `h` convendría hacer algunas pruebas con los octillizos Nahasapeemapetilon aprovechando:
 
-- revisar el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort); y
+- el [método `sort()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort);
 
-- revisar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach).
+- el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach); y
 
-Porque podríamos necesitar un listado ordenado que incluya el nombre de cada uno de los octillizos Nahasapeemapetilon. 
+- el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
 - - - - - - - - - 
 
