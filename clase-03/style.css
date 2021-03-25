@@ -91,8 +91,8 @@ main button {
     position: absolute;
     bottom: 1.75rem;
     right: 1.75rem;
-    width: 5.75rem;
-    height: 5.75rem;
+    width: 6.75rem;
+    height: 6.75rem;
     border-radius: 50% 50%;
     border: 1px solid rgba(255, 81, 92, 0.05);
     background-color: rgba(214, 66, 74, 0.75);
