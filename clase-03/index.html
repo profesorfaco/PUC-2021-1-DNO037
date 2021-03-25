@@ -43,6 +43,7 @@
                 grosor.selected(4);
                 descarga = createButton("Descargar").parent(main);
                 descarga.mousePressed(descargar);
+                instructivo();
             }
 
             function draw() {
@@ -56,11 +57,10 @@
             function descargar() {
                 
             }
-        </script>
-        <script>
-            window.addEventListener('load', (event) => {
-              alert("Aquí va la instrucción…");
-            });        
+            
+            function instructivo(){
+                alert("Aquí está el texto del instructivo…")
+            }
         </script>
     </body>
 </html>
