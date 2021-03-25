@@ -26,7 +26,6 @@
             var colorido, grosor, descarga;
 
             function setup() {
-                alert("instrucción");
                 createCanvas(windowWidth, windowHeight).parent(main);
                 background(235);
                 colorido = createColorPicker("#FF5359").parent(menuColor);
@@ -44,6 +43,7 @@
                 grosor.selected(4);
                 descarga = createButton("Descargar").parent(main);
                 descarga.mousePressed(descargar);
+                alert("instrucción");
             }
 
             function draw() {
