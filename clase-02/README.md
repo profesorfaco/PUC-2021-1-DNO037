@@ -104,7 +104,7 @@ Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso]
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_2/ |
-| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/Segundaclase_dno037/ |
+| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/2clase-dno037/ |
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase_2_dno/ |
 | 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase02/ |
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-2/ |
