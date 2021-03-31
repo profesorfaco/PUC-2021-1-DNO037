@@ -49,7 +49,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/evalucion-1/ |
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
 | 18   | VALENTINA MORALES | https://github.com/lunalaffx | — |
-| 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-03/ |
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/dibujapp-ev1/ |
 | 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | — |
