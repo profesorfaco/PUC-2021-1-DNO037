@@ -34,7 +34,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 1    | DIEGO BARRIENTOS | — | — |
 | 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
 | 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
-| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
+| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-3/ |
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | — |
@@ -46,7 +46,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 13   | MARÍA HONORATO | https://github.com/elisahonorato | — |
 | 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
 | 15   | NICOLE LUNA | — | — |
-| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | — |
+| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/evalucion-1/ |
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
 | 18   | VALENTINA MORALES | https://github.com/lunalaffx | — |
 | 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
@@ -60,7 +60,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
 | 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
 | 29   | BIANCA VALLADARES | https://github.com/bivall | — |
-| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | — |
+| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037_clase03/ |
 | 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
 
 
