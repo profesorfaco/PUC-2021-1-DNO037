@@ -18,13 +18,50 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
 A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejercicios en clases [01](https://github.com/profesorfaco/dno037-2021/tree/main/clase-01) y [02](https://github.com/profesorfaco/dno037-2021/tree/main/clase-02). La suma de estos puntos se transforma en su primera evaluación del optativo, la que corresponde al 25% de su nota promedio final.
 
-### Tips: 
+### Tips 
 
 En el criterio **A**, conviene evitar *The Biggest Mistake in Writing for the Web* - https://www.nngroup.com/videos/biggest-mistake-writing-web/
 
 En el criterio **B**, conviene considerar el *contrast ratio* - https://contrast-ratio.com/ || https://webaim.org/resources/contrastchecker/
 
 En el criterio **E**, conviene considerar la consistencia en el paso de una página a otra (y vuelta atrás) - https://www.nngroup.com/articles/menu-design/
+
+
+### Entregas
+
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-02 |
+|:----:|:----------------|:----------|:-------------------|
+| 1    | DIEGO BARRIENTOS | — | — |
+| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
+| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
+| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
+| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 7    | FELIPE FUENTEALBA | https://github.com/leocto | — |
+| 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
+| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — |
+| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
+| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
+| 12   | BETINA HIP | https://github.com/bbhip | — |
+| 13   | MARÍA HONORATO | https://github.com/elisahonorato | — |
+| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
+| 15   | NICOLE LUNA | — | — |
+| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | — |
+| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
+| 18   | VALENTINA MORALES | https://github.com/lunalaffx | — |
+| 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
+| 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/dibujapp-ev1/ |
+| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | — |
+| 23   | MARIO REINIKE | https://github.com/marioreinike | — |
+| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase3_e1/ |
+| 25   | JAVIERA ROBLES | — | — |
+| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
+| 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
+| 29   | BIANCA VALLADARES | https://github.com/bivall | — |
+| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | — |
+| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
 
 
 - - - - - - - 
