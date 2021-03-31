@@ -29,7 +29,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 
 ### Entregas
 
-| Nº   | Estudiante      | GitHub    | Ejercicio clase-02 |
+| Nº   | Estudiante      | GitHub    | Evaluación Nº1 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | DIEGO BARRIENTOS | — | — |
 | 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
