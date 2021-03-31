@@ -48,7 +48,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 15   | NICOLE LUNA | — | — |
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-03/ |
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
-| 18   | VALENTINA MORALES | https://github.com/lunalaffx | — |
+| 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase3/ |
 | 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-03/ |
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/dibujapp-ev1/ |
@@ -61,7 +61,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
 | 29   | BIANCA VALLADARES | https://github.com/bivall | — |
 | 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037_clase03/ |
-| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
+| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | https://ignaviz.github.io/dno037-Evaluacion-01/ |
 
 
 - - - - - - - 
