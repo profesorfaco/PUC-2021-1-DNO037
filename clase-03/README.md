@@ -42,7 +42,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/Clase_3_DNO/ |
 | 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase03/ |
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
-| 12   | BETINA HIP | https://github.com/bbhip | — |
+| 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-03/ |
 | 13   | MARÍA HONORATO | https://github.com/elisahonorato | — |
 | 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
 | 15   | NICOLE LUNA | — | — |
