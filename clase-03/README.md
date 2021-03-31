@@ -14,7 +14,7 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 | B	| Cambia el color seleccionado por defecto en el "color input", y cambia al mismo color el botón de descarga | 2,0 |
 | C	| Activa el botón de descarga y asigna un nombre lógico a la imagen descargada	| 2,0 |
 | D	| Pon a prueba tu versión de DibujApp con 3 personas que pudieron comprender su instrucción de uso (que coincidan en un grupo etario, con cierto nivel de escolaridad). Cada persona tiene que aportar un dibujo que se sumará y describirá en una página de galería.	| 2,0 |
-| E	| Vincula index.html con la página de galería (el vinculo debe tener dos direcciones, de portada a galería y de galería a portada). En la página de galería no se puede dibujar, solo se pueden ver los dibujos aportados y se lee su descripción (ej. Dibujo de Natalia, 8 años. Es Jimin, de BTS. Usó la App con Firefox, y la encontró chori) |	2,0 |
+| E	| Vincula index.html con la página de galería (el vinculo debe tener dos direcciones, de portada a galería y de galería a portada). En la página de galería NO se puede dibujar, solo se pueden ver los dibujos aportados y leer su descripción (ej. Dibujo de Natalia, 8 años. Es Jimin, de BTS. Usó la App con Firefox, y la encontró *chori*, pero no entendió cómo modificar los grosores de línea) |	2,0 |
 
 A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejercicios en clases [01](https://github.com/profesorfaco/dno037-2021/tree/main/clase-01) y [02](https://github.com/profesorfaco/dno037-2021/tree/main/clase-02). La suma de estos puntos se transforma en su primera evaluación del optativo, la que corresponde al 25% de su nota promedio final.
 
