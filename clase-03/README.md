@@ -53,7 +53,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/dibujapp-ev1/ |
 | 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | — |
-| 23   | MARIO REINIKE | https://github.com/marioreinike | — |
+| 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-03/ |
 | 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase3_e1/ |
 | 25   | JAVIERA ROBLES | — | — |
 | 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
