@@ -50,7 +50,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase3/ |
 | 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase3/ |
 | 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-03/ |
-| 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
+| 20   | FRANCISCA PARRA | https://github.com/frnparr | https://frnparr.github.io/dno_entrega1/ |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/dibujapp-ev1/ |
 | 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase3/ |
 | 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-03/ |
