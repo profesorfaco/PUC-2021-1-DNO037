@@ -32,16 +32,16 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | Nº   | Estudiante      | GitHub    | Evaluación Nº1 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | DIEGO BARRIENTOS | — | — |
-| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
-| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-clase3-31-03/ |
+| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/DNM3/ |
 | 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-3/ |
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
-| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-03/ |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_3/ |
-| 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
+| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/clase-3-dno037/ |
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/Clase_3_DNO/ |
 | 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase03/ |
-| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
+| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-3/ |
 | 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-03/ |
 | 13   | ELISA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase03/ |
 | 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_03/ |
@@ -57,7 +57,7 @@ En el criterio **E**, conviene considerar la consistencia en el paso de una pág
 | 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase3_e1/ |
 | 25   | JAVIERA ROBLES | — | — |
 | 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
-| 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 27   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase31-03/ |
 | 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
 | 29   | BIANCA VALLADARES | https://github.com/bivall | — |
 | 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037_clase03/ |
