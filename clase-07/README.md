@@ -14,11 +14,16 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
 
-**Solo nos queda por revisar [Vue.js](https://v3.vuejs.org/), un *framework* de JavaScript, tan popular como Angular.js y React.js**. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos progresar en capas de complejidad:
+**Solo nos queda por revisar [Vue.js](https://v3.vuejs.org/), un *framework* de JavaScript, tan popular como Angular.js y React.js**. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una humilde biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos progresar en capas de complejidad.
 
-- [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
+Para completar esta introducción, pueden ver los siguientes videos: 
 
-- [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+- Es suficiente con ver hasta en minuto 6 en: [¿Angular, Vue o React? ¿Qué debes usar en el frontend de tu app?](https://www.youtube.com/watch?v=elkCexAWX5k)
+
+- Recomiendo ver completo este: [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
+
+- Y si tienen tiempo suficiente, pueden ver un documental de un poco más de media hora: [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+
 
 - - - - - - - - 
 
