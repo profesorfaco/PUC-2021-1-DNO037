@@ -18,11 +18,11 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 Para entender su contexto y potencial, conviene ver los siguientes videos: 
 
-- Es suficiente llegar al minuto 6 en [¿Angular, Vue o React? ¿Qué debes usar en el frontend de tu app?](https://www.youtube.com/watch?v=elkCexAWX5k)
+- Es suficiente llegar al minuto 6 en: [¿Angular, Vue o React? ¿Qué debes usar en el frontend de tu app?](https://www.youtube.com/watch?v=elkCexAWX5k)
 
-- Ideal es ver completa la respuesta a [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
+- Ideal es ver completa la respuesta a: [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
 
-- Y sólo si tienen un poco más de media hora disponible, puede ver [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+- Y sólo si tienes un poco más de media hora disponible, puedes ver: [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 
 - - - - - - - - 
 
