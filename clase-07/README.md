@@ -16,14 +16,13 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 **Solo nos queda por revisar [Vue.js](https://v3.vuejs.org/), un *framework* de JavaScript, tan popular como Angular.js y React.js**. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una humilde biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos progresar en capas de complejidad.
 
-Para completar esta introducción, pueden ver los siguientes videos: 
+Para entender su contexto y potencial, conviene ver los siguientes videos: 
 
-- Es suficiente con ver hasta en minuto 6 en: [¿Angular, Vue o React? ¿Qué debes usar en el frontend de tu app?](https://www.youtube.com/watch?v=elkCexAWX5k)
+- Es suficiente llegar al minuto 6 en [¿Angular, Vue o React? ¿Qué debes usar en el frontend de tu app?](https://www.youtube.com/watch?v=elkCexAWX5k)
 
-- Recomiendo ver completo este: [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
+- Ideal es ver completa la respuesta a [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
 
-- Y si tienen tiempo suficiente, pueden ver un documental de un poco más de media hora: [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
-
+- Y sólo si tienen un poco más de media hora disponible, puede ver [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 
 - - - - - - - - 
 
@@ -52,9 +51,9 @@ Con Angular.js o React.js debes basar todo el desarrollo en el mismo *framework*
 </script>
 ```
 
-En el código html tenemos un ítem de lista (list item, `<li></li>`) con un atributo `v-for`, que da la siguiente instrucción: Vue, aquí va un `for` que desplegará todos los elementos en el arreglo "colores", llamando "color" a cada elemento. Así de simple.
+En el código html tenemos un ítem de lista (list item, `<li></li>`) con un atributo `v-for`, que da la siguiente instrucción: *Vue, aquí va un `for` que desplegará todos los elementos en el arreglo "colores", llamando "color" a cada elemento*. Así de simple.
 
-En el ejercicio que sigue podrán encontrar algo de Vue.js, pero la mayor parte del ejercicio servirá de repaso a lo aprendido sobre JavaScript, el lenguaje de programación que controla el comportamiento de las páginas web. 
+En el ejercicio que sigue podrán encontrar algo de Vue.js, pero la mayor parte del ejercicio servirá de repaso a lo aprendido sobre JavaScript.
 
 - - - - - - - 
 
