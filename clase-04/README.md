@@ -156,7 +156,7 @@ El ejercicio incompleto es evaluado con 0 punto. Pero, debido a indicación de c
 | 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
 | 15   | NICOLE LUNA | — | — |
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-04/ |
-| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
+| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase4/ |
 | 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase4/ |
 | 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
