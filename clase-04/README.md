@@ -136,7 +136,7 @@ El ejercicio completo puede ser evaluado con:
 
 - **2 puntos** → logrado con aporte destacado.
 
-El ejercicio incompleto es evaluado con 0 punto. Pero esta evaluación no será incluida en la suma necesaria para obtener la nota acumulativa máxima. Sí servirá de bonificación en caso falte para tal nota.
+El ejercicio incompleto es evaluado con 0 punto. Pero, debido a indicación de calendario oficial, esta evaluación no será incluida en la suma necesaria para obtener la nota acumulativa máxima; sí servirá de bonificación en caso falte para tal nota.
 
 | Nº   | Estudiante      | GitHub    | Ejercicio clase-04 |
 |:----:|:----------------|:----------|:-------------------|
