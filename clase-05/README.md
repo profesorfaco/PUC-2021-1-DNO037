@@ -180,7 +180,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase0005/index.html |
 | 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase5/ |
-| 23   | MARIO REINIKE | https://github.com/marioreinike | — |
+| 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-05/ |
 | 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_5/ |
 | 25   | JAVIERA ROBLES | — | — |
 | 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
