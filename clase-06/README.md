@@ -120,6 +120,7 @@ Además, es necesario contar con un editor de código fuente; allí vamos a crea
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <meta charset="utf-8">
         <title>Esto es un ejemplo</title>
         <style>
             select { margin: 1%; }
