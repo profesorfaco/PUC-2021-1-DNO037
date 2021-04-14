@@ -156,6 +156,39 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-04 |
+|:----:|:----------------|:----------|:-------------------|
+| 1    | DIEGO BARRIENTOS | — | — |
+| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
+| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-5/ |
+| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
+| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_5/ |
+| 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
+| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — |
+| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
+| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
+| 12   | BETINA HIP | https://github.com/bbhip | — |
+| 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_05/ |
+| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
+| 15   | NICOLE LUNA | — | — |
+| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | — |
+| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
+| 18   | VALENTINA MORALES | https://github.com/lunalaffx | — |
+| 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
+| 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase0005/index.html |
+| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | — |
+| 23   | MARIO REINIKE | https://github.com/marioreinike | — |
+| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_5/ |
+| 25   | JAVIERA ROBLES | — | — |
+| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
+| 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
+| 29   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037_clase05/ |
+| 30   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
+
 - - - - - - - - - - - -
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-06)
