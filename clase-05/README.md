@@ -156,7 +156,7 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
-| Nº   | Estudiante      | GitHub    | Ejercicio clase-04 |
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-05 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | DIEGO BARRIENTOS | — | — |
 | 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
