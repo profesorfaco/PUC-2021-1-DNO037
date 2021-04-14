@@ -163,7 +163,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
 | 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-5/ |
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
-| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-05/ |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_5/ |
 | 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — |
@@ -171,7 +171,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
 | 12   | BETINA HIP | https://github.com/bbhip | — |
 | 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_05/ |
-| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
+| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_05/ |
 | 15   | NICOLE LUNA | — | — |
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | — |
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
