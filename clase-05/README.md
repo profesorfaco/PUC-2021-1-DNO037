@@ -175,7 +175,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 15   | NICOLE LUNA | — | — |
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-05/ |
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase5/ |
-| 18   | VALENTINA MORALES | https://github.com/lunalaffx | — |
+| 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase5/ |
 | 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-05/ |
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase0005/index.html |
