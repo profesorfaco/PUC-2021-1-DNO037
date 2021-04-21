@@ -199,7 +199,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
 | 12   | BETINA HIP | https://github.com/bbhip | — |
-| 13   | MARÍA HONORATO | https://github.com/elisahonorato | — |
+| 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_06/ |
 | 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
 | 15   | NICOLE LUNA | — | — |
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-06/ |
