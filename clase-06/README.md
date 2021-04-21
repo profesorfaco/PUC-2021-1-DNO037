@@ -215,7 +215,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
 | 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
 | 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
-| 29   | MARGARITA VIAL | https://github.com/margaraitavialm | — |
+| 29   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/Dno-clase06/ |
 | 30   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
 
 
