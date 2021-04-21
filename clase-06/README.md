@@ -190,10 +190,10 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 1    | DIEGO BARRIENTOS | — | — |
 | 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
 | 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
-| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
+| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-6/ |
 | 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
-| 7    | FELIPE FUENTEALBA | https://github.com/leocto | — |
+| 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_medios-6/index.html |
 | 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/Clase_6/ |
 | 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
@@ -208,9 +208,9 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
-| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | — |
+| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase6/ |
 | 23   | MARIO REINIKE | https://github.com/marioreinike | — |
-| 24   | VALENTINA REY | https://github.com/valentinarey | — |
+| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_6/ |
 | 25   | JAVIERA ROBLES | — | — |
 | 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
 | 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
