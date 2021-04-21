@@ -200,7 +200,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
 | 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-6/ |
 | 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_06/ |
-| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
+| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_06/ |
 | 15   | NICOLE LUNA | — | — |
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-06/ |
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
