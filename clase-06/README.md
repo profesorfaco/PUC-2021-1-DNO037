@@ -195,7 +195,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
 | 7    | FELIPE FUENTEALBA | https://github.com/leocto | — |
 | 8    | VERÓNICA GATICA | https://github.com/verogatica | — |
-| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — |
+| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/Clase_6/ |
 | 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
 | 12   | BETINA HIP | https://github.com/bbhip | — |
