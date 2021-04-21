@@ -198,7 +198,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/Clase_6/ |
 | 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
 | 11   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
-| 12   | BETINA HIP | https://github.com/bbhip | — |
+| 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-6/ |
 | 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_06/ |
 | 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
 | 15   | NICOLE LUNA | — | — |
