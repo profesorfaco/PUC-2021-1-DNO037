@@ -205,7 +205,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-06/ |
 | 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
 | 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase6/ |
-| 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-06/ |
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
 | 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase6/ |
