@@ -1,142 +1,101 @@
 @charset "UTF-8";
 
-:root {
-    --fondo: #eee;
-    --figura: #222;
-    --destacado: #444;
-    --activo: #000;
-}
-
-body {
-    color: var(--figura);
-    background: var(--fondo);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 100%;
-    line-height: 1.6;
-    min-height: 100%;
+* {
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #000;
+    color: #ddd;
+}
+
+body.portada{
+    background:#000 url('images/portada.jpg') right bottom no-repeat;
+    background-size:auto 100%;
+}
+
 a {
-    color: var(--destacado);
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--activo);
-    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition: color ease .5s;
 }
 
-:hover {
-    transition: all ease 0.2s;
+div.container {
+    width: 80vw;
+    margin: 0 auto;
 }
 
-header,
-main,
-footer {
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-
-aside {
-    margin-left: calc(10vw - 1rem);
-    margin-right: calc(10vw - 1rem);
-}
-
-@media screen and (orientation: portrait) {
-    header,
-    main,
-    aside,
-    footer {
-        margin-left: 4vw;
-        margin-right: 4vw;
-    }
-
-    aside {
-        margin-left: calc(4vw - 1rem);
-        margin-right: calc(4vw - 1rem);
-    }
-}
-
-header h1 {
-    margin-top: 2rem;
-    color: var(--destacado);
-}
-
-header nav {
-    padding: 1rem 0;
+nav, footer {
+    width: 100%;
+    min-height: 10vh;
     display: flex;
-    flex-flow: row wrap;
+}
+
+nav p, footer p {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
+    margin:auto;
 }
 
-header nav form {
-    padding-top: 0.5rem;
-}
-
-header nav button {
-    padding: 0.5rem;
-}
-
-header nav button.escondido {
-    display: none;
+.active {
+    text-decoration: underline;
+    color: white;
 }
 
 main {
-    background: #fff;
-    padding: 1rem;
-    box-shadow: 0 0 4px #ddd;
-}
-
-aside {
-    margin-top: 3vh;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    height: 80vh;
 }
 
-aside div {
-    background: white;
-    overflow: hidden;
-    padding: 1rem;
-    margin: 1rem;
-    width: calc(25% - 4rem);
-    box-shadow: 0 0 4px #ddd;
-    background: #fff;
+main div {
+    width: 50%;
+    margin:auto;
+    line-height: 1.5;
 }
 
-aside div img {
-    width: calc(100% + 2rem);
-    margin: -1rem -1rem 1rem -1rem;
-    height: auto;
+main div:first-child h1, main div:first-child blockquote, main div:first-child p{
+    padding-right:5rem;
 }
 
-aside div h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.2rem;
-    line-height: 1.2;
+main div img{
+    max-width:100%;
+    height:auto;
 }
 
-aside div p {
-    font-size: 0.9rem;
-}
+@media (orientation:portrait){
 
-@media screen and (orientation: portrait) {
-    aside div {
-        width: calc(50% - 4rem);
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;    
+        height: auto;
+        min-height: 80vh
     }
-}
 
-footer {
-    padding: 5vh 1vw 0 1vw;
-    font-size: 0.9rem;
-    letter-spacing: 0.09rem;
-}
+    main div {
+        width: 100%;
+        margin:auto;
+        line-height: 1.5;
+    }
 
-footer p {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    main div:first-child h1, main div:first-child blockquote, main div:first-child p{
+        padding-right:0;
+    }
+
+    main div img{
+        max-width:100%;
+        height:auto;
+        margin:3rem 0;
+    }   
+
 }
