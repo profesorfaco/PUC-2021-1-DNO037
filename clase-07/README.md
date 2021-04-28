@@ -71,6 +71,39 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-06 |
+|:----:|:----------------|:----------|:-------------------|
+| 1    | DIEGO BARRIENTOS | — | — |
+| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
+| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-7/ |
+| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
+| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios-7/ |
+| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/7clase_dno037/ |
+| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase_7/ |
+| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase07/ |
+| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-7/ |
+| 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-07/ |
+| 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase07/ |
+| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_07/ |
+| 15   | NICOLE LUNA | — | — |
+| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-07/ |
+| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
+| 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase7/ |
+| 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
+| 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
+| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase7/ |
+| 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-07/ |
+| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_7/ |
+| 25   | JAVIERA ROBLES | — | — |
+| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/intento.de.clase_7/ |
+| 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
+| 29   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/DNO_clase07/ |
+| 30   | IGNACIA VIZCAYA | https://github.com/ignaviz | — |
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-06) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-08)
