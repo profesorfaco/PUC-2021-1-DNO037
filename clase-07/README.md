@@ -89,7 +89,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_07/ |
 | 15   | NICOLE LUNA | — | — |
 | 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-07/ |
-| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
+| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase7/ |
 | 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase7/ |
 | 19   | DANIELA ORELLANA | https://github.com/dacorellana | — |
 | 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
@@ -98,7 +98,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-07/ |
 | 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_7/ |
 | 25   | JAVIERA ROBLES | — | — |
-| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/intento.de.clase_7/ |
+| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/actividad_clase_7/ |
 | 27   | JOSEFINA TORO | https://github.com/josefinatoro | — |
 | 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
 | 29   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/DNO_clase07/ |
