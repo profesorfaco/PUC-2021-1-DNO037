@@ -73,10 +73,10 @@ El ejercicio incompleto es evaluado con 0 punto.
 
 | Nº   | Estudiante      | GitHub    | Ejercicio clase-06 |
 |:----:|:----------------|:----------|:-------------------|
-| 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
-| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-clase7-04-28/ |
+| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase-7/ |
 | 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-7/ |
-| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-07/ |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios-7/ |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/7clase_dno037/ |
 | 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase_7/ |
@@ -88,9 +88,9 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-07/ |
 | 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase7/ |
 | 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase7/ |
-| 16   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-07/ |
 | 17   | FRANCISCA PARRA | https://github.com/frnparr | — |
-| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
+| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase0007/ |
 | 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase7/ |
 | 20   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-07/ |
 | 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_7/ |
