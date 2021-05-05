@@ -26,7 +26,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | Nº   | Estudiante      | GitHub    | Evaluación Nº2 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-clase8-05-05/ |
-| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase-8/ |
+| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase8/ |
 | 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-8 |
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-08/ |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_8 |
