@@ -21,6 +21,36 @@ A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejer
 
 La suma de estos puntos se transforma en su [segunda evaluación del optativo](https://docs.google.com/spreadsheets/d/1y-vg8WCTgtvDP9kuXv6epljoF-FRPLGwI4gvXVUrj18/edit?usp=sharing), la que corresponde al 25% de su nota promedio final.
 
+#### Entregas
+
+| Nº   | Estudiante      | GitHub    | Ejercicio clase-06 |
+|:----:|:----------------|:----------|:-------------------|
+| 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
+| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
+| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 5    | FELIPE FUENTEALBA | https://github.com/leocto | — |
+| 6    | VERÓNICA GATICA | https://github.com/verogatica | — |
+| 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — |
+| 8   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — |
+| 9   | VALENTINA HERRERA | https://github.com/vale-herrera | — |
+| 10   | BETINA HIP | https://github.com/bbhip | — |
+| 11   | MARÍA HONORATO | https://github.com/elisahonorato | — |
+| 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — |
+| 13   | MARGARITA MATTE | https://github.com/mar-garita1 | — |
+| 14   | CONSTANZA MONTERO | https://github.com/cpmontero | — |
+| 15   | VALENTINA MORALES | https://github.com/lunalaffx | — |
+| 16   | DANIELA ORELLANA | https://github.com/dacorellana | — |
+| 17   | FRANCISCA PARRA | https://github.com/frnparr | — |
+| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
+| 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | — |
+| 20   | MARIO REINIKE | https://github.com/marioreinike | — |
+| 21   | VALENTINA REY | https://github.com/valentinarey | — |
+| 22   | JAVIERA ROBLES | — | — |
+| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
+| 24   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 25   | MARGARITA VIAL | https://github.com/margaraitavialm | — |
+
 - - - - - - - - - - - - -
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-10)
