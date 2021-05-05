@@ -25,8 +25,8 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 
 | Nº   | Estudiante      | GitHub    | Evaluación Nº2 |
 |:----:|:----------------|:----------|:-------------------|
-| 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
-| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-clase8-05-05/ |
+| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase-8/ |
 | 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | — |
@@ -49,7 +49,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | 22   | JAVIERA ROBLES | — | — |
 | 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | — |
-| 25   | MARGARITA VIAL | https://github.com/margaraitavialm | — |
+| 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/evaluacion-2/ |
 
 - - - - - - - - - - - - -
 
