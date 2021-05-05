@@ -27,7 +27,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 |:----:|:----------------|:----------|:-------------------|
 | 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-clase8-05-05/ |
 | 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase-8/ |
-| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
+| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-8 |
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_8 |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/8clase_dno037/ |
@@ -48,7 +48,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/E2_clase8 |
 | 22   | JAVIERA ROBLES | — | — |
 | 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
-| 24   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 24   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase05-05 |
 | 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/evaluacion-2/ |
 
 - - - - - - - - - - - - -
