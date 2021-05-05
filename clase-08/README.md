@@ -47,7 +47,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | 20   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-08/ |
 | 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/E2_clase8 |
 | 22   | JAVIERA ROBLES | — | — |
-| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — |
+| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/evaluacion_2 |
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase05-05 |
 | 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/evaluacion-2/ |
 
