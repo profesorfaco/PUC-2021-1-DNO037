@@ -28,7 +28,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-clase8-05-05/ |
 | 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase-8/ |
 | 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-8 |
-| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-08/ |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_8 |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/8clase_dno037/ |
 | 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase_8 |
@@ -42,7 +42,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | 15   | VALENTINA MORALES (corte de luz) | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase8/ |
 | 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-08 |
 | 17   | FRANCISCA PARRA | https://github.com/frnparr | — |
-| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | — |
+| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase008/ |
 | 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase8/ |
 | 20   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-08/ |
 | 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/E2_clase8 |
