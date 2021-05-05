@@ -23,7 +23,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 
 #### Entregas
 
-| Nº   | Estudiante      | GitHub    | Ejercicio clase-06 |
+| Nº   | Estudiante      | GitHub    | Evaluación Nº2 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | — |
 | 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
