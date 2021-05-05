@@ -43,7 +43,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-08 |
 | 17   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase008/ |
-| 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase8/ |
+| 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase8.2/ |
 | 20   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-08/ |
 | 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/E2_clase8 |
 | 22   | JAVIERA ROBLES | — | — |
