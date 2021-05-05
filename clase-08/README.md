@@ -29,7 +29,7 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 | 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase-8/ |
 | 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | — |
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
-| 5    | FELIPE FUENTEALBA | https://github.com/leocto | — |
+| 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_8 |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/8clase_dno037/ |
 | 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase_8 |
 | 8   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase08 |
