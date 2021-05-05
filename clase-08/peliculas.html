@@ -13,13 +13,27 @@
                 <p><a href="index.html">Portada</a> <a href="peliculas.html" class="active">Películas</a> <a href="locaciones.html">Locaciones</a> <a href="ganancias.html">Ganancias</a></p>
             </nav>
             <main>
-                <div>
-                    <p>Preparar un <a href="https://docs.google.com/spreadsheets/d/1kIelKUWqWb9Dqa8djZkOraGEeAJ-H3IOyFZRyzM42ZE/edit?usp=sharing" target="_blank">"Excel"</a> con información para cada una de las películas. Esto tendrán que consultarlo con la biblioteca PapaParse. Con un clic en cada película, ustedes tendrán que acceder a una página con detalle de tal película (donde se desplegará imagen grande, descripción y alguna otra cosa).</p>
-                </div>
+                <!--acá se meten las películas-->
             </main>
             <footer>
                 <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
             </footer>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <script>
+            Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-08/datos.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    var peliculas = respuesta.data;
+                    console.log(peliculas);
+                    peliculas.forEach(function(pelicula,i){
+                        document.querySelector("main").innerHTML += "<article><a href='pelicula.html?nro=" + i + "'><img src='images/" + pelicula.pic_sm + "'><div><h2>" + pelicula.name + "</h2></div></article>";
+                    })
+            }
+        });
+        </script>
+        </script>
     </body>
 </html>

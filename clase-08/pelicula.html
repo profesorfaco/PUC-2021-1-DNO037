@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
+        <title>EVALUACIÓN Nº2 &#127909;</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <p><a href="index.html">Portada</a> <a href="peliculas.html">Películas</a> <a href="locaciones.html">Locaciones</a> <a href="ganancias.html">Ganancias</a></p>
+            </nav>
+            <main>
+                <section>
+                    <!--acá se meten las películas-->
+                </section>
+            </main>
+            <footer>
+                <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+        <script>
+            Papa.parse('https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-08/datos.csv', {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function (respuesta) {
+                    var peliculas = respuesta.data;
+                    console.log(peliculas);
+
+                    var n = new URLSearchParams(window.location.search).get('nro');
+                    if (n !== null) {
+                        document.querySelector('section').innerHTML = '<h1>' + peliculas[n].name + '</h1><h4>' + peliculas[n].director + ' (' + peliculas[n].year + ')</h4><img src="images/' + peliculas[n].pic_lg + '"><p>' + peliculas[n].description + '</p><h3>Trailer</h3><p>Puedes ver algunas escenas de la película en <a href="' + peliculas[n].trailer + '" target="_blank">Youtube</a><p>';
+
+                    } else {
+                        document.querySelector('section').innerHTML = '<h1>Algo salió mal. Pero R2D2 lo reparará</h1><h4>Por favor, vuelve a escoger cualquiera de las <a href="peliculas.html">películas</a></h4>';
+                        document.body.style.backgroundPosition = 'bottom right';
+                        document.body.style.backgroundImage = 'url("images/error-amable.jpg")';
+                        document.body.style.backgroundRepeat = 'no-repeat';
+                        document.body.style.backgroundSize = 'auto 90%';
+                    }
+            }
+        });
+        </script>
+        </script>
+    </body>
+</html>

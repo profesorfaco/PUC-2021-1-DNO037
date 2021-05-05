@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root{
+    --fondo: #000;
+    --figura: #ddd;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +12,12 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background: #000;
-    color: #ddd;
+    background: var(--fondo);
+    color: var(--figura);
 }
 
 body.portada{
-    background:#000 url('images/portada.jpg') right bottom no-repeat;
+    background:var(--fondo) url('images/portada.jpg') right bottom no-repeat;
     background-size:auto 100%;
 }
 
@@ -24,7 +29,10 @@ a {
 
 a:hover {
     color: rgba(255, 255, 255, 0.75);
-    transition: color ease .5s;
+}
+
+:hover{
+    transition: all ease .5s;
 }
 
 div.container {
@@ -33,7 +41,9 @@ div.container {
 }
 
 nav, footer {
-    width: 100%;
+    width: 98%;
+    margin-left:1%;
+    margin-right:1%;
     min-height: 10vh;
     display: flex;
 }
@@ -50,52 +60,132 @@ nav p, footer p {
     color: white;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
-    height: 80vh;
+/* para la página de portada */
+
+header {   
+    width: 98%;
+    margin-left:1%;
+    margin-right:1%;
+    min-height: 80vh;
 }
 
-main div {
+header div{
     width: 50%;
-    margin:auto;
+    padding-top:15vh;
+}
+
+header div h1{
+    font-size:calc(1.5rem + 1vw);
+    line-height: 1;
+    text-shadow: 0 0 2px var(--fondo);
+}
+
+header div p{
+    margin-top:1rem;
     line-height: 1.5;
+    text-shadow: 0 0 2px var(--fondo);
 }
 
-main div:first-child h1, main div:first-child blockquote, main div:first-child p{
-    padding-right:5rem;
+@media screen and (orientation:portrait){
+
+    header div{
+        width: 100%;
+        line-height: 1.5;
+    }     
 }
 
-main div img{
+/* para todas las páginas que no son portada */
+
+main{
+    width: 100%;
+    padding-top:10vh;
+    min-height: 70vh;    
+}
+
+/* para la página de películas */
+
+main article{
+    float:left;
+    margin:1%;
+    width:18%;
+    background:rgba(255,255,255,0.1);
+}
+
+main article img{
+    width:100%;
+    height:auto;
+    opacity: 0.6;
+}
+
+main article:hover img{
+    opacity:1;
+}
+
+main article div{
+    padding:5%;
+    min-height:7.5vh;
+}
+
+main article div h2{
+    font-size:1rem;
+    letter-spacing: 0.05rem;
+}
+
+@media screen and (orientation:portrait){
+    main article{
+        width:48%;
+    }     
+}
+
+/* para cada página de película */
+
+main section{
+    float:left;
+    margin:3% 1% 10% 1%;
+    width:98%;   
+}
+
+main section h1{
+    font-size:calc(1.5rem + 1vw);
+    line-height: 1;
+}
+
+main section h3{
+    font-size:1.3rem;
+    line-height: 2.5;
+}
+
+main section h4{
+    font-size:1.2rem;
+    line-height: 2.5;
+}
+
+main section img{
     max-width:100%;
     height:auto;
+    margin:1.5rem 0;
 }
 
-@media (orientation:portrait){
+main section p{
+    max-width:100%;
+    line-height: 1.6;
+}
 
-    main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;    
-        height: auto;
-        min-height: 80vh
-    }
+@media screen and (orientation:landscape){
+    main section p{
+        max-width:75%;
+        line-height: 1.8;
+    }    
+}
 
-    main div {
-        width: 100%;
-        margin:auto;
-        line-height: 1.5;
-    }
+/* para las páginas de locaciones y ganancias */
 
-    main div:first-child h1, main div:first-child blockquote, main div:first-child p{
-        padding-right:0;
-    }
+main div#mapa{
+    margin:1%;
+    width:98%;
+    height:60vh;
+}
 
-    main div img{
-        max-width:100%;
-        height:auto;
-        margin:3rem 0;
-    }   
-
+main canvas#grafico{
+    background:#111;
 }

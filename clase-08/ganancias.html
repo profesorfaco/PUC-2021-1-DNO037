@@ -13,13 +13,36 @@
                 <p><a href="index.html">Portada</a> <a href="peliculas.html">Películas</a> <a href="locaciones.html">Locaciones</a> <a href="ganancias.html" class="active">Ganancias</a></p>
             </nav>
             <main>
-                <div>
-                    <p>Buscar los números asociados a las películas. Suficiente sería el costo de cada una, pero más entretenido sería ver costo v/s éxito en taquilla. Tendrán que crear un gráfico usando la biblioteca Charts.js</p>
-                </div>
+                <canvas id="grafico" height="40" width="100">
+                    <!--acá se mete el mapa-->
+                </canvas>
             </main>
             <footer>
                 <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
             </footer>
         </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.0/dist/chart.min.js"></script>
+    <script>
+var ctx = document.getElementById('grafico').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['La primera', 'La segunda', 'La tercera', 'La cuarta', 'La quinta', 'La sexta', 'La séptima', 'La octava', 'La novena'],
+        datasets: [{
+            label: '# of Votes',
+            data: [10, 7, 2, 5, 8, 20, 8, 4, 1],
+            backgroundColor: 'rgba(20, 100, 180, 0.5)',
+            borderWidth: 0
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
     </body>
 </html>
