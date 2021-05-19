@@ -44,7 +44,7 @@ Después de revisar las páginas recién vinculadas, conviene pasar al archivo `
 
 ### Práctica
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/).
+Hoy reciclaremos: El ejercicio se completa cuando cada estudiante publique, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), un *remake* del trabajo de la [clase anterior](https://github.com/profesorfaco/dno037-2021/tree/main/clase-08#entregas), utilizando Bootstrap.
 
 El ejercicio completo puede ser evaluado con:
 
