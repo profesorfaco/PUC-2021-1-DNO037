@@ -42,6 +42,22 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+#### Entregas
+
+
+| Nº   | GitHub Page                                         | Estudiantes                      | 
+|:----:|:----------------------------------------------------|:---------------------------------|
+| 1    | https://rama2432.github.io/DNO-clase11/                | Javier Ramírez.              |
+| 2    | https://actividad-clase-11.github.io/dno037-clase-11/  | Carrasco-Sepúlveda-Rey.      |
+| 3    | https://leocto.github.io/Nuevos_Medios_11/         | Felipe Fuentealba                |
+| 4    | https://dno037-clase11.github.io/elecciones-josefinatoro-elisahonorato-lunalaffx/. | Luna, Josefina y Elisa |
+| 5    | https://veroyvale-037.github.io/dno037-clase-11/            | Verónica Gatica, Valentina Herrera.           |
+| 6    | https://dnonuevosmedios-11.github.io/distritos-electorales/ | Rodrigo Guzmán, Betina Hip y Daniela Orellana |   
+| 7    | https://vtespinosa.github.io/diseno/clase-11/       | Espinoza                         |   
+| 8    | https://mar-garita1.github.io/clase-11-Vial-Matte/  | Matte y Vial                     | 
+| 9    | https://yahairaperez.github.io/clase00011/          | Yahaira Perez                    |  
+| 10   | https://gonzalez-ibanez-montero.github.io/clase-11/ |  Gonzalez, Ibañez y Montero      |
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-10) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-12)
