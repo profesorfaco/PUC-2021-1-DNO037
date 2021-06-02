@@ -16,6 +16,8 @@ Y si necesitan algo más rápido, siempre podrán encontrar alguna *cheat sheet*
 
 En la medida que vayan incorporando la lógica y sus clases, más rápido puede resultar su uso (y podrán llegar a prescindir, incluso, de los *cheat sheets*).
 
+- - - - - - - - -
+
 Para seguir incorporando las lógicas de Bootstrap, sin dejar de potenciar lo aprendido anteriormente, hoy nos aprovecharemos de: 
 
 - [Lorem Picsum](https://picsum.photos/)
