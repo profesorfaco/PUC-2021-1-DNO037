@@ -4,7 +4,7 @@
 
 ### Evaluación Nº3
 
-Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del *Bootstrap Landing Page Theme* **PENDIENTE** disponible en [Start Boostrap](https://startbootstrap.com/themes/landing-pages)
+Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, su versión ajustada del *Bootstrap Landing Page Theme* **PENDIENTE** disponible en [Start Boostrap](https://startbootstrap.com/themes/landing-pages)
 
 Cada versión debe ajustarse con atención a la siguiente pauta de cotejo:
 
