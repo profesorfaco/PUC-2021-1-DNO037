@@ -22,7 +22,7 @@ Para seguir incorporando las lógicas de Bootstrap, sin dejar de potenciar lo ap
 
 - [sheet.best · Turn your google sheets into a REST API](https://sheet.best/) 
 
-- [How to Use the JavaScript Fetch API to Get JSON](Data https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/)
+- [How to Use the JavaScript Fetch API to Get JSON Data](https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/)
 
 **En lugar de usar un CSV como en las [clases anteriores](https://github.com/profesorfaco/dno037-2021/edit/main/clase-11/), hoy vamos a utilizar un documento que podríamos seguir editando en [Google Drive](https://drive.google.com/drive/u/1/my-drive).** 
 
