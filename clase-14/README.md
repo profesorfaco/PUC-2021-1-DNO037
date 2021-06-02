@@ -20,9 +20,9 @@ Y puedes ver parte de estos videos:
 
 - [Hosting gratuito con GitHub Pages y dominio personalizado](https://www.youtube.com/watch?v=nbUR1jzVI5g&t=328s)
 
-El sitio web profesional o prototipo avanzado de aplicación web puede ser un autoencargo o un encargo. Generalmente el autoencargo es un portafolio de diseño, y el encargo atiende las necesidades comunicacionales de una empresa.
+**El sitio web profesional o prototipo avanzado de aplicación web puede ser un autoencargo o un encargo. Generalmente el autoencargo es un portafolio de diseño, y el encargo atiende las necesidades comunicacionales de una empresa**.
 
-🖐️ **ATENCIÓN** | Pueden enfrentar el (auto)encargo de tienda en línea sólo como prototipo avanzado de aplicación web; para resolverlo como sitio web prefieran otra instancia, distinta de este trabajo. En otra instancia podrían explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, *stock*, transacción, confirmación, distribución, entre otros.
+🖐️ **RECOMENDACIÓN IMPORTANTE** | Pueden enfrentar el (auto)encargo de tienda en línea sólo como prototipo avanzado de aplicación web; para resolverlo como sitio web prefieran otra instancia, distinta de este trabajo. En otra instancia podrían explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, *stock*, transacción, confirmación, distribución, entre otros.
 
 - - - - - - - 
 
