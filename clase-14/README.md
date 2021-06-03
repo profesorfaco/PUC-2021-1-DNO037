@@ -28,7 +28,7 @@ Y puedes ver parte de estos videos:
 
 #### Ejercicio
 
-En el ejercicio de la clase tendrán que usar el **README.md de un repositorio final para publicar las siguientes definiciones**: 
+Sólo tendrán que usar el **`README.md` de un repositorio final, donde tienen que publicar las siguientes definiciones**: 
 
 - **¿Para qué? → objetivo general** → describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo
 
@@ -48,11 +48,10 @@ Para publicar sus definiciones **utilizando el `README.md`**, aprovechen las sig
 
 - https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
-El ejercicio completo puede ser evaluado con:
+**Tan pronto tenga listo su trabajo, avise vía Chat de Canvas para poder recibir *feedback*.**
 
-- **0 punto** → no logrado.
+**El ejercicio de completa una vez reciba el *feedback*. Cada ejercicio completo recibe 1 punto. El ejercicio que no alcanza a completarse en el horario de clase recibe 0 punto.**
 
-- **1 punto** → logrado.
 
 - - - - - - - 
 
