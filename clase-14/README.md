@@ -36,7 +36,7 @@ El ejercicio de la clase de hoy sacaremos provecho al README.md, para publicar l
 
 - **¿Qué existe que puede inspirar la propuesta? → referentes** → muestre y describa 6 registros visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad.
 
-Lo que muestre y describa de cada antecedente y referente puede guiarse por la [ficha de clasificación de antecedentes de DSUC (p.80)]((http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf))
+Lo que muestre y describa de cada antecedente y referente puede guiarse por la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf)
 
 - - - - - - - 
 
