@@ -26,7 +26,9 @@ Y puedes ver parte de estos videos:
 
 - - - - - - - - - - 
 
-El ejercicio de la clase de hoy sacaremos provecho al README.md, para publicar las siguientes definiciones: 
+#### Ejercicio
+
+En el ejercicio de la clase tendrán que usar el **README.md de un repositorio final para publicar las siguientes definiciones**: 
 
 - **¿Para qué? → objetivo general** → describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo
 
@@ -37,6 +39,20 @@ El ejercicio de la clase de hoy sacaremos provecho al README.md, para publicar l
 - **¿Qué existe que puede inspirar la propuesta? → referentes** → muestre y describa 6 registros visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad.
 
 Lo que muestre y describa de cada antecedente y referente, puede guiarse por la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf)
+
+Para publicar sus definiciones **utilizando el `README.md`**, aprovechen las siguientes referencias:
+
+- https://devhints.io/markdown
+
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+- https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+El ejercicio completo puede ser evaluado con:
+
+- **0 punto** → no logrado.
+
+- **1 punto** → logrado.
 
 - - - - - - - 
 
