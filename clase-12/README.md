@@ -78,7 +78,7 @@ El ejercicio incompleto es evaluado con 0 punto.
 | 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_12/ |
 | 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-12/ |
 | 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase12/ |
-| 15   | VALENTINA MORALES (corte de luz) | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase12/ |
+| 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase12/ |
 | 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-12/ |
 | 17   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase00012/ |
