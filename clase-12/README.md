@@ -60,6 +60,36 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+#### Entregas
+
+| Nº   | Estudiante      | GitHub    | Clase 12 |
+|:----:|:----------------|:----------|:-------------------|
+| 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ |https://bennett-martin.github.io/dno-clase12-02-06/ |
+| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — |
+| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-12/ |
+| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
+| 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_12/ |
+| 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/12clase_dno037/ |
+| 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase_12/ |
+| 8   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase12/ |
+| 9   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-12/ |
+| 10   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-12/ |
+| 11   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/elisahonoratolira/ |
+| 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_12/ |
+| 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-12/ |
+| 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase12/ |
+| 15   | VALENTINA MORALES (corte de luz) | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase12/ |
+| 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-12/ |
+| 17   | FRANCISCA PARRA | https://github.com/frnparr | — |
+| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase00012/ |
+| 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase12/ |
+| 20   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-12/ |
+| 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/clase_12/ |
+| 22   | JAVIERA ROBLES | — | — |
+| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/actividad_clase_12/ |
+| 24   | JOSEFINA TORO | https://github.com/josefinatoro | — |
+| 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno_clase12/ |
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-11) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-13)
