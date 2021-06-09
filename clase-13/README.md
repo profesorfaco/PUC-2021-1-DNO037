@@ -47,7 +47,7 @@ La suma de estos puntos se transforma en su [tercera evaluación del optativo](h
 | 20   | MARIO REINIKE | https://github.com/marioreinike | Pendiente |
 | 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/E3_clase13/ |
 | 22   | JAVIERA ROBLES | — | — |
-| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | Pendiente |
+| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/evaluacion_3/ |
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | Pendiente |
 | 25   | MARGARITA VIAL | https://github.com/margaraitavialm | Pendiente |
 
