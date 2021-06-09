@@ -4,17 +4,17 @@
 
 ### Evaluación Nº3
 
-Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, su versión ajustada del *Bootstrap Landing Page Theme* **PENDIENTE** disponible en [Start Boostrap](https://startbootstrap.com/themes/landing-pages)
+Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, su versión ajustada del *Bootstrap Landing Page Theme* [**Stylish Portfolio**](https://startbootstrap.com/theme/stylish-portfolio) disponible en [Start Boostrap](https://startbootstrap.com/themes/landing-pages)
 
 Cada versión debe ajustarse con atención a la siguiente pauta de cotejo:
 
 | criterio | descripción             | pts. |
 |:----:|:----------------------------|:----:|
-| A    | Pendiente                   |  3,0 |
-| B    | Pendiente                   |  3,0 |
-| C    | Pendiente                   |  3,0 |
-| D    | Pendiente                   |  3,0 |
-| E    | Pendiente                   |  3,0 |
+| A    | Cambiar colores, textos y mapa, dándole sentido único a toda la página: sea un portafolio, una empresa, una campaña, etc. |  3,0 |
+| B    | Cambiar tipografías con Google Fonts, vinculando, al menos tres estilos, en `index.html` (pueden ser 2 familias distintas, con 2 variantes de la primera y 1 de la segunda) |  3,0 |
+| C    | Cambiar fotografías de fondo en `.masthead` y `.callout` por otras de significación pertinente, buena resolución y peso inferior a 200 KB para c/u  | 3,0 |
+| D    | Cambiar íconos en sección #services y footer por código SVG de [íconos de Bootstrap](https://icons.getbootstrap.com/), y elimine los vínculos a otras opciones de íconos |  3,0 |
+| E    | Cambiar fotografías en sección #portfolio con [Picsum.photos](https://picsum.photos/)  |  3,0 |
 
 
 A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejercicios en clases [10](https://github.com/profesorfaco/dno037-2021/tree/main/clase-10), [11](https://github.com/profesorfaco/dno037-2021/tree/main/clase-11) y [12](https://github.com/profesorfaco/dno037-2021/tree/main/clase-12). 
