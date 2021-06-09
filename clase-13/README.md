@@ -39,7 +39,7 @@ La suma de estos puntos se transforma en su [tercera evaluación del optativo](h
 | 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | Pendiente |
 | 13   | MARGARITA MATTE | https://github.com/mar-garita1 | Pendiente |
 | 14   | CONSTANZA MONTERO | https://github.com/cpmontero | Pendiente |
-| 15   | VALENTINA MORALES | https://github.com/lunalaffx | Pendiente |
+| 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase13/ |
 | 16   | DANIELA ORELLANA | https://github.com/dacorellana | Pendiente |
 | 17   | FRANCISCA PARRA | https://github.com/frnparr | Pendiente |
 | 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | Pendiente |
