@@ -26,22 +26,22 @@ La suma de estos puntos se transforma en su [tercera evaluación del optativo](h
 | Nº   | Estudiante      | GitHub    | Evaluación Nº3 |
 |:----:|:----------------|:----------|:-------------------|
 | 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dno-Clase13-09-06/ |
-| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | Pendiente |
+| 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/clase13/ |
 | 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-13/ |
-| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | Pendiente |
+| 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-13/ |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos-Medios-13/ |
-| 6    | VERÓNICA GATICA | https://github.com/verogatica | Pendiente |
+| 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/clase13_dno037/ |
 | 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/Clase_13/ |
 | 8    | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase13/ |
 | 9    | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-13/ |
 | 10   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-13/ |
 | 11   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_13/ |
-| 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | Pendiente |
+| 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_13/ |
 | 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-13/ |
 | 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase13/ |
 | 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase13/ |
 | 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-13/ |
-| 17   | FRANCISCA PARRA | https://github.com/frnparr | Pendiente |
+| 17   | FRANCISCA PARRA | https://github.com/frnparr | — |
 | 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/clase0013/ |
 | 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase13/ |
 | 20   | MARIO REINIKE | https://github.com/marioreinike | http://marioreinike.github.io/dno037/clase-13 |
