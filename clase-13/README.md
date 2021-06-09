@@ -49,7 +49,7 @@ La suma de estos puntos se transforma en su [tercera evaluación del optativo](h
 | 22   | JAVIERA ROBLES | — | — |
 | 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/evaluacion_3/ |
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | Pendiente |
-| 25   | MARGARITA VIAL | https://github.com/margaraitavialm | Pendiente |
+| 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/Evaluacion-3/ |
 
 - - - - - - - 
 
