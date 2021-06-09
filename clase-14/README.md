@@ -6,7 +6,7 @@ Hoy comienzan a trabajar en el **diseño y desarrollo, autónomo, de su primer s
 
 - Sitio web profesional, debe implementarse en línea con un dominio propio. 
 
-- Prototipo avanzado de aplicación web, debe implementarse en línea con dominio ajeno y acceso restringuido con clave.
+- Prototipo avanzado de aplicación web, debe implementarse en línea con dominio ajeno y acceso restringido con clave.
 
 Antes de seguir, conviene leer: 
 
