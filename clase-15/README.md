@@ -46,7 +46,9 @@ Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | — | 0 |
 | 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://github.com/margaraitavialm/Final | 0 |
 
-Son muy pocos los trabajos que obtienen 1 punto, esto es cumplir con lo solicitado. Primera parte de la clase, hasta las 11.30 hrs. tendrán tiempo para asegurarse el punto. Si no aprovechan este tiempo, su nota máximo para examen es un 6 (7 menos 1).
+Son muy pocos los trabajos que obtienen 1 punto, esto porque son muy pocos los que cumplen con lo solicitado. 
+
+En la primera parte de la clase, hasta las 11.30 hrs. tendrán tiempo para asegurarse el punto. Si no aprovechan este tiempo, su nota máxima para examen será un 6 (7 menos 1).
 
 **A las 11.40 hrs. volvemos a Zoom, para encargarles el ejercicio de hoy.**
 
