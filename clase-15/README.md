@@ -52,6 +52,13 @@ En la primera parte de la clase, hasta las 11.30 hrs. tendrán tiempo para asegu
 
 **A las 11.40 hrs. volvemos a Zoom, para encargarles el ejercicio de hoy.**
 
+- - - - - - - - - - - - - - - - - 
+
+### Ejercicio de Hoy
+
+Vamos a seguir afinando las decisiones que puedan inspirar, desde lo abstracto, a concretar su sitio web. Para ello, vamos tienen que agregar en el mismo repositiorio final donde tienen su README.md modificado, una carpeta `style-guide`, como la que se incluye en [esta carpeta de clase-15](https://profesorfaco.github.io/dno037-2021/clase-15/style-guide/) dentro del repositorio del curso.
+
+
 
 - - - - - - - 
 
