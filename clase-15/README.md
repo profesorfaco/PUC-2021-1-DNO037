@@ -82,12 +82,12 @@ Recomendaciones:
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — | P |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/MOCHA/style-guide | P |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/final_dno037/style-guide/ | P |
-| 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | — | P |
+| 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/ProyectoFinal/styleguide/ | P |
 | 8    | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/portafolioFinal/style-guide/ | P |
 | 9    | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-Proyecto-Final/style-guide/ | P |
 | 10   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/portafolio-final/style-guide | P |  
 | 11   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/ProyectoFinal/style-guide/ | P |
-| 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | — | P |
+| 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/examen/style-guide/ | P |
 | 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/Final/style-guide/ | P |
 | 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/vivero_kullay/style-guide/ | P |
 | 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-final/style-guide/ | P |
