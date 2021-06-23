@@ -8,13 +8,13 @@ Sólo tendrán que usar el **`README.md` de :rotating_light: un repositorio fina
 
 - **¿Para qué? → objetivo general** → describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo
 
-- **¿Para quiénes? → usuarios extremos y usuarios promedio** → describa, con formato [Protopersona](https://openpracticelibrary.com/practice/proto-persona/) o [Mapa de Usuario 3C (p.67)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf), a :rotating_light: 3 arquetipos de personas :rotating_light: que harán uso del resultado de su trabajo, 2 de ellas a los extremos de lo menos probable y 1 en la seguridad media de lo más probable.
+- **¿Para quiénes? → usuarios extremos y usuarios promedio** → describa, con formato [Protopersona](https://openpracticelibrary.com/practice/proto-persona/) o [Mapa de Usuario 3C (p.67)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf), a **3 (TRES) ARQUETIPOS PERSONAS** que harán uso del resultado de su trabajo, 2 de ellas a los extremos de lo menos probable y 1 en la seguridad media de lo más probable.
 
-- **¿Qué existe que es similar a la propuesta? → antecedentes** → :rotating_light:muestre y describa 6 sitios o aplicaciones web:rotating_light:. Se recomienda buscarlos en https://www.awwwards.com/websites/bootstrap/, https://www.instagram.com/webuistylist/ y https://www.instagram.com/web.inspirations/ 
+- **¿Qué existe que es similar a la propuesta? → antecedentes → MUESTRE Y DESCRIBA 6 (SEIS)** sitios o aplicaciones web. Se recomienda buscarlos en https://www.awwwards.com/websites/bootstrap/, https://www.instagram.com/webuistylist/ y https://www.instagram.com/web.inspirations/ 
 
-- **¿Qué existe que puede inspirar la propuesta? → referentes** → :rotating_light:muestre y describa 6 registros visuales:rotating_light:, distintos de sitios y aplicaciones web, que puedan aportar novedad.
+- **¿Qué existe que puede inspirar la propuesta? → referentes → MUESTRE Y DESCRIBA 6 (SEIS)** registros visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad.
 
-Lo que :rotating_light: muestre y describa :rotating_light: de cada antecedente y referente, puede guiarse por la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf)
+Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf)
 
 
 #### Entregas
@@ -23,7 +23,7 @@ Lo que :rotating_light: muestre y describa :rotating_light: de cada antecedente 
 |:----:|:----------------|:----------|:-------------------|:----:|
 | 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://github.com/bennett-martin/dno-final | 0 |
 | 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — | 0 |
-| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://github.com/PalomaCarrasco/Rart.Studio | 1 |
+| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://github.com/PalomaCarrasco/Rart.Studio | **1** |
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — | 0 |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://github.com/LeOcto/MOCHA | 1 |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://github.com/Verogatica/examen_dno037 | 0 |
