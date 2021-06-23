@@ -16,8 +16,7 @@ Sólo tendrán que usar el **`README.md` de :rotating_light: un repositorio fina
 
 Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por la [ficha de clasificación de antecedentes de DSUC (p.80)](http://www.dsuc.cl/pdf/Creando-valor-a-traves-del-Diseno-de-Servicios-DSUC.pdf)
 
-
-#### Entregas
+#### Entregas del trabajo con las instrucciones recién copiadas, pegadas y destacadas:
 
 | Nº   | Estudiante      | GitHub    | Primer Avance | Pto. |
 |:----:|:----------------|:----------|:-------------------|:----:|
@@ -25,7 +24,7 @@ Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por
 | 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — | 0 |
 | 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://github.com/PalomaCarrasco/Rart.Studio | **1** |
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — | 0 |
-| 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://github.com/LeOcto/MOCHA | 1 |
+| 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://github.com/LeOcto/MOCHA | 0 |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://github.com/Verogatica/examen_dno037 | 0 |
 | 7    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://github.com/MirkoGonzalez/ProyectoFinal | 0 | 
 | 8    | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | — | 0 |
@@ -34,18 +33,23 @@ Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por
 | 11   | MARÍA HONORATO | https://github.com/elisahonorato | https://github.com/elisahonorato/ProyectoFinal | 0 |
 | 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://github.com/franibanezm/examen | 0 | 
 | 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://github.com/Mar-garita1/Final | 0 |
-| 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://github.com/cpmontero/dno_nuevosmedios_examen | 1 |
-| 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://github.com/Lunalaffx/DNO037-final | 1 |
+| 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://github.com/cpmontero/dno_nuevosmedios_examen | 0 |
+| 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://github.com/Lunalaffx/DNO037-final | **1** |
 | 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://github.com/dacorellana/dno-medios-daniela-orellana | 0 |
 | 17   | FRANCISCA PARRA | https://github.com/frnparr | — | 0 |
-| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://github.com/YahairaPerez/final14 | 1 |
+| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://github.com/YahairaPerez/final14 | **1** |
 | 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://github.com/Rama2432/DNO-final | 0 |
 | 20   | MARIO REINIKE | https://github.com/marioreinike | — | — |
-| 21   | VALENTINA REY | https://github.com/valentinarey |https://github.com/ValentinaRey/Proyecto_final | 1 |
+| 21   | VALENTINA REY | https://github.com/valentinarey |https://github.com/ValentinaRey/Proyecto_final | **1** |
 | 22   | JAVIERA ROBLES | — | — | 0 |
 | 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — | 0 |
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | — | 0 |
 | 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://github.com/margaraitavialm/Final | 0 |
+
+Son muy pocos los trabajos que obtienen 1 punto, esto es cumplir con lo solicitado. Primera parte de la clase, hasta las 11.30 hrs. tendrán tiempo para asegurarse el punto. Si no aprovechan este tiempo, su nota máximo para examen es un 6 (7 menos 1).
+
+A las 11.40 hrs. volvemos a Zoom, para encargarles la segunda parte.
+
 
 
 - - - - - - - 
