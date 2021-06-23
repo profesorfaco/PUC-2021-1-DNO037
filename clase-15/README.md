@@ -64,9 +64,9 @@ Recomendaciones:
 
 - Para arquetipos de usuario se recomienda ilustraciones "con actitud". 
 
-- Para resolver el Moodboard, se recomienda: https://www.freepik.com/blog/es/mood-boards-consejos-trucos-crearlos/
+- Para resolver el Moodboard, se recomienda utilizar referentes y https://www.freepik.com/blog/es/mood-boards-consejos-trucos-crearlos/
 
-- Para el bocetos de portada y página interior use el método que más le acomode: Puede hacer un [wireframe](https://wireframe.cc/), jugar a ser Dr. Frankenstein juntando partes de sitios ajenos en Photoshop, o hacer un [sketch a mano](https://www.pinterest.cl/uistencils/ui-sketches/).
+- Para el bocetos de portada y página interior use el método que más le acomode: Puede hacer un [wireframe](https://wireframe.cc/), jugar a ser Dr. Frankenstein juntando partes de antecedentes en Photoshop, o hacer un [sketch a mano](https://www.pinterest.cl/uistencils/ui-sketches/).
 
 - Para las definiciones cromáticas fíjese en lo que está preparado cerca de la línea 150 del código. 
 
