@@ -34,13 +34,13 @@ Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por
 | 12   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://github.com/franibanezm/examen | 0 | 
 | 13   | MARGARITA MATTE | https://github.com/mar-garita1 | https://github.com/Mar-garita1/Final | 0 |
 | 14   | CONSTANZA MONTERO | https://github.com/cpmontero | https://github.com/cpmontero/dno_nuevosmedios_examen | 0 |
-| 15   | VALENTINA MORALES | https://github.com/lunalaffx | https://github.com/Lunalaffx/DNO037-final | **1** |
+| 15  | VALENTINA MORALES | https://github.com/lunalaffx | https://github.com/Lunalaffx/DNO037-final | **1** |
 | 16   | DANIELA ORELLANA | https://github.com/dacorellana | https://github.com/dacorellana/dno-medios-daniela-orellana | 0 |
 | 17   | FRANCISCA PARRA | https://github.com/frnparr | — | 0 |
-| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://github.com/YahairaPerez/final14 | **1** |
+| 18   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://github.com/YahairaPerez/final14 | 0 |
 | 19   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://github.com/Rama2432/DNO-final | 0 |
 | 20   | MARIO REINIKE | https://github.com/marioreinike | — | — |
-| 21   | VALENTINA REY | https://github.com/valentinarey |https://github.com/ValentinaRey/Proyecto_final | **1** |
+| **21** | **VALENTINA REY** | https://github.com/valentinarey | https://github.com/ValentinaRey/Proyecto_final | **1** |
 | 22   | JAVIERA ROBLES | — | — | 0 |
 | 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — | 0 |
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | — | 0 |
@@ -48,8 +48,7 @@ Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por
 
 Son muy pocos los trabajos que obtienen 1 punto, esto es cumplir con lo solicitado. Primera parte de la clase, hasta las 11.30 hrs. tendrán tiempo para asegurarse el punto. Si no aprovechan este tiempo, su nota máximo para examen es un 6 (7 menos 1).
 
-A las 11.40 hrs. volvemos a Zoom, para encargarles la segunda parte.
-
+**A las 11.40 hrs. volvemos a Zoom, para encargarles el ejercicio de hoy.**
 
 
 - - - - - - - 
