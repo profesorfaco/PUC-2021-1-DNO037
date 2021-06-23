@@ -98,7 +98,7 @@ Recomendaciones:
 | 20   | MARIO REINIKE | https://github.com/marioreinike | — | P |
 | 21   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/sequoia_fruits/style-guide/ | P |
 | 22   | JAVIERA ROBLES | — | — | 0 |
-| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | — | P |
+| 23   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/Portafolio_FINAL/style-guide/ | P |
 | 24   | JOSEFINA TORO | https://github.com/josefinatoro | — | P |
 | 25   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/Final/style-guide | P |
 
