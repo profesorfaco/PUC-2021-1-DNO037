@@ -22,7 +22,7 @@ Lo que **muestre y describa** de cada antecedente y referente, puede guiarse por
 |:----:|:----------------|:----------|:-------------------|:----:|
 | 1    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://github.com/bennett-martin/dno-final | 0 |
 | 2    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | — | 0 |
-| 3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://github.com/PalomaCarrasco/Rart.Studio | **1** |
+| **3    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://github.com/PalomaCarrasco/Rart.Studio | 1** |
 | 4    | VICENTE ESPINOSA | https://github.com/vtespinosa | — | 0 |
 | 5    | FELIPE FUENTEALBA | https://github.com/leocto | https://github.com/LeOcto/MOCHA | 0 |
 | 6    | VERÓNICA GATICA | https://github.com/verogatica | https://github.com/Verogatica/examen_dno037 | 0 |
