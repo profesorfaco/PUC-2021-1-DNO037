@@ -32,8 +32,6 @@ En la última referencia mencionada, se describe cómo usar https://squoosh.app/
 
 Pensémoslo con 5 imágenes en un README.md - si son todas similares, podrían considerar que el peso máximo para cada una debe ser de 200kb. Si tienen 3 con pocos detalles y que puedan ser pequeñas, aprovechen de bajarles su peso máximo (hasta 100kb), así pueden agregar dos con mayor peso (hasta 350kb) y aún se mantienen debajo de los 1024KB (1MB)
 
-Pensémoslo con 4 imágenes a la vista en un styleguide - 
-
 - - - - - - - - - - - - - - - - - - - 
 
 **Lo segundo** será comenzar el proceso de usar su propio dominio, para ello vuelvo a usar la técnica del [copy/paste](https://github.com/profesorfaco/dno037-2021/tree/main/clase-14):
@@ -53,7 +51,9 @@ Y puedes ver parte de estos videos:
 
 **Lo tercero** será crear una página del tipo *coming soon* para dejar en su repositorio final como `index.html`. Esta página debe mostrarse, antes de que termine la semana, en el dominio definitivo de su sitio web profesional o prototipo avanzado de aplicación web.
 
-| Estudiante      | Repositorio en GitHub | Stye Guide | Dominio     |
+#### Avances
+
+| Estudiante      | Repositorio en GitHub | Stye Guide | Dominio    |
 |:----------------|:----------------------|:--------------|:--------|
 | [MARTÍN BENNETT](https://github.com/bennett-martin) | [dno-final](https://github.com/bennett-martin/dno-final) | — |  — |
 | [RODRIGO CAMPUSANO](https://github.com/rodrigocampusano) | — | — | — | 
@@ -81,7 +81,16 @@ Y puedes ver parte de estos videos:
 | [JOSEFINA TORO](https://github.com/josefinatoro) | [FINAL](https://github.com/JosefinaToro/FINAL) | — | — |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | [Final](https://github.com/margaraitavialm/Final) | [Final/style-guide](https://margaraitavialm.github.io/Final/style-guide) | — |
 
-Con esto obtienen el tercer punto previo a la calificación final, cuya pauta pueden encontrar en Drive.
+Teniendo listo lo primero, segundo y tercero, completan 3 puntos para la calificación final, [cuyos detalles encontrarán en Google Drive](https://docs.google.com/spreadsheets/d/1Jq_JWwmwsCHphn6ObXPPuwVcePRhkDPyd5IeEVATWO8/edit?usp=sharing). 
+
+Recuerden que los puntos pendientes se obtienen de una auditoria de la portada de su sitio web profesional o prototipo avanzado de aplicación web. Haré la auditoría con [Google Lighthouse](https://developers.google.com/web/tools/lighthouse?hl=es), lo que implica revisar 4 dimensiones:
+
+- Performance
+- Accessibility
+- Best Practices
+- SEO
+
+Cada dimension en verde es 1 punto. Cada dimensión en amarillo es 0.75 y cada dimensión en rojo es 0.5 
 
 - - - - - - - 
 
