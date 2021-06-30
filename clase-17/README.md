@@ -13,6 +13,8 @@ Los 4 puntos pendientes se obtienen con resultado de auditoría con [Google Ligh
 
 Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.75 y cada dimensión en rojo es 0.5 
 
+- - - - - - - - - - - - - - 
+
 #### Entregas
 
 Hasta las 12.30 hrs. (medio día + 30 minutos) podrán hacer ajustes en:
