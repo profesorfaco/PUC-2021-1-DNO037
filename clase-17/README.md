@@ -47,7 +47,9 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [JOSEFINA TORO](https://github.com/josefinatoro) | P | P |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | P | P |
 
-**Con su pre-evaluación, cada estudiante tendrán la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tienen la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
+**Con su pre-evaluación, cada estudiante tendrá la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tendrá la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
+
+Sin su pre-evaluación, el estudiante pierde la posibilidad de hacer ajustes, y su promedio se cierra con una cuarta nota que sólo considera los puntos obtenidos en clases 14, 15 y 17 (respectivamente: README.md, Style Guide y dominio definitivo configurado con su `index.html` provisorio)
 
 - - - - - - - 
 
