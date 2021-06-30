@@ -17,7 +17,7 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 
 #### Entregas
 
-Hasta las 12.30 hrs. (medio día + 30 minutos) podrán hacer ajustes en:
+**A las 12.30 hrs. abriré Zoom, no antes**. Hasta las 12.30 hrs. (medio día + 30 minutos) podrán hacer ajustes a su sitio web profesional o prototipo avanzado de aplicación web.
 
 | Estudiante      | Entrega final         | Nota  | 
 |:----------------|:----------------------|:-----:|
