@@ -1,6 +1,6 @@
 ### Diseño y Nuevos Medios → Clase 17 → 07/07/2021
 
-# Diseño y desarrollo
+# Pre-evaluación Nº4
 
 Ya se completaron 3 puntos de 7 para la calificación final, [cuyos detalles encontrarán en Google Drive](https://docs.google.com/spreadsheets/d/1Jq_JWwmwsCHphn6ObXPPuwVcePRhkDPyd5IeEVATWO8/edit?usp=sharing). 
 
@@ -13,9 +13,9 @@ Los 4 puntos pendientes se obtienen con resultado de auditoría con [Google Ligh
 
 Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.75 y cada dimensión en rojo es 0.5 
 
-#### Entrega
+#### Entregas
 
-Hasta las 12.30 hrs. (medio día + 30 minutos) podrán entregar hacer ajustes en:
+Hasta las 12.30 hrs. (medio día + 30 minutos) podrán hacer ajustes en:
 
 | Estudiante      | Entrega final         | Nota  | 
 |:----------------|:----------------------|:-----:|
@@ -45,9 +45,7 @@ Hasta las 12.30 hrs. (medio día + 30 minutos) podrán entregar hacer ajustes en
 | [JOSEFINA TORO](https://github.com/josefinatoro) | P | P |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | P | P |
 
- **Podrán optar por recorrección hasta las 10.00 hrs. del miércoles 14 de julio**. Antes que termine el mismo día (23.59 hrs.) tengo que cerrar los promedios para subirlos al sistema.
-
-
+**Con su pre-evaluación, cada estudiante tendrán la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tienen la posibilidad de quedarse con la nota de pre-evaluación y cerrar promedio con ella. 
 
 - - - - - - - 
 
