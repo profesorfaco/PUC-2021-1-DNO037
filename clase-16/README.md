@@ -58,19 +58,19 @@ Y puedes ver parte de estos videos:
 |:----------------|:----------------------|:--------------|:----:|
 | MARTÍN BENNETT | https://github.com/bennett-martin/dno-final | — |  P |
 | RODRIGO CAMPUSANO | — | — | P | 
-| PALOMA CARRASCO | https://github.com/PalomaCarrasco/Rart.Studio | https://palomacarrasco.github.io/Rart.Studio/style-guide/ | P |
+| PALOMA CARRASCO | https://github.com/PalomaCarrasco/Rart.Studio | https://palomacarrasco.github.io/Rart.Studio/style-guide/ | https://www.rartstudio.com/ |
 | VICENTE ESPINOSA |  — | P | P |
-| FELIPE FUENTEALBA | https://github.com/LeOcto/MOCHA | https://leocto.github.io/MOCHA/style-guide | P |
+| FELIPE FUENTEALBA | https://github.com/LeOcto/MOCHA | https://leocto.github.io/MOCHA/style-guide | https://dnmocha.cl/ |
 | VERÓNICA GATICA | https://github.com/Verogatica/examen_dno037 | https://verogatica.github.io/final_dno037/style-guide/ | P |
-| MIRKO GONZÁLEZ | https://github.com/MirkoGonzalez/ProyectoFinal | https://mirkogonzalez.github.io/ProyectoFinal/styleguide/ |  P |
+| MIRKO GONZÁLEZ | https://github.com/MirkoGonzalez/ProyectoFinal | https://mirkogonzalez.github.io/ProyectoFinal/styleguide/ |  https://keteg.cl/ |
 | RODRIGO GUZMÁN | https://github.com/rodrigo-bot/portafolioFinal | https://rodrigo-bot.github.io/portafolioFinal/style-guide/ | P |
 | VALENTINA HERRERA | https://github.com/vale-herrera/dno037-Proyecto-Final | https://vale-herrera.github.io/dno037-Proyecto-Final/style-guide/ | P |
-| BETINA HIP | https://github.com/bbhip/portafolio-final | https://bbhip.github.io/portafolio-final/style-guide |   P |
+| BETINA HIP | https://github.com/bbhip/portafolio-final | https://bbhip.github.io/portafolio-final/style-guide | https://betinahip.design/ |
 | MARÍA HONORATO | https://github.com/elisahonorato/ProyectoFinal | https://elisahonorato.github.io/ProyectoFinal/style-guide/ | P |
-| MARÍA IBÁÑEZ | https://github.com/franibanezm/examen | https://franibanezm.github.io/examen/style-guide/ |  P |
+| MARÍA IBÁÑEZ | https://github.com/franibanezm/examen | https://franibanezm.github.io/examen/style-guide/ |  https://cucaomapas.cl/ |
 | MARGARITA MATTE | https://github.com/Mar-garita1/Final | https://mar-garita1.github.io/Final/style-guide/ | P |
-| CONSTANZA MONTERO | https://github.com/cpmontero/vivero_kullay | https://cpmontero.github.io/vivero_kullay/style-guide/ | P |
-| VALENTINA MORALES | https://github.com/Lunalaffx/DNO037-final | https://lunalaffx.github.io/DNO037-final/style-guide/ | P |
+| CONSTANZA MONTERO | https://github.com/cpmontero/vivero_kullay | https://cpmontero.github.io/vivero_kullay/style-guide/ | https://viverokullay.cl/ |
+| VALENTINA MORALES | https://github.com/Lunalaffx/DNO037-final | https://lunalaffx.github.io/DNO037-final/style-guide/ | https://www.lunalaffx.com/ |
 | DANIELA ORELLANA | https://github.com/dacorellana/Biodesign-web/ | https://dacorellana.github.io/Biodesign-web/style-guide/ | P |
 | FRANCISCA PARRA | — | — | P |
 | YAHAIRA PEREZ | https://github.com/YahairaPerez/baran | https://yahairaperez.github.io/baran/style-guide/ | P |
