@@ -47,7 +47,7 @@ Hasta las 12.30 hrs. (medio día + 30 minutos) podrán hacer ajustes en:
 | [JOSEFINA TORO](https://github.com/josefinatoro) | P | P |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | P | P |
 
-**Con su pre-evaluación, cada estudiante tendrán la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tienen la posibilidad de quedarse con la nota de pre-evaluación y cerrar promedio con ella. 
+**Con su pre-evaluación, cada estudiante tendrán la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tienen la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
 
 - - - - - - - 
 
