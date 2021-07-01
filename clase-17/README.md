@@ -33,7 +33,7 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [BETINA HIP](https://github.com/bbhip) | https://betinahip.design/ | P | 
 | [MARÍA HONORATO](https://github.com/elisahonorato) | P | P |
 | [MARÍA IBÁÑEZ](https://github.com/franibanezm) |  https://cucaomapas.cl/ |
-| [MARGARITA MATTE](https://github.com/mar-garita1) | http://mujerfaro.com/ | P |
+| [MARGARITA MATTE](https://github.com/mar-garita1) | https://mujerfaro.com/ | P |
 | [CONSTANZA MONTERO](https://github.com/cpmontero) | https://viverokullay.cl/ | P |
 | [VALENTINA MORALES](https://github.com/lunalaffx) | https://www.lunalaffx.com/ | P |
 | [DANIELA ORELLANA](https://github.com/dacorellana) | P | P |
