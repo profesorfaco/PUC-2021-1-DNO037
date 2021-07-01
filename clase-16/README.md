@@ -79,7 +79,7 @@ Y puedes ver parte de estos videos:
 | JAVIERA ROBLES | — | — | — |
 | [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | [Portafolio_FINAL](https://github.com/mirandasepulveda-la/Portafolio_FINAL) | [Portafolio_FINAL/style-guide/](https://mirandasepulveda-la.github.io/Portafolio_FINAL/style-guide/) | — |
 | [JOSEFINA TORO](https://github.com/josefinatoro) | [FINAL](https://github.com/JosefinaToro/FINAL) | — | — |
-| [MARGARITA VIAL](https://github.com/margaraitavialm) | [Final](https://github.com/margaraitavialm/Final) | [Final/style-guide](https://margaraitavialm.github.io/Final/style-guide) | — |
+| [MARGARITA VIAL](https://github.com/margaraitavialm) | [Final](https://github.com/margaraitavialm/Final) | [Final/style-guide](https://margaraitavialm.github.io/Final/style-guide) | https://labocada.cl/ |
 
 Teniendo listo lo primero, segundo y tercero, completan 3 puntos para la calificación final, [cuyos detalles encontrarán en Google Drive](https://docs.google.com/spreadsheets/d/1Jq_JWwmwsCHphn6ObXPPuwVcePRhkDPyd5IeEVATWO8/edit?usp=sharing). 
 
