@@ -53,8 +53,8 @@ Y puedes ver parte de estos videos:
 
 #### Avances
 
-| Estudiante      | Repositorio en GitHub | Stye Guide    | Dominio    |
-|:----------------|:---------------------:|:-------------:|:-----------|
+| Estudiante      | Repositorio en GitHub | Stye Guide    | Dominio     |
+|:----------------|:---------------------:|:-------------:|:-----------:|
 | [MARTÍN BENNETT](https://github.com/bennett-martin) | [dno-final](https://github.com/bennett-martin/dno-final) | — |  — |
 | [RODRIGO CAMPUSANO](https://github.com/rodrigocampusano) | — | — | — | 
 | [PALOMA CARRASCO](https://github.com/PalomaCarrasco) | [Rart.Studio](https://github.com/PalomaCarrasco/Rart.Studio) | [Rart.Studio/style-guide/](https://palomacarrasco.github.io/Rart.Studio/style-guide/) | https://www.rartstudio.com/ |
