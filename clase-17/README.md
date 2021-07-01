@@ -29,7 +29,7 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [VERÓNICA GATICA](https://github.com/verogatica) |  P | P |
 | [MIRKO GONZÁLEZ](https://github.com/mirkogonzalez) | https://keteg.cl/ | P |
 | [RODRIGO GUZMÁN](https://github.com/rodrigo-bot) |  P | P |
-| [VALENTINA HERRERA](https://github.com/vale-herrera) |  P | P |
+| [VALENTINA HERRERA](https://github.com/vale-herrera) | https://valentinah.com/ | P |
 | [BETINA HIP](https://github.com/bbhip) | https://betinahip.design/ | P | 
 | [MARÍA HONORATO](https://github.com/elisahonorato) | P | P |
 | [MARÍA IBÁÑEZ](https://github.com/franibanezm) |  https://cucaomapas.cl/ |
@@ -38,14 +38,14 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [VALENTINA MORALES](https://github.com/lunalaffx) | https://www.lunalaffx.com/ | P |
 | [DANIELA ORELLANA](https://github.com/dacorellana) | P | P |
 | [FRANCISCA PARRA](https://github.com/frnparr) | P | P |
-| [YAHAIRA PEREZ](https://github.com/yahairaperez) | http://baran.cl/ | P |
-| [JAVIER RAMÍREZ](https://github.com/rama2432) | http://kissinchile.cl/ | P |
+| [YAHAIRA PEREZ](https://github.com/yahairaperez) | https://baran.cl/ | P |
+| [JAVIER RAMÍREZ](https://github.com/rama2432) | https://kissinchile.cl/ | P |
 | [MARIO REINIKE](https://github.com/marioreinike) |  P | P |
 | [VALENTINA REY](https://github.com/valentinarey) | P | P |
 | JAVIERA ROBLES | P | P |
 | [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | P | P |
 | [JOSEFINA TORO](https://github.com/josefinatoro) | P | P |
-| [MARGARITA VIAL](https://github.com/margaraitavialm) | P | P |
+| [MARGARITA VIAL](https://github.com/margaraitavialm) | https://labocada.cl/ | P |
 
 **Con su pre-evaluación, cada estudiante tendrá la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tendrá la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
 
