@@ -28,7 +28,7 @@ En la última referencia mencionada, se describe cómo usar https://squoosh.app/
 
 **La regla general: Si demora 5 segundos en cargar, no existe. El peso de las imágenes no da lo mismo. No lo descuiden**. 
 
-**Regla para el caso particular, adaptemos la idea de [Nahuai Badiola](https://nbadiola.com/peso-ideal-fotografia-para-web/): Que todas las imágenes que deban desplegarse a primera vista en una página (antes del *scroll*) pesen, en conjunto, menos de 1MB (menos de 1024KB)**. 
+**Regla para el caso particular, adaptando la idea de [Nahuai Badiola](https://nbadiola.com/peso-ideal-fotografia-para-web/): Que todas las imágenes que deban desplegarse a primera vista en una página (antes del *scroll*) pesen, en conjunto, menos de 1MB (menos de 1024KB)**. 
 
 Pensémoslo con 5 imágenes en un README.md - si son todas similares, podrían considerar que el peso máximo para cada una debe ser de 200kb. Si tienen 3 con pocos detalles y que puedan ser pequeñas, aprovechen de bajarles su peso máximo (hasta 100kb), así pueden agregar dos con mayor peso (hasta 350kb) y aún se mantienen debajo de los 1024KB (1MB)
 
