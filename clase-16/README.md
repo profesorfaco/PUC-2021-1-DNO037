@@ -75,9 +75,9 @@ Y puedes ver parte de estos videos:
 | [YAHAIRA PEREZ](https://github.com/yahairaperez) | [baran](https://github.com/YahairaPerez/baran) | [baran/style-guide/](https://yahairaperez.github.io/baran/style-guide/) | https://baran.cl/ |
 | [JAVIER RAMÍREZ](https://github.com/rama2432) | [DNO-final](https://github.com/Rama2432/DNO-final) | [DNO-final/style-guide/](https://rama2432.github.io/DNO-final/style-guide/) | https://kissinchile.cl/ |
 | [MARIO REINIKE](https://github.com/marioreinike) | — | — | — |
-| [VALENTINA REY](https://github.com/valentinarey) | [sequoia_fruits](https://github.com/ValentinaRey/sequoia_fruits) | [sequoia_fruits/style-guide/](https://valentinarey.github.io/sequoia_fruits/style-guide/) | — |
+| [VALENTINA REY](https://github.com/valentinarey) | [sequoia_fruits](https://github.com/ValentinaRey/sequoia_fruits) | [sequoia_fruits/style-guide/](https://valentinarey.github.io/sequoia_fruits/style-guide/) | https://www.sequoiafruit.com/ |
 | JAVIERA ROBLES | — | — | — |
-| [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | [Portafolio_FINAL](https://github.com/mirandasepulveda-la/Portafolio_FINAL) | [Portafolio_FINAL/style-guide/](https://mirandasepulveda-la.github.io/Portafolio_FINAL/style-guide/) | — |
+| [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | [Portafolio_FINAL](https://github.com/mirandasepulveda-la/Portafolio_FINAL) | [Portafolio_FINAL/style-guide/](https://mirandasepulveda-la.github.io/Portafolio_FINAL/style-guide/) | https://www.miri.cl/ |
 | [JOSEFINA TORO](https://github.com/josefinatoro) | [FINAL](https://github.com/JosefinaToro/FINAL) | — | — |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | [Final](https://github.com/margaraitavialm/Final) | [Final/style-guide](https://margaraitavialm.github.io/Final/style-guide) | https://labocada.cl/ |
 
