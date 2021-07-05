@@ -44,7 +44,7 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [VALENTINA REY](https://github.com/valentinarey) | https://www.sequoiafruit.com/ | P |
 | JAVIERA ROBLES | P | P |
 | [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | https://www.miri.cl/ | P |
-| [JOSEFINA TORO](https://github.com/josefinatoro) | P | P |
+| [JOSEFINA TORO](https://github.com/josefinatoro) | https://josefinatoro.art/ | P |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | https://labocada.cl/ | P |
 
 **Con su pre-evaluación, cada estudiante tendrá la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 14 de julio) para una evaluación definitiva**. También tendrá la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
