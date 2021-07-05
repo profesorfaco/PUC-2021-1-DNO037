@@ -28,7 +28,7 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [FELIPE FUENTEALBA](https://github.com/leocto) | https://dnmocha.cl/ | P |
 | [VERÓNICA GATICA](https://github.com/verogatica) |  https://veronicagatica.com/ | P |
 | [MIRKO GONZÁLEZ](https://github.com/mirkogonzalez) | https://keteg.cl/ | P |
-| [RODRIGO GUZMÁN](https://github.com/rodrigo-bot) |  P | P |
+| [RODRIGO GUZMÁN](https://github.com/rodrigo-bot) |  https://rodrigoguzman.design/ | P |
 | [VALENTINA HERRERA](https://github.com/vale-herrera) | https://valentinah.com/ | P |
 | [BETINA HIP](https://github.com/bbhip) | https://betinahip.design/ | P | 
 | [MARÍA HONORATO](https://github.com/elisahonorato) | https://www.elisahonoratolira.cl/ | P |
