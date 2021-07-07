@@ -4,6 +4,8 @@
 
 C'EST FINI
 
+- - - - - - - - - 
+
 **¿Quieres colaborar con tu propia versión de buscador de memorias de Diseño UC?** Puedes aprovechar dos recursos disponibles:
 
 - La API con los datos actualizados --> https://sheet.best/api/sheets/dbca19d9-e4a1-4e3d-9c98-3fcd164509fd
