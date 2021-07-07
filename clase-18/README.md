@@ -10,7 +10,7 @@ C'EST FINI
 
 - En caso falle la API, tenemos copia en JSON (pero esta copia no se actualiza automáticamente) ---> https://diseno.uc.cl/memorias/data.json
 
-(La API podría cambiar, porque está pendiente un cambio de cuenta @uc.cl)
+En total hay datos de 1116 memorias distintas. Con datos completos en 958 de ellas. La API podría cambiar, porque está pendiente un cambio de cuenta @uc.cl
 
 - - - - - - - 
 
