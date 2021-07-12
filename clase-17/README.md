@@ -21,10 +21,10 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 
 | Estudiante      | Entrega final         | Nota  | 
 |:----------------|:----------------------|:-----:|
-| [MARTÍN BENNETT](https://github.com/bennett-martin) | P | P |
-| [RODRIGO CAMPUSANO](https://github.com/rodrigocampusano) | P | P |
+| [MARTÍN BENNETT](https://github.com/bennett-martin) | — | 1.0 |
+| [RODRIGO CAMPUSANO](https://github.com/rodrigocampusano) | — | 1.0 |
 | [PALOMA CARRASCO](https://github.com/PalomaCarrasco) | https://www.rartstudio.com/ | 6.8 |
-| [VICENTE ESPINOSA](https://github.com/vtespinosa) |  P | P |
+| [VICENTE ESPINOSA](https://github.com/vtespinosa) |  — | 1.0 |
 | [FELIPE FUENTEALBA](https://github.com/leocto) | https://dnmocha.cl/ | 6.5 |
 | [VERÓNICA GATICA](https://github.com/verogatica) |  https://veronicagatica.com/ | 6.5 |
 | [MIRKO GONZÁLEZ](https://github.com/mirkogonzalez) | https://keteg.cl/ | 6.5 |
@@ -37,12 +37,12 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [CONSTANZA MONTERO](https://github.com/cpmontero) | https://viverokullay.cl/ | 6.3 |
 | [VALENTINA MORALES](https://github.com/lunalaffx) | https://www.lunalaffx.com/ | 6.3 |
 | [DANIELA ORELLANA](https://github.com/dacorellana) | https://asociar.cl/ | 6.5 |
-| [FRANCISCA PARRA](https://github.com/frnparr) | P | P |
+| [FRANCISCA PARRA](https://github.com/frnparr) | — | 1.0 |
 | [YAHAIRA PEREZ](https://github.com/yahairaperez) | https://baran.cl/ | 7.0 |
 | [JAVIER RAMÍREZ](https://github.com/rama2432) | https://kissinchile.cl/ | 7.0 |
-| [MARIO REINIKE](https://github.com/marioreinike) |  P | P |
+| [MARIO REINIKE](https://github.com/marioreinike) |  — | 1.0 |
 | [VALENTINA REY](https://github.com/valentinarey) | https://www.sequoiafruit.com/ | 6.5 |
-| JAVIERA ROBLES | P | 1.0 |
+| JAVIERA ROBLES | — | 1.0 |
 | [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | https://www.miri.cl/ | P |
 | [JOSEFINA TORO](https://github.com/josefinatoro) | https://josefinatoro.art/ | 5.0 |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | https://labocada.cl/ | 6.5 |
