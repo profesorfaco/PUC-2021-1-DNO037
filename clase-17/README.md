@@ -27,14 +27,14 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [VICENTE ESPINOSA](https://github.com/vtespinosa) |  — | 1.0 |
 | [FELIPE FUENTEALBA](https://github.com/leocto) | https://dnmocha.cl/ | 6.5 |
 | [VERÓNICA GATICA](https://github.com/verogatica) |  https://veronicagatica.com/ | 6.5 |
-| [MIRKO GONZÁLEZ](https://github.com/mirkogonzalez) | https://keteg.cl/ | 6.5 |
-| [RODRIGO GUZMÁN](https://github.com/rodrigo-bot) |  https://rodrigoguzman.design/ | P |
+| [MIRKO GONZÁLEZ](https://github.com/mirkogonzalez) | https://keteg.cl/ | 6.8 |
+| [RODRIGO GUZMÁN](https://github.com/rodrigo-bot) |  https://rodrigoguzman.design/ | 2.0 |
 | [VALENTINA HERRERA](https://github.com/vale-herrera) | https://valentinah.com/ | 5.8 |
 | [BETINA HIP](https://github.com/bbhip) | https://betinahip.design/ | 6.5 | 
-| [MARÍA HONORATO](https://github.com/elisahonorato) | https://www.elisahonoratolira.cl/ | 6.0 |
+| [MARÍA HONORATO](https://github.com/elisahonorato) | https://www.elisahonoratolira.cl/ | 6.3 |
 | [MARÍA IBÁÑEZ](https://github.com/franibanezm) |  https://cucaomapas.cl/ | 6.8 |
 | [MARGARITA MATTE](https://github.com/mar-garita1) | https://mujerfaro.cl/ | 6.0 |
-| [CONSTANZA MONTERO](https://github.com/cpmontero) | https://viverokullay.cl/ | 6.3 |
+| [CONSTANZA MONTERO](https://github.com/cpmontero) | https://viverokullay.cl/ | 6.8 |
 | [VALENTINA MORALES](https://github.com/lunalaffx) | https://www.lunalaffx.com/ | 6.3 |
 | [DANIELA ORELLANA](https://github.com/dacorellana) | https://asociar.cl/ | 6.5 |
 | [FRANCISCA PARRA](https://github.com/frnparr) | — | 1.0 |
@@ -43,7 +43,7 @@ Cada dimension en verde significará 1 punto. Cada dimensión en amarillo es 0.7
 | [MARIO REINIKE](https://github.com/marioreinike) |  — | 1.0 |
 | [VALENTINA REY](https://github.com/valentinarey) | https://www.sequoiafruit.com/ | 6.5 |
 | JAVIERA ROBLES | — | 1.0 |
-| [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | https://www.miri.cl/ | P |
+| [MIRANDA SEPULVEDA](https://github.com/mirandasepulveda-la) | https://miri.quest/ | 6.5 |
 | [JOSEFINA TORO](https://github.com/josefinatoro) | https://josefinatoro.art/ | 5.0 |
 | [MARGARITA VIAL](https://github.com/margaraitavialm) | https://labocada.cl/ | 6.5 |
 
